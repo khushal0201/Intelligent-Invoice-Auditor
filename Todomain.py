@@ -21,19 +21,19 @@ def on_list_change():
 
 
 
-@st.dialog("Add todo")
+@st.dialog("Add contract")
 def add():
     # st.write(f"Why is {item} your favorite?")
-    reason = st.text_input("Enter todo")
+    reason = st.text_input("Enter contract")
     if st.button("submit"):
        list.append(reason)
        on_list_change()
        st.rerun()
 
-@st.dialog("Edit todo")
+@st.dialog("Edit contract")
 def edit(ind):
     # st.write(f"Why is {item} your favorite?")
-    reason = st.text_input("Enter todo",value=list[ind])
+    reason = st.text_input("Enter contract",value=list[ind])
     if st.button("submit"):
        list[ind]=reason
        on_list_change()
