@@ -42,6 +42,7 @@ jobs:
             echo "RUNNER_NAME: $RUNNER_NAME"
             echo "RUNNER_OS: $RUNNER_OS"
             echo "RUNNER_ARCH: $RUNNER_ARCH"
+            echo "$github.repository"
 
       # Step 2: Install necessary dependencies
       - name: Install dependencies
