@@ -36,6 +36,13 @@ jobs:
           echo "${{ secrets.AZURE_SSH_PRIVATE_KEY }}" > ~/.ssh/id_rsa
           chmod 600 ~/.ssh/id_rsa
 
+          
+      - name: Display runner info
+        run: |
+            echo "RUNNER_NAME: $RUNNER_NAME"
+            echo "RUNNER_OS: $RUNNER_OS"
+            echo "RUNNER_ARCH: $RUNNER_ARCH"
+
       # Step 2: Install necessary dependencies
       - name: Install dependencies
         run: |
