@@ -58,7 +58,7 @@ jobs:
             # Step 4: Navigate to the project directory (or clone if it doesn't exist)
             if [ ! -d "$STREAMLIT_APP_DIR" ]; then
               # Directory doesn't exist, so clone the repository using the GITHUB_TOKEN for authentication
-              git clone https://$GITHUB_TOKEN@github.com/${{ github.repository }} $STREAMLIT_APP_DIR || exit 1
+              git clone https://github.com/Infosys-STG-DNA2-Invoice-auditor/Main-repo.git $STREAMLIT_APP_DIR || exit 1
             else
               # Directory exists, so pull the latest changes
               cd $STREAMLIT_APP_DIR
@@ -77,7 +77,8 @@ jobs:
             nohup streamlit run app.py --server.port 8501 > $STREAMLIT_APP_LOGS 2>&1 &
 
           EOF
-
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
 
 # Below code is default 
