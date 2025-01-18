@@ -12,11 +12,11 @@ list=[]
 
 # print("Out rerun")
 
-@st.dialog("Add contract")
+@st.dialog("Add Invoice")
 def add():
     # st.write(f"Why is {item} your favorite?")
     # print("re run check ")
-    reason = st.text_input("Enter contract")
+    reason = st.text_input("Enter Invoice")
     # print("second",reason)
     if st.button("submit"):
     #    print("after submit")
