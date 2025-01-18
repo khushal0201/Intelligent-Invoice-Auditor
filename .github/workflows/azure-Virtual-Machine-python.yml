@@ -52,8 +52,8 @@ jobs:
 
       - name: Deploy Streamlit app to Azure VM
         run: |
-          STREAMLIT_APP_DIR="~/Intelligent-invoice-auditor-app"  # Define the Streamlit app directory as a variable
-          STREAMLIT_APP_LOGS="~/Intelligent-invoice-auditor_logs.txt" # Streamlit Logs
+          STREAMLIT_APP_DIR="$HOME/Intelligent-invoice-auditor-app"  # Define the Streamlit app directory as a variable
+          STREAMLIT_APP_LOGS="$HOME/Intelligent-invoice-auditor_logs.txt" # Streamlit Logs
           ssh -o StrictHostKeyChecking=no -i ~/.ssh/id_rsa ${{ secrets.AZURE_VM_USER }}@${{ secrets.AZURE_VM_IP }} << EOF
             # Step 4: Navigate to the project directory (or clone if it doesn't exist)
             echo "${{ secrets.CLONE_PRIVATE_KEY }}" > ~/.ssh/id_rsa_github
