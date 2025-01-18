@@ -87,7 +87,8 @@ jobs:
               
               # Kill the existing Streamlit process running on port 8501
               STREAMLIT_PID=$(lsof -ti :8501)
-              kill -9 $STREAMLIT_PID
+              echo "pid is $STREAMLIT_PID"
+              kill -9 $STREAMLIT_PID || exit 1
               echo "Existing Streamlit process killed."
             fi
 
