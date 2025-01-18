@@ -87,6 +87,8 @@ jobs:
               lsof -ti :8501
               $(lsof -ti :8501 | tr -d '[:space:]')
               $(lsof -ti :8501)
+              a="b"
+              echo $a
               # Kill the existing Streamlit process running on port 8501
               STREAMLIT_PID=$(lsof -ti :8501 | tr -d '[:space:]')
               echo "pid is $STREAMLIT_PID"
