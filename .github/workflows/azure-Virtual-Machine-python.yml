@@ -85,8 +85,7 @@ jobs:
             if lsof -i :8501 > /dev/null; then
               echo "Streamlit app is already running on port 8501. Killing the existing process."
               lsof -ti :8501
-              cc=$(lsof -ti :8501)
-              echo "Check $cc"
+              $(lsof -ti :8501)
               # Kill the existing Streamlit process running on port 8501
               STREAMLIT_PID=$(lsof -ti :8501)
               echo "pid is $STREAMLIT_PID"
