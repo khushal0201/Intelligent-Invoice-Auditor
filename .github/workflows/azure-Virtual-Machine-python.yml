@@ -56,10 +56,16 @@ jobs:
           STREAMLIT_APP_LOGS="~/Intelligent-invoice-auditor_logs.txt" # Streamlit Logs
           ssh -o StrictHostKeyChecking=no -i ~/.ssh/id_rsa ${{ secrets.AZURE_VM_USER }}@${{ secrets.AZURE_VM_IP }} << EOF
             # Step 4: Navigate to the project directory (or clone if it doesn't exist)
+            echo "${{ secrets.CLONE_PRIVATE_KEY }}" > ~/.ssh/id_rsa_github
+            chmod 600 ~/.ssh/id_rsa_github
+            # Add GitHub to known_hosts to avoid SSH verification prompt
+            ssh-keyscan github.com >> ~/.ssh/known_hosts
+
+            
             if [ ! -d "$STREAMLIT_APP_DIR" ]; then
               # Directory doesn't exist, so clone the repository using the GITHUB_TOKEN for authentication
-              export GITHUB_TOKEN=${{ secrets.GITHUB_TOKEN }}
-              git clone https://github.com/Infosys-STG-DNA2-Invoice-auditor/Main-repo.git $STREAMLIT_APP_DIR || exit 1
+              # export GITHUB_TOKEN=${{ secrets.GITHUB_TOKEN }}
+              git clone git@github.com:Infosys-STG-DNA2-Invoice-auditor/Main-repo.git $STREAMLIT_APP_DIR || exit 1
             else
               # Directory exists, so pull the latest changes
               cd $STREAMLIT_APP_DIR
@@ -78,8 +84,8 @@ jobs:
             nohup streamlit run app.py --server.port 8501 > $STREAMLIT_APP_LOGS 2>&1 &
 
           EOF
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        # env:
+        #   GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
 
 # Below code is default 
