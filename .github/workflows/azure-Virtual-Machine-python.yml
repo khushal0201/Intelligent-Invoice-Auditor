@@ -1,0 +1,147 @@
+# This workflow will build and push a Python application to an Azure Web App when a commit is pushed to your default branch.
+#
+# This workflow assumes you have already created the target Azure App Service web app.
+# For instructions see https://docs.microsoft.com/en-us/azure/app-service/quickstart-python?tabs=bash&pivots=python-framework-flask
+#
+# To configure this workflow:
+#
+# 1. Download the Publish Profile for your Azure Web App. You can download this file from the Overview page of your Web App in the Azure Portal.
+#    For more information: https://docs.microsoft.com/en-us/azure/app-service/deploy-github-actions?tabs=applevel#generate-deployment-credentials
+#
+# 2. Create a secret in your repository named AZURE_WEBAPP_PUBLISH_PROFILE, paste the publish profile contents as the value of the secret.
+#    For instructions on obtaining the publish profile see: https://docs.microsoft.com/azure/app-service/deploy-github-actions#configure-the-github-secret
+#
+# 3. Change the value for the AZURE_WEBAPP_NAME. Optionally, change the PYTHON_VERSION environment variables below.
+#
+# For more information on GitHub Actions for Azure: https://github.com/Azure/Actions
+# For more information on the Azure Web Apps Deploy action: https://github.com/Azure/webapps-deploy
+# For more samples to get started with GitHub Action workflows to deploy to Azure: https://github.com/Azure/actions-workflow-samples
+
+name: Build and deploy Python app to Azure Virtual Machine
+
+on:
+  push:
+    branches: [ "main" ]
+  workflow_dispatch:
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+
+    steps:
+      # Step 1: Set up SSH key to access Azure VM
+      - name: Set up SSH key
+        run: |
+          mkdir -p ~/.ssh
+          echo "${{ secrets.AZURE_SSH_PRIVATE_KEY }}" > ~/.ssh/id_rsa
+          chmod 600 ~/.ssh/id_rsa
+
+      # Step 2: Install necessary dependencies
+      - name: Install dependencies
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y sshpass git
+
+      - name: Deploy Streamlit app to Azure VM
+        run: |
+          STREAMLIT_APP_DIR="~/Intelligent-invoice-auditor-app"  # Define the Streamlit app directory as a variable
+          STREAMLIT_APP_LOGS="~/Intelligent-invoice-auditor_logs.txt" # Streamlit Logs
+          ssh -o StrictHostKeyChecking=no -i ~/.ssh/id_rsa ${{ secrets.AZURE_VM_USER }}@${{ secrets.AZURE_VM_IP }} << EOF
+            # Step 4: Navigate to the project directory (or clone if it doesn't exist)
+            if [ ! -d "$STREAMLIT_APP_DIR" ]; then
+              # Directory doesn't exist, so clone the repository using the GITHUB_TOKEN for authentication
+              git clone https://github.com/${{ github.repository }} $STREAMLIT_APP_DIR
+            else
+              # Directory exists, so pull the latest changes
+              cd $STREAMLIT_APP_DIR
+              git pull origin main
+            fi
+
+            # Step 5: Set up virtual environment
+            cd $STREAMLIT_APP_DIR
+            python3 -m venv venv
+            source venv/bin/activate
+
+            # Step 6: Install dependencies
+            pip install -r requirements.txt
+
+            # Step 7: Run Streamlit app with a custom port (8501) and output logs to a file in home directory
+            nohup streamlit run app.py --server.port 8501 > $STREAMLIT_APP_LOGS 2>&1 &
+
+          EOF
+
+
+
+# Below code is default 
+
+
+
+
+
+
+
+# env:
+#   AZURE_WEBAPP_NAME: your-app-name  # set this to the name of your Azure Web App
+#   PYTHON_VERSION: '3.8'              # set this to the Python version to use
+
+# on:
+#   push:
+#     branches: [ "main" ]
+#   workflow_dispatch:
+
+# permissions:
+#   contents: read
+
+# jobs:
+#   build:
+#     runs-on: ubuntu-latest
+
+#     steps:
+#       - uses: actions/checkout@v4
+
+#       - name: Set up Python version
+#         uses: actions/setup-python@v3.0.0
+#         with:
+#           python-version: ${{ env.PYTHON_VERSION }}
+#           cache: 'pip'
+
+#       - name: Create and start virtual environment
+#         run: |
+#           python -m venv venv
+#           source venv/bin/activate
+
+#       - name: Install dependencies
+#         run: pip install -r requirements.txt
+
+#       # Optional: Add step to run tests here (PyTest, Django test suites, etc.)
+
+#       - name: Upload artifact for deployment jobs
+#         uses: actions/upload-artifact@v3
+#         with:
+#           name: python-app
+#           path: |
+#             .
+#             !venv/
+
+#   deploy:
+#     permissions:
+#       contents: none
+#     runs-on: ubuntu-latest
+#     needs: build
+#     environment:
+#       name: 'Development'
+#       url: ${{ steps.deploy-to-webapp.outputs.webapp-url }}
+
+#     steps:
+#       - name: Download artifact from build job
+#         uses: actions/download-artifact@v3
+#         with:
+#           name: python-app
+#           path: .
+
+#       - name: 'Deploy to Azure Web App'
+#         id: deploy-to-webapp
+#         uses: azure/webapps-deploy@v2
+#         with:
+#           app-name: ${{ env.AZURE_WEBAPP_NAME }}
+#           publish-profile: ${{ secrets.AZURE_WEBAPP_PUBLISH_PROFILE }}
