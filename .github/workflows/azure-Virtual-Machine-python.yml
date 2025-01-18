@@ -64,10 +64,11 @@ jobs:
             
             if [ ! -d "$STREAMLIT_APP_DIR" ]; then
               # Directory doesn't exist, so clone the repository using the GITHUB_TOKEN for authentication
-              # export GITHUB_TOKEN=${{ secrets.GITHUB_TOKEN }}
+              # echo "Inside If $STREAMLIT_APP_DIR"
               git clone git@github.com:Infosys-STG-DNA2-Invoice-auditor/Main-repo.git $STREAMLIT_APP_DIR || exit 1
             else
               # Directory exists, so pull the latest changes
+              echo "Inside else $STREAMLIT_APP_DIR"
               cd $STREAMLIT_APP_DIR
               git pull origin main || exit 1
             fi
