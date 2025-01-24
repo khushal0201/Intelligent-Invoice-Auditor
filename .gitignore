@@ -1,2 +1,5 @@
 .venv
 sh file for deployment.txt
+.streamlit/secrets.toml
+*/*/__pycache__
+*/__pycache__

@@ -8,9 +8,17 @@ st.set_page_config(
 
 
 
+ContractPage=st.Page("pages/Contracts.py",title="Contract",icon="📄")
 
-pg = st.navigation([st.Page("Todomain.py",title="maintodo"), st.Page("todonested.py",title="nestedtodo")])
+InvoicePage=st.Page("pages//Invoices.py",title="Invoice",icon="📃")
+
+# pg = st.navigation([st.Page("Todomain.py",title="maintodo"), st.Page("todonested.py",title="nestedtodo")])
+
+pg = st.navigation([ContractPage,InvoicePage])
 pg.run()
 
+
+
+# st.sidebar.header("App")
 
 
