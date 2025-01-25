@@ -4,6 +4,7 @@ from services.commons.docIntelligence import extractContent
 from services.commons.gptCall import contractAnalysis
 from services.commons.dbcalls import Contract
 from services.constants.enums import values,color
+from dialogBoxes.rulesDialog import rule_dialog
 
 
 
@@ -180,12 +181,17 @@ if contractList:
                 if btnclk:
                     st.session_state.contractId=i
                     st.switch_page("pages/Invoices.py")
-                b,c,d,e=st.columns([1,1,1,1],gap="small")
+                b,c,d=st.columns([1,1,2],gap="small")
             
                 if b.button(":material/edit:",key=str(i)+'edit',type="secondary"):
                     edit(i)
                 if c.button(":material/delete:",key=str(i)+'del',type="secondary"):
                     delete(i)
+                
+                if d.button("Rules",key=str(i)+"rule",type="secondary",disabled=contractList[i]["status"]!=values.SUCCESS.value):
+                     
+                    rule_dialog(i)
+
        
 
 if addbtn:
