@@ -143,8 +143,6 @@ def extractInvoice(content):
         print("continue val:",cont)
 
         count+=1
-        if count==10:
-              break
 
     employeeDF=pd.DataFrame(results)
     print(employeeDF)
