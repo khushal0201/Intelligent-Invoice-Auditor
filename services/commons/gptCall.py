@@ -40,11 +40,9 @@ def GPTCall(prompt,context,content,type="contract"):
                     }]
                 
                     
-        # Adding the Context
+        
 
-        chat_prompt+=context
-
-        # Adding the New content:
+        # Adding the actual content:
 
 
         chat_prompt+=[
@@ -57,12 +55,27 @@ def GPTCall(prompt,context,content,type="contract"):
                 }
         ]
 
+        # Adding the Context
+
+
+        if len(context)!=0:
+
+            assistantReply={
+                "role":"assistant",
+                "content":'last processed record: '+json.dumps(context)
+            }
+
+
+            chat_prompt+=[assistantReply]
+            print("Added")
+
+        print("prompt val",repr(chat_prompt))
         if type=="contract":
             completion_json = gptClient.chat.completions.create(  
                         model=deployment, 
                         # response_format={ "type": "json_object" },
                         messages=chat_prompt,  
-                        max_tokens=10000,  
+                        max_tokens=15000,  
                         temperature=0.7,  
                         top_p=0.95,  
                         frequency_penalty=0,  
@@ -111,18 +124,31 @@ def invoiceAnalysis(rules,content):
 
 
 def extractInvoice(content):
+    cont=1
+    count=0
+    results=[]
+    lastData=[]
+    while cont==1:
        
         prompt=EmployeeData()
 
-        val=GPTCall(prompt,[],content,type="extract")
+        val=GPTCall(prompt,lastData,content,type="extract")
         print("parsed employee",val)
 
         employees=val["parsed"]["contractor"]
-        employeeDF=pd.DataFrame(employees)
+        cont=int(val["parsed"]["continue_"])
+        lastData=employees[-2:]
+        print("lastData",lastData)
+        results.extend(employees)
+        print("continue val:",cont)
 
-        print("DF:",employeeDF)
+        count+=1
+        if count==10:
+              break
 
-        return employeeDF
+    employeeDF=pd.DataFrame(results)
+    print(employeeDF)
+    return employeeDF
 
        
 

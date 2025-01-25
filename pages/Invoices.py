@@ -151,10 +151,11 @@ else:
     def downloadData(i):
         df=Invoice.get(i=i)["employeeData"]
         csv=df.to_csv(index=False).encode('utf-8')
+        invoiceName=str(Invoice.get(i=i)["name"])+'.csv'
 
                 # Different ways to use the API
         b,c=st.columns([1,3],gap="large")
-        c.download_button('Download Invoice Data', csv,'data.csv', 'text/csv',icon=":material/download:",use_container_width=True)
+        c.download_button('Download Invoice Data', csv,invoiceName, 'text/csv',icon=":material/download:",use_container_width=True)
     
     @st.dialog("Results")
     def results(ind):

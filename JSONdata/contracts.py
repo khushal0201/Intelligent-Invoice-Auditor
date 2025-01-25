@@ -19,9 +19,279 @@ Rules extracted from the contract:\n\n1. **Contractor Rate Validation**:\n   - V
     {
         "id":1,
         "name":"contract 0",
-        "status":0,
+        "status":1,
         "content":"Some contract content",
-        "rules":""
+        "rules":"""
+Extracted Rules from the Professional Services Agreement
+Time-Related Violations
+Maximum Daily Work Hours Allowed
+Maximum billable hours per day: 12 hours.
+Standard working hours: 8 hours per day (9:00 AM - 5:00 PM local time) with a 1-hour non-billable lunch break.
+Valid Time Increments for Logging Work
+Hours worked must be logged in minimum 0.5-hour increments.
+Restrictions on Weekend Work
+Weekend work is not billable unless pre-approved in writing by the Project Manager.
+Work on Public Holidays
+Work on public holidays:
+Requires pre-approval.
+Compensated at 1.5x the standard rate.
+Rate-Related Violations
+Rules Regarding Correct Rates for Roles
+The compensation for roles is defined in the rate schedule:
+Senior Software Architect (10+ years): 
+1
+,
+200
+/
+d
+a
+y
+o
+r
+1,200/dayor180/hour.
+Full Stack Developer (5-9 years): 
+900
+/
+d
+a
+y
+o
+r
+900/dayor135/hour.
+DevOps Engineer (5+ years): 
+950
+/
+d
+a
+y
+o
+r
+950/dayor142/hour.
+Data Scientist (5+ years): 
+1
+,
+000
+/
+d
+a
+y
+o
+r
+1,000/dayor150/hour.
+UX/UI Designer (3+ years): 
+800
+/
+d
+a
+y
+o
+r
+800/dayor120/hour.
+Quality Assurance Engineer (3+ years): 
+750
+/
+d
+a
+y
+o
+r
+750/dayor112/hour.
+Business Analyst (5+ years): 
+850
+/
+d
+a
+y
+o
+r
+850/dayor127/hour.
+Project Manager (7+ years): 
+1
+,
+100
+/
+d
+a
+y
+o
+r
+1,100/dayor165/hour.
+Security Engineer (5+ years): 
+1
+,
+050
+/
+d
+a
+y
+o
+r
+1,050/dayor157/hour.
+Technical Writer (3+ years): 
+700
+/
+d
+a
+y
+o
+r
+700/dayor105/hour.
+Guidelines for Role Assignments and Unauthorized Assignments
+Contractors must only perform duties associated with their assigned role, as specified in the rate schedule.
+Unauthorized assignments are not billable unless pre-approved by the Client.
+Rate Card Mismatches
+Any deviation from the agreed-upon rate schedule requires mutual written agreement.
+Annual rate increases:
+Reviewed annually on the anniversary of the Effective Date.
+Cannot exceed 5% per annum unless justified by market conditions.
+Compliance Violations
+Requirements for Project Codes
+Each timesheet entry must include:
+Project code and project name.
+A detailed work description.
+Necessity of Approval Signatures
+Timesheets must include:
+Project Manager approval signature for all logged hours.
+Rules Regarding Valid Project Assignments
+Hours worked must align with assigned projects listed in the scope of services (Schedule A).
+Work outside the scope of services requires prior written approval.
+Role-Based Rules
+Senior Software Architect
+Experience Level: Minimum 10+ years.
+Compensation: 
+1
+,
+200
+/
+d
+a
+y
+o
+r
+1,200/dayor180/hour.
+Full Stack Developer
+Experience Level: Minimum 5-9 years.
+Compensation: 
+900
+/
+d
+a
+y
+o
+r
+900/dayor135/hour.
+DevOps Engineer
+Experience Level: Minimum 5+ years.
+Compensation: 
+950
+/
+d
+a
+y
+o
+r
+950/dayor142/hour.
+Data Scientist
+Experience Level: Minimum 5+ years.
+Compensation: 
+1
+,
+000
+/
+d
+a
+y
+o
+r
+1,000/dayor150/hour.
+UX/UI Designer
+Experience Level: Minimum 3+ years.
+Compensation: 
+800
+/
+d
+a
+y
+o
+r
+800/dayor120/hour.
+Quality Assurance Engineer
+Experience Level: Minimum 3+ years.
+Compensation: 
+750
+/
+d
+a
+y
+o
+r
+750/dayor112/hour.
+Business Analyst
+Experience Level: Minimum 5+ years.
+Compensation: 
+850
+/
+d
+a
+y
+o
+r
+850/dayor127/hour.
+Project Manager
+Experience Level: Minimum 7+ years.
+Compensation: 
+1
+,
+100
+/
+d
+a
+y
+o
+r
+1,100/dayor165/hour.
+Security Engineer
+Experience Level: Minimum 5+ years.
+Compensation: 
+1
+,
+050
+/
+d
+a
+y
+o
+r
+1,050/dayor157/hour.
+Technical Writer
+Experience Level: Minimum 3+ years.
+Compensation: 
+700
+/
+d
+a
+y
+o
+r
+700/dayor105/hour.
+Summary of Key Compliance and Role-Based Requirements
+Experience Levels and Rates:
+
+Each role has clearly defined experience thresholds and compensation rates.
+Any mismatch between experience level or rate requires prior written agreement.
+Approvals and Documentation:
+
+All timesheets must include Project Manager approval and detailed work descriptions.
+Project codes and valid assignments must be specified.
+Time Tracking and Restrictions:
+
+Work hours logged in 0.5-hour increments.
+Weekend and holiday work must be pre-approved and follow compensation guidelines.
+Annual Rate Adjustments:
+
+Rate increases capped at 5% annually, unless justified and agreed upon.
+This analysis ensures that all extracted rules are categorized appropriately and summarized clearly for ease of reference.
+"""
     },
     {
         "id":6,

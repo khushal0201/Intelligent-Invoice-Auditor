@@ -62,7 +62,7 @@ class Invoice:
         idata[obj["actualInd"]]=obj
 
 
-        print("Updated idata:",idata)
+        # print("Updated idata:",idata)
         return obj
 
 
