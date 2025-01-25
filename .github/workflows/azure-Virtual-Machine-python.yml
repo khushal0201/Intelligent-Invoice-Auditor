@@ -75,6 +75,20 @@ jobs:
 
             # Step 5: Set up virtual environment
             cd $STREAMLIT_APP_DIR
+
+            # Step: Setting secrets.toml
+
+            echo "[doc]" > .streamlit/secrets.toml
+            echo "endpoint = \"${{ secrets.DOC_ENDPOINT }}\"" >> .streamlit/secrets.toml
+            echo "key = \"${{ secrets.DOC_KEY }}\"" >> .streamlit/secrets.toml
+            
+            echo "[gpt]" >> .streamlit/secrets.toml
+            echo "endpoint = \"${{ secrets.GPT_ENDPOINT }}\"" >> .streamlit/secrets.toml
+            echo "deployment = \"${{ secrets.GPT_DEPLOYMENT }}\"" >> .streamlit/secrets.toml
+            echo "key = \"${{ secrets.GPT_KEY }}\"" >> .streamlit/secrets.toml
+            
+            
+            
             python3 -m venv venv
             source venv/bin/activate
 
