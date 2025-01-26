@@ -1,0 +1,14 @@
+[[pages]]
+path = "pages/Contracts.py"
+name = "Contracts"
+icon = "📃"
+
+[[pages]]
+path = "pages/Invoices.py"
+name = "Invoices"
+icon = "📄"
+
+[[pages]]
+path = "pages/accuracy.py"
+name = "Accuracy Checker"
+icon = "🎯"
