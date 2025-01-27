@@ -23,7 +23,7 @@ st.session_state.name=False
 
 # print("rerun")
 def on_list_change():
-    print("list update",list)
+    # print("list update",list)
     st.session_state.list=list
 
 
@@ -55,7 +55,7 @@ def editContent(i,obj):
    
 
     if uploaded_file is not None and st.session_state.file==True:
-        print("file uploaded",uploaded_file)
+        # print("file uploaded",uploaded_file)
 
         with st.status("Processing the Contract...", expanded=True) as status:
             st.write("Uploading the contract")
@@ -127,7 +127,7 @@ def edit(ind):
     # st.write(f"Why is {item} your favorite?")
 
     obj=Contract.get(i=ind)
-    print("obj:",obj)
+    # print("obj:",obj)
     editContent(ind,obj)
 
 

@@ -69,7 +69,7 @@ def GPTCall(prompt,context,content,type="contract"):
             chat_prompt+=[assistantReply]
             print("Added")
 
-        print("prompt val",repr(chat_prompt))
+        # print("prompt val",repr(chat_prompt))
         if type=="contract":
             completion_json = gptClient.chat.completions.create(  
                         model=deployment, 
@@ -116,7 +116,7 @@ def invoiceAnalysis(rules,content):
         prompt=invoice(rules)
 
         val=GPTCall(prompt,[],content,"invoice")
-        print("parsed Value:",val["parsed"])
+        # print("parsed Value:",val["parsed"])
         parsed=val["parsed"]["anomalies"]
 
         return parsed
@@ -130,22 +130,23 @@ def extractInvoice(content):
     lastData=[]
     while cont==1:
        
-        prompt=EmployeeData()
+        prompt = f"{EmployeeData()} Here are the last 5 records that were fetched. Please find these records in consecutive order within the dataset and continue fetching the next maximum 10 records after them for the same contractor name.If there is no more data to process, assign `continue_ = 0`."
 
         val=GPTCall(prompt,lastData,content,type="extract")
-        print("parsed employee",val)
+        # print("parsed employee",val)
 
         employees=val["parsed"]["contractor"]
         cont=int(val["parsed"]["continue_"])
-        lastData=employees[-2:]
-        print("lastData",lastData)
+        lastData=employees[-5:]
+        # print("lastData",lastData)
         results.extend(employees)
+        print("Count of results:", len(results))
         print("continue val:",cont)
 
         count+=1
 
     employeeDF=pd.DataFrame(results)
-    print(employeeDF)
+    # print(employeeDF)
     return employeeDF
 
        

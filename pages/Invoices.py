@@ -19,7 +19,7 @@ if 'contractId' in st.session_state:
     print("inside")
     contractId=st.session_state.contractId
 
-print(" rerun contractId",contractId)
+# print(" rerun contractId",contractId)
 
 contractList=list(Contract.get())
 
@@ -35,7 +35,7 @@ option = c.selectbox(
     label_visibility="collapsed"
 )
 
-print("Selected option:",option)
+# print("Selected option:",option)
 
 
 
@@ -65,10 +65,10 @@ else:
     
 
         if uploaded_file is not None and st.session_state.file:
-            print("file uploaded",uploaded_file)
+            # print("file uploaded",uploaded_file)
 
             rule=Contract.get(i=obj["contract_id"])["rules"]
-            print("The Rule:",rule)
+            # print("The Rule:",rule)
             with st.status("Uploading Invoice content...", expanded=False) as status:
                 st.write("Uploading the Invoice")
                 data=uploaded_file.getvalue()

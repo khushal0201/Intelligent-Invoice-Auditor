@@ -18,7 +18,7 @@ class Contract:
     def update(i,obj,limit=100):
         
         cdata[i]=obj
-        print("Updated list",cdata)
+        # print("Updated list",cdata)
 
         return obj
 
@@ -44,8 +44,8 @@ class Invoice:
         if contractId is not None:
 
             val=list(filter(lambda x:x["contract_id"]==contractId,map(lambda x: {**x[1],"actualInd":x[0]},enumerate(idata))))
-            print("contractId",contractId)
-            print("Filtered invoices:",val)
+            # print("contractId",contractId)
+            # print("Filtered invoices:",val)
             return val
         
         
