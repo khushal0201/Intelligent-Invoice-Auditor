@@ -161,7 +161,7 @@ def extractInvoice():
     employeeDF=pd.DataFrame(results)
     employeeDF = employeeDF[(employeeDF['hours'] != 0) & (employeeDF['rate'] != 0) & (employeeDF['amount'] != 0)]
     employeeDF = employeeDF.ffill()
-    employeeDF = employeeDF.drop_duplicates(subset=['contractorName', 'role','projectCode','date','hours','rate','amount'])
+    employeeDF = employeeDF.drop_duplicates(subset=['contractorName', 'role','projectCode','hours','rate','amount'])
     print(employeeDF)
     
     
