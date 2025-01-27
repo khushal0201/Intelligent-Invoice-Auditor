@@ -159,10 +159,10 @@ def extractInvoice():
         print(i)
 
     employeeDF=pd.DataFrame(results)
-    # print(employeeDF)
+    employeeDF = employeeDF[(employeeDF['hours'] != 0) & (employeeDF['rate'] != 0) & (employeeDF['amount'] != 0)]
+    employeeDF = employeeDF.ffill()
+    employeeDF = employeeDF.drop_duplicates(subset=['contractorName', 'role','projectCode','date','hours','rate','amount'])
+    print(employeeDF)
+    
+    
     return employeeDF
-
-       
-
-
-

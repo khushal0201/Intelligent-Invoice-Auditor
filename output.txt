@@ -1,26 +1,24 @@
-Harvey Inc
+Runolfsson, Langworth and Bergnaum
 
-6108 1st Avenue
-South Daphnee, 98388-9897
-Phone: 1-422-735-8676
-Email: Kailee.Mills90@yahoo.com
+893 Jeffry River
+Tracy, 73649
+Phone: 779-210-5743
+Email: Estrella18@hotmail.com
 
 
-# INVOICE #3061
+# INVOICE
+
+#1759
 
 Bill To:
-
-Fadel - Cronin
-
-667 Blanda Orchard
-
-Lake Lorenzo, 22241
-
-Jacynthe_Beahan63@hotmail.com
+Corwin, Howell and Mann
+1150 Windmill Close
+Port Nico, 17466
+Buford_Ziemann-Bogisich99@yahoo.com
 
 Date: 1/14/2025
 
-Due Date: 8/18/2025
+Due Date: 9/19/2025
 
 
 <table>
@@ -30,15 +28,15 @@ Due Date: 8/18/2025
 </tr>
 <tr>
 <td>Labour Charges</td>
-<td>£107167</td>
+<td>£134376</td>
 </tr>
 <tr>
 <td>Material</td>
-<td>£838.93</td>
+<td>£1777.36</td>
 </tr>
 <tr>
 <td>Offshore Management</td>
-<td>£1068.26</td>
+<td>£2741.50</td>
 </tr>
 </table>
 
@@ -46,21 +44,21 @@ Due Date: 8/18/2025
 <table>
 <tr>
 <td>Subtotal:</td>
-<td>£109074.20</td>
+<td>£138894.86</td>
 </tr>
 <tr>
 <td>VAT (20%):</td>
-<td>£21814.84</td>
+<td>£27778.97</td>
 </tr>
 <tr>
 <td>Total:</td>
-<td>£130889.04</td>
+<td>£166673.83</td>
 </tr>
 </table>
 
 
 Thank you for your business!
-Please make payment within 23 days
+Please make payment within 14 days
 
 <!-- PageBreak -->
 
@@ -70,358 +68,37 @@ Please make payment within 23 days
 <th>CONTRACTOR NAME</th>
 <th>ROLE</th>
 <th>PROJECT CODE</th>
+<th></th>
+<th>DESCRIPTION</th>
 <th>DATE</th>
 <th>HOURS</th>
 <th>RATE</th>
 <th>AMOUNT</th>
 </tr>
 <tr>
-<td>Herman Frami DDS</td>
-<td>DevOps Engineer</td>
+<td rowspan="3">Michele Ferry</td>
+<td rowspan="2">Business Analyst</td>
+<td rowspan="3"></td>
 <td></td>
-<td>PRJ002 1/4/2025</td>
-<td>6</td>
-<td>$142</td>
-<td>$852.00</td>
+<td rowspan="3">calculate neural panel index</td>
+<td rowspan="3">1/2/2025</td>
+<td rowspan="3">5</td>
+<td rowspan="3">$127</td>
+<td rowspan="3">$635.00</td>
+</tr>
+<tr>
+<td rowspan="2">PRJ005</td>
+</tr>
+<tr>
+<td></td>
 </tr>
 <tr>
 <td></td>
 <td></td>
 <td></td>
-<td>PRJ004 12/19/2024</td>
-<td>6</td>
-<td>$157</td>
-<td>$942.00</td>
-</tr>
-<tr>
-<td></td>
-<td></td>
-<td></td>
-<td>PRJ004 12/23/2024</td>
-<td>4</td>
-<td>$105</td>
-<td>$420.00</td>
-</tr>
-<tr>
-<td></td>
-<td></td>
-<td></td>
-<td>PRJ004 12/19/2024</td>
-<td>4</td>
-<td>$157</td>
-<td>$628.00</td>
-</tr>
-<tr>
-<td></td>
-<td></td>
-<td></td>
-<td>PRJ001 1/9/2025</td>
-<td>8</td>
-<td>$165</td>
-<td>$1320.00</td>
-</tr>
-<tr>
-<td></td>
-<td></td>
-<td></td>
-<td>PRJ003 12/17/2024</td>
-<td>8</td>
-<td>$135</td>
-<td>$1080.00</td>
-</tr>
-<tr>
-<td></td>
-<td></td>
-<td></td>
-<td>PRJ005 1/5/2025</td>
-<td>4</td>
-<td>$142</td>
-<td>$568.00</td>
-</tr>
-<tr>
-<td></td>
-<td></td>
-<td></td>
-<td>PRJ003 1/4/2025</td>
-<td>6</td>
-<td>$150</td>
-<td>$900.00</td>
-</tr>
-<tr>
-<td></td>
-<td></td>
-<td></td>
-<td>PRJ001 1/14/2025</td>
-<td>6</td>
-<td>$135</td>
-<td>$810.00</td>
-</tr>
-<tr>
-<td></td>
-<td></td>
-<td></td>
-<td>PRJ002 12/30/2024</td>
-<td>6</td>
-<td>$120</td>
-<td>$720.00</td>
-</tr>
-<tr>
-<td></td>
-<td></td>
-<td></td>
-<td>PRJ001 1/10/2025</td>
-<td>8</td>
-<td>$157</td>
-<td>$1256.00</td>
-</tr>
-<tr>
-<td></td>
-<td></td>
-<td></td>
-<td>PRJ002 12/19/2024</td>
-<td>7</td>
-<td>$135</td>
-<td>$945.00</td>
-</tr>
-<tr>
-<td></td>
-<td></td>
-<td></td>
-<td>PRJ004 12/28/2024</td>
-<td>5</td>
-<td>$165</td>
-<td>$825.00</td>
-</tr>
-<tr>
-<td></td>
-<td></td>
-<td></td>
-<td>PRJ003 1/13/2025</td>
-<td>8</td>
-<td>$165</td>
-<td>$1320.00</td>
-</tr>
-<tr>
-<td></td>
-<td></td>
-<td></td>
-<td>PRJ003 1/8/2025</td>
-<td>8</td>
-<td>$105</td>
-<td>$840.00</td>
-</tr>
-<tr>
-<td></td>
-<td></td>
-<td></td>
-<td>PRJ005 12/17/2024</td>
-<td>7</td>
-<td>$180</td>
-<td>$1260.00</td>
-</tr>
-<tr>
-<td></td>
-<td></td>
-<td></td>
-<td>PRJ004 12/21/2024</td>
-<td>6</td>
-<td>$165</td>
-<td>$990.00</td>
-</tr>
-<tr>
-<td></td>
-<td></td>
-<td></td>
-<td>PRJ002 12/23/2024</td>
-<td>8</td>
-<td>$150</td>
-<td>$1200.00</td>
-</tr>
-<tr>
-<td></td>
-<td></td>
-<td></td>
-<td>PRJ004 12/26/2024</td>
-<td>8</td>
-<td>$127</td>
-<td>$1016.00</td>
-</tr>
-<tr>
-<td></td>
-<td></td>
-<td></td>
-<td>PRJ001 1/9/2025</td>
-<td>7</td>
-<td>$180</td>
-<td>$1260.00</td>
-</tr>
-<tr>
-<td></td>
-<td></td>
-<td></td>
-<td>PRJ002 1/8/2025</td>
-<td>8</td>
-<td>$112</td>
-<td>$896.00</td>
-</tr>
-<tr>
-<td></td>
-<td></td>
-<td></td>
-<td>PRJ004 1/13/2025</td>
-<td>4</td>
-<td>$127</td>
-<td>$508.00</td>
-</tr>
-<tr>
-<td></td>
-<td></td>
-<td></td>
-<td>PRJ004 1/7/2025</td>
-<td>5</td>
-<td>$112</td>
-<td>$560.00</td>
-</tr>
-<tr>
-<td></td>
-<td></td>
-<td></td>
-<td>PRJ003 12/24/2024</td>
-<td>4</td>
-<td>$165</td>
-<td>$660.00</td>
-</tr>
-<tr>
-<td></td>
-<td></td>
-<td></td>
-<td>PRJ001 12/26/2024</td>
-<td>6</td>
-<td>$180</td>
-<td>$1080.00</td>
-</tr>
-<tr>
-<td></td>
-<td></td>
-<td></td>
-<td>PRJ004 12/19/2024</td>
-<td>7</td>
-<td>$135</td>
-<td>$945.00</td>
-</tr>
-<tr>
-<td></td>
-<td></td>
-<td></td>
-<td>PRJ001 12/22/2024</td>
-<td>7</td>
-<td>$135</td>
-<td>$945.00</td>
-</tr>
-<tr>
-<td></td>
-<td></td>
-<td></td>
-<td>PRJ003 12/16/2024</td>
-<td>8</td>
-<td>$157</td>
-<td>$1256.00</td>
-</tr>
-<tr>
-<td></td>
-<td></td>
-<td></td>
-<td>PRJ004 1/13/2025</td>
-<td>7</td>
-<td>$120</td>
-<td>$840.00</td>
-</tr>
-<tr>
-<td></td>
-<td></td>
-<td></td>
-<td>PRJ005 1/10/2025</td>
-<td>6</td>
-<td>$105</td>
-<td>$630.00</td>
-</tr>
-<tr>
-<td></td>
-<td></td>
-<td></td>
-<td>PRJ004 1/6/2025</td>
-<td>7</td>
-<td>$180</td>
-<td>$1260.00</td>
-</tr>
-<tr>
-<td></td>
-<td></td>
-<td></td>
-<td>PRJ003 12/30/2024</td>
-<td>5</td>
-<td>$105</td>
-<td>$525.00</td>
-</tr>
-<tr>
-<td></td>
-<td></td>
-<td></td>
-<td>PRJ004 12/16/2024</td>
-<td>6</td>
-<td>$120</td>
-<td>$720.00</td>
-</tr>
-<tr>
-<td></td>
-<td></td>
-<td></td>
-<td>PRJ002 1/11/2025</td>
-<td>7</td>
-<td>$150</td>
-<td>$1050.00</td>
-</tr>
-<tr>
-<td></td>
-<td></td>
-<td></td>
-<td>PRJ002 12/30/2024</td>
-<td>7</td>
-<td>$180</td>
-<td>$1260.00</td>
-</tr>
-<tr>
-<td></td>
-<td></td>
-<td></td>
-<td>PRJ003 1/7/2025</td>
-<td>8</td>
-<td>$165</td>
-<td>$1320.00</td>
-</tr>
-<tr>
-<td></td>
-<td></td>
-<td></td>
-<td>PRJ003 12/19/2024</td>
-<td>5</td>
-<td>$142</td>
-<td>$710.00</td>
-</tr>
-<tr>
-<td></td>
-<td></td>
-<td></td>
-<td>PRJ002 12/22/2024</td>
-<td>5</td>
-<td>$142</td>
-<td>$710.00</td>
-</tr>
-<tr>
-<td></td>
-<td></td>
-<td></td>
-<td>PRJ004 12/23/2024</td>
+<td>PRJ001</td>
+<td rowspan="2">multi-byte program transmit</td>
+<td>1/9/2025</td>
 <td>7</td>
 <td>$112</td>
 <td>$784.00</td>
@@ -430,16 +107,136 @@ Please make payment within 23 days
 <td></td>
 <td></td>
 <td></td>
-<td>PRJ004 12/22/2024</td>
-<td>7</td>
-<td>$142</td>
-<td>$994.00</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
 </tr>
 <tr>
 <td></td>
 <td></td>
 <td></td>
-<td>PRJ002 1/11/2025</td>
+<td>PRJ003</td>
+<td rowspan="2">redundant microchip override</td>
+<td>1/10/2025</td>
+<td>5</td>
+<td rowspan="2">$112</td>
+<td>$560.00</td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td rowspan="2">Michele Walker</td>
+<td>Data Scientist</td>
+<td></td>
+<td rowspan="2">PRJ003</td>
+<td rowspan="2">back-end port</td>
+<td rowspan="2">1/5/2025</td>
+<td rowspan="2">8</td>
+<td rowspan="2">$150</td>
+<td rowspan="2">$1200.00</td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td></td>
+<td>PRJ005</td>
+<td>parse 1080p</td>
+<td>1/5/2025</td>
+<td>4</td>
+<td>$157</td>
+<td>$628.00</td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td>capacitor generate</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td></td>
+<td>PRJ002</td>
+<td rowspan="2">digital system generate</td>
+<td>1/10/2025</td>
+<td>4</td>
+<td rowspan="2">$135</td>
+<td>$540.00</td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>Van Ondricka-Kulas</td>
+<td>Senior Software Architect</td>
+<td></td>
+<td rowspan="2">PRJ004</td>
+<td rowspan="2">back-end firewall</td>
+<td>1/2/2025</td>
+<td>4</td>
+<td rowspan="2">$180</td>
+<td rowspan="2">$720.00</td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td></td>
+<td>PRJ005</td>
+<td>back up cross- platform</td>
+<td>1/9/2025</td>
+<td>7</td>
+<td>$150</td>
+<td>$1050.00</td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td>system index</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td></td>
+<td>PRJ003</td>
+<td>primary</td>
+<td>1/8/2025</td>
 <td>5</td>
 <td>$165</td>
 <td>$825.00</td>
@@ -448,361 +245,442 @@ Please make payment within 23 days
 <td></td>
 <td></td>
 <td></td>
-<td>PRJ005 12/17/2024</td>
-<td>4</td>
-<td>$180</td>
-<td>$720.00</td>
+<td></td>
+<td>program quantify</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>Jacob White</td>
+<td>Security Engineer</td>
+<td rowspan="2"></td>
+<td rowspan="3">PRJ005</td>
+<td rowspan="3">neural monitor connect</td>
+<td rowspan="3">12/21/2024</td>
+<td rowspan="3">5</td>
+<td rowspan="3">$157</td>
+<td rowspan="3">$785.00</td>
+</tr>
+<tr>
+<td></td>
+<td></td>
 </tr>
 <tr>
 <td></td>
 <td></td>
 <td></td>
-<td>PRJ005 1/9/2025</td>
+</tr>
+<tr>
+<td>Silvia Barrows</td>
+<td>Technical Writer</td>
+<td></td>
+<td rowspan="2">PRJ004</td>
+<td rowspan="2">optical pixel</td>
+<td>1/1/2025</td>
 <td>4</td>
-<td>$127</td>
-<td>$508.00</td>
+<td rowspan="2">$105</td>
+<td rowspan="2">$420.00</td>
 </tr>
 <tr>
 <td></td>
 <td></td>
 <td></td>
-<td>PRJ004 12/25/2024</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td>synthesize</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td rowspan="2"></td>
+<td rowspan="2">PRJ004</td>
+<td rowspan="2">neural transmitter</td>
+<td rowspan="2">1/13/2025</td>
+<td>4</td>
+<td rowspan="2">$157</td>
+<td rowspan="2">$628.00</td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td>input solid</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td></td>
+<td>PRJ005</td>
+<td>state</td>
+<td>1/11/2025</td>
 <td>7</td>
+<td>$157</td>
+<td>$1099.00</td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td>program calculate</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td></td>
+<td>PRJ001</td>
+<td>online</td>
+<td>1/7/2025</td>
+<td>6</td>
 <td>$105</td>
+<td>$630.00</td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td>panel connect</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td></td>
+<td>PRJ004</td>
+<td>wireless</td>
+<td>12/18/2024</td>
+<td>5</td>
+<td>$135</td>
+<td>$675.00</td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td>array override</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td></td>
+<td>PRJ003</td>
+<td>optical circuit</td>
+<td>12/24/2024</td>
+<td>6</td>
+<td>$157</td>
+<td>$942.00</td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td></td>
+<td>PRJ004</td>
+<td>hack neural bus</td>
+<td>1/7/2025</td>
+<td>5</td>
+<td>$105</td>
+<td>$525.00</td>
+</tr>
+</table>
+
+
+<!-- PageBreak -->
+
+
+<table>
+<tr>
+<th rowspan="2"></th>
+<th rowspan="3"></th>
+<th rowspan="2">PRJ003</th>
+<th>synthesize virtual</th>
+<th>1/3/2025</th>
+<th>6 $180</th>
+<th>$1080.00</th>
+</tr>
+<tr>
+<th>interface synthesize</th>
+<th></th>
+<th></th>
+<th></th>
+</tr>
+<tr>
+<td></td>
+<td>PRJ002</td>
+<td>solid state circuit compress</td>
+<td>1/6/2025</td>
+<td>7 $105</td>
 <td>$735.00</td>
 </tr>
 <tr>
 <td></td>
 <td></td>
-<td></td>
-<td>PRJ003 12/16/2024</td>
-<td>7</td>
-<td>$165</td>
-<td>$1155.00</td>
-</tr>
-<tr>
-<td></td>
-<td></td>
-<td></td>
-<td>PRJ005 12/22/2024</td>
-<td>6</td>
-<td>$165</td>
-<td>$990.00</td>
-</tr>
-</table>
-
-
-<!-- PageBreak -->
-
-
-<table>
-<tr>
-<td></td>
-<td rowspan="44"></td>
 <td>PRJ002</td>
-<td>12/16/2024</td>
-<td>7 $127</td>
-<td>$889.00</td>
+<td>solid state pixel</td>
+<td>1/13/2025</td>
+<td>7 $135</td>
+<td>$945.00</td>
 </tr>
 <tr>
 <td></td>
-<td>PRJ003</td>
-<td>12/19/2024</td>
-<td>5 $112</td>
-<td>$560.00</td>
-</tr>
-<tr>
-<td></td>
-<td colspan="2">PRJ005 12/30/2024</td>
-<td>5 $180</td>
-<td>$900.00</td>
-</tr>
-<tr>
-<td></td>
-<td colspan="2">PRJ001 12/26/2024</td>
-<td>7 $180</td>
-<td>$1260.00</td>
-</tr>
-<tr>
-<td></td>
-<td colspan="2">PRJ004 12/23/2024</td>
-<td>8 $120</td>
-<td>$960.00</td>
-</tr>
-<tr>
-<td></td>
-<td colspan="2">PRJ005 12/18/2024</td>
-<td>8 $157</td>
-<td>$1256.00</td>
-</tr>
-<tr>
-<td></td>
-<td colspan="2">PRJ003 12/18/2024</td>
-<td>6 $105</td>
-<td>$630.00</td>
-</tr>
-<tr>
-<td></td>
-<td colspan="2">PRJ005 1/5/2025</td>
-<td>7 $165</td>
-<td>$1155.00</td>
-</tr>
-<tr>
-<td></td>
-<td colspan="2">PRJ002 12/18/2024</td>
-<td>8 $120</td>
-<td>$960.00</td>
-</tr>
-<tr>
-<td></td>
-<td colspan="2">PRJ004 12/23/2024</td>
-<td>6 $142</td>
-<td>$852.00</td>
-</tr>
-<tr>
-<td></td>
-<td colspan="2">PRJ001 12/28/2024</td>
-<td>6 $157</td>
-<td>$942.00</td>
-</tr>
-<tr>
-<td></td>
-<td colspan="2">PRJ003 1/2/2025</td>
-<td>7 $120</td>
-<td>$840.00</td>
-</tr>
-<tr>
-<td></td>
-<td colspan="2">PRJ004 1/13/2025</td>
-<td>8 $127</td>
-<td>$1016.00</td>
-</tr>
-<tr>
-<td></td>
-<td colspan="2">PRJ004 12/28/2024</td>
-<td>5 $105</td>
-<td>$525.00</td>
-</tr>
-<tr>
-<td></td>
-<td colspan="2">PRJ003 12/27/2024</td>
-<td>7 $120</td>
-<td>$840.00</td>
-</tr>
-<tr>
-<td></td>
-<td colspan="2">PRJ001 1/12/2025</td>
-<td>4 $150</td>
-<td>$600.00</td>
-</tr>
-<tr>
-<td></td>
-<td colspan="2">PRJ002 1/5/2025</td>
-<td>5 $142</td>
-<td>$710.00</td>
-</tr>
-<tr>
-<td></td>
-<td colspan="2">PRJ004 1/9/2025</td>
-<td>6 $180</td>
-<td>$1080.00</td>
-</tr>
-<tr>
-<td></td>
-<td colspan="2">PRJ002 12/23/2024</td>
-<td>5 $180</td>
-<td>$900.00</td>
-</tr>
-<tr>
-<td></td>
-<td colspan="2">PRJ003 1/12/2025</td>
-<td>8 $180</td>
-<td>$1440.00</td>
-</tr>
-<tr>
-<td></td>
-<td colspan="2">PRJ003 1/10/2025</td>
-<td>6 $180</td>
-<td>$1080.00</td>
-</tr>
-<tr>
-<td></td>
-<td colspan="2">PRJ001 1/1/2025</td>
-<td>4 $120</td>
-<td>$480.00</td>
-</tr>
-<tr>
-<td></td>
-<td colspan="2">PRJ002 12/23/2024</td>
-<td>8 $180</td>
-<td>$1440.00</td>
-</tr>
-<tr>
-<td></td>
-<td colspan="2">PRJ003 1/1/2025</td>
-<td>4 $165</td>
-<td>$660.00</td>
-</tr>
-<tr>
-<td></td>
-<td>PRJ005</td>
-<td>1/11/2025</td>
-<td>8 $127</td>
-<td>$1016.00</td>
-</tr>
-<tr>
-<td></td>
-<td>PRJ003</td>
-<td>12/22/2024</td>
-<td>6 $112</td>
-<td>$672.00</td>
-</tr>
-<tr>
-<td></td>
-<td>PRJ003</td>
-<td>12/30/2024</td>
-<td>8 $180</td>
-<td>$1440.00</td>
-</tr>
-<tr>
-<td></td>
+<td rowspan="2"></td>
 <td>PRJ004</td>
-<td>12/31/2024</td>
-<td>7 $112</td>
-<td>$784.00</td>
-</tr>
-<tr>
-<td></td>
-<td>PRJ002</td>
-<td>1/12/2025</td>
-<td>7 $180</td>
-<td>$1260.00</td>
-</tr>
-<tr>
-<td></td>
-<td colspan="2">PRJ002 12/29/2024</td>
-<td>8 $180</td>
-<td>$1440.00</td>
-</tr>
-<tr>
-<td></td>
-<td>PRJ001</td>
-<td>12/17/2024</td>
-<td>8 $135</td>
-<td>$1080.00</td>
-</tr>
-<tr>
-<td></td>
-<td colspan="2">PRJ004 1/9/2025</td>
-<td>4 $112</td>
-<td>$448.00</td>
-</tr>
-<tr>
-<td></td>
-<td colspan="2">PRJ002 1/7/2025</td>
+<td>synthesize 1080p pixel quantify</td>
+<td>1/10/2025</td>
 <td>7 $157</td>
 <td>$1099.00</td>
 </tr>
 <tr>
 <td></td>
-<td colspan="2">PRJ003 1/13/2025</td>
-<td>7 $135</td>
-<td>$945.00</td>
-</tr>
-<tr>
-<td></td>
-<td>PRJ001</td>
-<td>12/25/2024</td>
-<td>4 $135</td>
-<td>$540.00</td>
-</tr>
-<tr>
-<td></td>
-<td colspan="2">PRJ003 12/21/2024</td>
-<td>7 $135</td>
-<td>$945.00</td>
-</tr>
-<tr>
-<td></td>
-<td>PRJ001</td>
-<td>12/23/2024</td>
-<td>5 $112</td>
-<td>$560.00</td>
-</tr>
-<tr>
-<td></td>
-<td>PRJ001</td>
-<td>12/17/2024</td>
-<td>7 $112</td>
-<td>$784.00</td>
-</tr>
-<tr>
-<td></td>
 <td>PRJ004</td>
-<td>12/26/2024</td>
-<td>5 $165</td>
-<td>$825.00</td>
-</tr>
-<tr>
-<td></td>
-<td>PRJ004</td>
-<td>12/21/2024</td>
+<td>mobile transmitter</td>
+<td>1/3/2025</td>
 <td>4 $150</td>
 <td>$600.00</td>
 </tr>
 <tr>
-<td rowspan="4"></td>
+<td rowspan="5"></td>
+<td rowspan="2"></td>
 <td>PRJ003</td>
-<td>12/29/2024</td>
-<td>5 $157</td>
-<td>$785.00</td>
-</tr>
-<tr>
-<td>PRJ001</td>
-<td>1/13/2025</td>
-<td>5 $180</td>
-<td>$900.00</td>
-</tr>
-<tr>
-<td>PRJ001</td>
-<td>12/17/2024</td>
-<td>8 $157</td>
-<td>$1256.00</td>
-</tr>
-<tr>
-<td>PRJ002</td>
-<td>12/18/2024</td>
+<td>hack solid state feed</td>
+<td>12/15/2024</td>
 <td>6 $127</td>
 <td>$762.00</td>
 </tr>
 <tr>
-<td rowspan="5">Jackie Wiegand</td>
-<td rowspan="5">Quality Assurance Engineer</td>
-<td>PRJ002</td>
-<td>12/22/2024</td>
-<td>4 $112</td>
-<td>$448.00</td>
+<td></td>
+<td>bypass</td>
+<td></td>
+<td></td>
+<td></td>
 </tr>
 <tr>
-<td colspan="2">PRJ005 12/31/2024</td>
+<td rowspan="2"></td>
+<td rowspan="2">PRJ002</td>
+<td rowspan="3">multi-byte monitor connect</td>
+<td>1/3/2025</td>
+<td rowspan="2">5 $112</td>
+<td rowspan="2">$560.00</td>
+</tr>
+<tr>
+<td></td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>Sabrina Reynolds</td>
+<td>Business Analyst</td>
+<td>PRJ003</td>
+<td>optical pixel</td>
+<td>12/15/2024</td>
+<td>5 $127</td>
+<td>$635.00</td>
+</tr>
+<tr>
+<td rowspan="2">Carla Corkery-Greenholt</td>
+<td rowspan="2">Senior Software Architect</td>
+<td>PRJ002</td>
+<td>reboot digital array</td>
+<td>12/30/2024</td>
+<td>7 $180</td>
+<td>$1260.00</td>
+</tr>
+<tr>
+<td></td>
+<td>navigate</td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td rowspan="2"></td>
+<td rowspan="2"></td>
+<td rowspan="2">PRJ001</td>
+<td>auxiliary</td>
+<td>1/11/2025</td>
+<td>5 $135</td>
+<td rowspan="2">$675.00</td>
+</tr>
+<tr>
+<td>panel override</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>Johanna Raynor</td>
+<td>Technical Writer</td>
+<td>PRJ004</td>
+<td>optical hard drive</td>
+<td>12/17/2024</td>
+<td>8 $105</td>
+<td>$840.00</td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td></td>
+<td>compress</td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td></td>
+<td rowspan="2"></td>
+<td>PRJ004</td>
+<td>virtual</td>
+<td>12/27/2024</td>
+<td>8 $165</td>
+<td>$1320.00</td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td>transmitter synthesize</td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td>PRJ005</td>
+<td>multi-byte program</td>
+<td>1/9/2025</td>
 <td>7 $127</td>
 <td>$889.00</td>
 </tr>
 <tr>
-<td colspan="2">PRJ003 12/17/2024</td>
-<td>6 $135</td>
-<td>$810.00</td>
-</tr>
-<tr>
-<td colspan="2">PRJ002 12/19/2024</td>
-<td>7 $165</td>
-<td>$1155.00</td>
-</tr>
-<tr>
+<td>Dr. Cassandra Emmerich</td>
+<td>Data Scientist</td>
 <td>PRJ005</td>
-<td>1/13/2025</td>
-<td>6 $180</td>
-<td>$1080.00</td>
+<td>copy virtual bus</td>
+<td>1/7/2025</td>
+<td>8 $150</td>
+<td>$1200.00</td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td>PRJ001</td>
+<td>program virtual port</td>
+<td>1/10/2025</td>
+<td>5 $127</td>
+<td>$635.00</td>
+</tr>
+<tr>
+<td rowspan="3"></td>
+<td></td>
+<td></td>
+<td>back up</td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td></td>
+<td rowspan="2">PRJ001</td>
+<td rowspan="2">mobile alarm index</td>
+<td>1/3/2025</td>
+<td>5 $135</td>
+<td>$675.00</td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>Dianne Turner</td>
+<td>Full Stack Developer</td>
+<td>PRJ001</td>
+<td>digital microchip</td>
+<td>12/19/2024</td>
+<td>7 $135</td>
+<td>$945.00</td>
+</tr>
+<tr>
+<td rowspan="2"></td>
+<td rowspan="2"></td>
+<td>PRJ005</td>
+<td>bypass online port</td>
+<td>12/17/2024</td>
+<td>8 $105</td>
+<td>$840.00</td>
+</tr>
+<tr>
+<td></td>
+<td>program</td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>Katrina Boyer</td>
+<td>Senior Software Architect</td>
+<td>PRJ002</td>
+<td>back-end capacitor</td>
+<td>1/12/2025</td>
+<td>4 $180</td>
+<td>$720.00</td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td></td>
+<td>calculate</td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td>PRJ001</td>
+<td>solid state feed</td>
+<td>12/18/2024</td>
+<td>5 $105</td>
+<td>$525.00</td>
 </tr>
 </table>
 
@@ -812,157 +690,1626 @@ Please make payment within 23 days
 
 <table>
 <tr>
-<td rowspan="3"></td>
-<td rowspan="3"></td>
-<td>PRJ004 12/16/2024</td>
-<td>7</td>
-<td>$142</td>
-<td>$994.00</td>
-</tr>
-<tr>
-<td>PRJ003 12/21/2024</td>
-<td>7</td>
-<td>$150</td>
-<td>$1050.00</td>
-</tr>
-<tr>
-<td>PRJ001 1/10/2025</td>
-<td>8</td>
-<td>$120</td>
-<td>$960.00</td>
-</tr>
-<tr>
-<td rowspan="21">Dianna Stehr</td>
-<td rowspan="21">DevOps Engineer</td>
-<td>PRJ002 1/6/2025</td>
-<td colspan="2">5 $142</td>
-<td>$710.00</td>
-</tr>
-<tr>
-<td>PRJ001 12/28/2024</td>
-<td>7</td>
-<td>$157</td>
-<td>$1099.00</td>
-</tr>
-<tr>
-<td>PRJ003 12/30/2024</td>
-<td>4</td>
-<td>$142</td>
-<td>$568.00</td>
-</tr>
-<tr>
-<td>PRJ002 12/25/2024</td>
-<td colspan="2">7 $120</td>
-<td>$840.00</td>
-</tr>
-<tr>
-<td>PRJ005 1/2/2025</td>
-<td colspan="2">5 $165</td>
-<td>$825.00</td>
-</tr>
-<tr>
-<td>PRJ002 1/12/2025</td>
-<td>7</td>
-<td>$135</td>
-<td>$945.00</td>
-</tr>
-<tr>
-<td>PRJ003 1/8/2025</td>
-<td>6</td>
-<td>$150</td>
-<td>$900.00</td>
-</tr>
-<tr>
-<td>PRJ001 12/16/2024</td>
-<td>5</td>
-<td>$142</td>
-<td>$710.00</td>
-</tr>
-<tr>
-<td>PRJ001 12/21/2024</td>
-<td>7</td>
-<td>$127</td>
-<td>$889.00</td>
-</tr>
-<tr>
-<td>PRJ001 1/7/2025</td>
-<td colspan="2">5 $150</td>
-<td>$750.00</td>
-</tr>
-<tr>
-<td>PRJ001 12/28/2024</td>
-<td colspan="2">4 $150</td>
-<td>$600.00</td>
-</tr>
-<tr>
-<td>PRJ004 12/29/2024</td>
-<td colspan="2">5 $135</td>
-<td>$675.00</td>
-</tr>
-<tr>
-<td>PRJ002 1/1/2025</td>
-<td colspan="2">6 $120</td>
-<td>$720.00</td>
-</tr>
-<tr>
-<td>PRJ002 1/7/2025</td>
-<td>7</td>
-<td>$157</td>
-<td>$1099.00</td>
-</tr>
-<tr>
-<td>PRJ005 12/16/2024</td>
-<td>8</td>
-<td>$157</td>
-<td>$1256.00</td>
-</tr>
-<tr>
-<td>PRJ002 12/23/2024</td>
-<td>4</td>
-<td>$157</td>
-<td>$628.00</td>
-</tr>
-<tr>
-<td>PRJ003 12/24/2024</td>
-<td colspan="2">5 $135</td>
-<td>$675.00</td>
-</tr>
-<tr>
-<td>PRJ004 12/21/2024</td>
-<td colspan="2">5 $112</td>
-<td>$560.00</td>
-</tr>
-<tr>
-<td>PRJ005 1/6/2025</td>
-<td colspan="2">6 $180</td>
-<td>$1080.00</td>
-</tr>
-<tr>
-<td>PRJ004 12/19/2024</td>
-<td colspan="2">4 $142</td>
-<td>$568.00</td>
-</tr>
-<tr>
-<td>PRJ004 12/24/2024</td>
-<td>6</td>
-<td>$105</td>
-<td>$630.00</td>
+<th rowspan="2"></th>
+<th rowspan="2"></th>
+<th>PRJ004 PRJ002</th>
+<th>quantify 1080p port hack online circuit</th>
+<th>1/6/2025 1/7/2025</th>
+<th>4 $105 8 $142</th>
+<th>$420.00 $1136.00</th>
 </tr>
 <tr>
 <td></td>
+<td>reboot</td>
 <td></td>
-<td>PRJ005 12/17/2024</td>
-<td colspan="2">8 $150</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>Hector Bauch</td>
+<td rowspan="2">Data Scientist</td>
+<td>PRJ002</td>
+<td>auxiliary interface</td>
+<td>1/1/2025</td>
+<td>8 $150</td>
 <td>$1200.00</td>
 </tr>
 <tr>
 <td></td>
 <td></td>
-<td colspan="2">Totals:</td>
-<td>743</td>
-<td>-</td>
+<td>copy</td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>Cora Stroman</td>
+<td>Project Manager</td>
+<td>PRJ004</td>
+<td>redundant capacitor generate</td>
+<td>1/12/2025</td>
+<td>6 $165</td>
+<td>$990.00</td>
+</tr>
+<tr>
+<td rowspan="2"></td>
+<td rowspan="2"></td>
+<td>PRJ004</td>
+<td>optical</td>
+<td>12/27/2024</td>
+<td>8 $157</td>
+<td>$1256.00</td>
+</tr>
+<tr>
+<td>PRJ004</td>
+<td>system back up cross- platform bus reboot</td>
+<td>1/5/2025</td>
+<td>5 $165</td>
+<td>$825.00</td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td>PRJ004</td>
+<td>bluetooth capacitor connect</td>
+<td>12/15/2024</td>
+<td>5 $180</td>
+<td>$900.00</td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td>PRJ005</td>
+<td>back-end program</td>
+<td>12/23/2024</td>
+<td>4 $120</td>
+<td>$480.00</td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td>PRJ005</td>
+<td>hack open- source pixel</td>
+<td>1/5/2025</td>
+<td>8 $165</td>
+<td>$1320.00</td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td></td>
+<td>copy</td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td>PRJ004</td>
+<td>redundant port</td>
+<td>12/20/2024</td>
+<td>4 $142</td>
+<td>$568.00</td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td></td>
+<td>transmit</td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td>PRJ001</td>
+<td>back-end program</td>
+<td>1/12/2025</td>
+<td>6 $105</td>
+<td>$630.00</td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td></td>
+<td>transmit</td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>Brittany Rath V</td>
+<td>Data Scientist</td>
+<td>PRJ003</td>
+<td>solid state transmitter index</td>
+<td>1/10/2025</td>
+<td>7 $150</td>
+<td>$1050.00</td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td>PRJ001</td>
+<td>cross- platform application override</td>
+<td>1/4/2025</td>
+<td>5 $112</td>
+<td>$560.00</td>
+</tr>
+<tr>
+<td>Ms. Joyce Reilly</td>
+<td>Technical Writer</td>
+<td>PRJ002</td>
+<td>online panel reboot</td>
+<td>1/10/2025</td>
+<td>6 $105</td>
+<td>$630.00</td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td>PRJ004</td>
+<td>cross- platform system parse</td>
+<td>12/24/2024</td>
+<td>6 $120</td>
+<td>$720.00</td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td>PRJ001</td>
+<td>cross- platform port</td>
+<td>1/4/2025</td>
+<td>7 $157</td>
+<td>$1099.00</td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td>PRJ002</td>
+<td>quantify 1080p bus</td>
+<td>1/7/2025</td>
+<td>6 $180</td>
+<td>$1080.00</td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td></td>
+<td>input</td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td>PRJ004</td>
+<td>bluetooth transmitter</td>
+<td>1/4/2025</td>
+<td>6 $150</td>
+<td>$900.00</td>
 </tr>
 </table>
 
 
-$107167.00
+<!-- PageBreak -->
+
+
+<table>
+<tr>
+<th rowspan="2"></th>
+<th rowspan="2"></th>
+<th rowspan="2">PRJ005</th>
+<th>quantify wireless card</th>
+<th>12/27/2024</th>
+<th>7 $127</th>
+<th>$889.00</th>
+</tr>
+<tr>
+<td>copy</td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td>PRJ005</td>
+<td>redundant transmitter</td>
+<td>1/10/2025</td>
+<td>7 $127</td>
+<td>$889.00</td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td>PRJ002</td>
+<td>synthesize 1080p feed index</td>
+<td>12/19/2024</td>
+<td>6 $127</td>
+<td>$762.00</td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td>PRJ003</td>
+<td>bluetooth panel navigate</td>
+<td>1/4/2025</td>
+<td>7 $135</td>
+<td>$945.00</td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td>PRJ001</td>
+<td>primary application transmit</td>
+<td>12/21/2024</td>
+<td>7 $157</td>
+<td>$1099.00</td>
+</tr>
+<tr>
+<td>Ricky Batz DVM</td>
+<td>Project Manager</td>
+<td>PRJ003</td>
+<td>multi-byte application</td>
+<td>12/29/2024</td>
+<td>7 $165</td>
+<td>$1155.00</td>
+</tr>
+<tr>
+<td></td>
+<td rowspan="2"></td>
+<td>PRJ004</td>
+<td>parse virtual bus</td>
+<td>1/10/2025</td>
+<td>6 $165</td>
+<td>$990.00</td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td>hack</td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td>PRJ001</td>
+<td>mobile capacitor compress</td>
+<td>12/22/2024</td>
+<td>7 $127</td>
+<td>$889.00</td>
+</tr>
+<tr>
+<td>Delia Haley</td>
+<td>Full Stack Developer</td>
+<td>PRJ002</td>
+<td>wireless circuit calculate</td>
+<td>1/6/2025</td>
+<td>8 $135</td>
+<td>$1080.00</td>
+</tr>
+<tr>
+<td rowspan="2"></td>
+<td rowspan="2"></td>
+<td rowspan="2">PRJ002</td>
+<td rowspan="2">solid state card parse</td>
+<td rowspan="2">1/9/2025</td>
+<td>4 $112</td>
+<td rowspan="2">$448.00</td>
+</tr>
+<tr>
+<td></td>
+</tr>
+<tr>
+<td rowspan="2">Clint Jacobson PhD</td>
+<td>Business Analyst</td>
+<td>PRJ001</td>
+<td>open- source interface</td>
+<td>12/17/2024</td>
+<td>8 $127</td>
+<td>$1016.00</td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td>navigate</td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>Rex Hyatt</td>
+<td>UX/UI Designer</td>
+<td>PRJ005</td>
+<td>primary driver calculate</td>
+<td>12/15/2024</td>
+<td>6 $120</td>
+<td>$720.00</td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td>PRJ004</td>
+<td>haptic microchip</td>
+<td>1/14/2025</td>
+<td>8 $157</td>
+<td>$1256.00</td>
+</tr>
+<tr>
+<td rowspan="3"></td>
+<td></td>
+<td></td>
+<td rowspan="2">bypass solid state hard drive</td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td rowspan="2"></td>
+<td>PRJ001</td>
+<td>1/1/2025</td>
+<td>8 $150</td>
+<td>$1200.00</td>
+</tr>
+<tr>
+<td></td>
+<td>input</td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td rowspan="3">Beatrice Ondricka</td>
+<td>Data Scientist</td>
+<td>PRJ001</td>
+<td>primary matrix connect</td>
+<td>12/28/2024</td>
+<td>8 $150</td>
+<td>$1200.00</td>
+</tr>
+<tr>
+<td rowspan="2"></td>
+<td>PRJ003</td>
+<td>solid state transmitter</td>
+<td>1/11/2025</td>
+<td>8 $150</td>
+<td>$1200.00</td>
+</tr>
+<tr>
+<td>PRJ004</td>
+<td>program haptic feed reboot</td>
+<td>1/9/2025</td>
+<td>4 $150</td>
+<td>$600.00</td>
+</tr>
+<tr>
+<td>Maggie Homenick</td>
+<td rowspan="2">Business Analyst</td>
+<td rowspan="2">PRJ005</td>
+<td>optical circuit</td>
+<td>12/29/2024</td>
+<td>8 $127</td>
+<td>$1016.00</td>
+</tr>
+<tr>
+<td></td>
+<td>connect</td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td>PRJ004</td>
+<td>primary hard drive</td>
+<td>12/25/2024</td>
+<td>5 $142</td>
+<td>$710.00</td>
+</tr>
+</table>
+
+
+<!-- PageBreak -->
+
+
+<table>
+<tr>
+<th rowspan="2"></th>
+<th rowspan="2"></th>
+<th rowspan="2">PRJ001</th>
+<th>quantify auxiliary monitor</th>
+<th>1/2/2025</th>
+<th>8 $105</th>
+<th rowspan="2">$840.00</th>
+</tr>
+<tr>
+<td>back up</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>Ron Greenholt</td>
+<td>Security Engineer</td>
+<td>PRJ003</td>
+<td>solid state alarm quantify</td>
+<td>1/4/2025</td>
+<td>7 $157</td>
+<td>$1099.00</td>
+</tr>
+<tr>
+<td rowspan="2">Bonnie Becker</td>
+<td rowspan="2">Technical Writer</td>
+<td rowspan="2">PRJ005</td>
+<td>haptic panel</td>
+<td>1/11/2025</td>
+<td>8 $105</td>
+<td>$840.00</td>
+</tr>
+<tr>
+<td>index</td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td></td>
+<td rowspan="2"></td>
+<td>PRJ004</td>
+<td>open- source</td>
+<td>1/7/2025</td>
+<td>4 $157</td>
+<td>$628.00</td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td>program quantify</td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td rowspan="2"></td>
+<td rowspan="2"></td>
+<td rowspan="2">PRJ004</td>
+<td rowspan="2">redundant program</td>
+<td>1/9/2025</td>
+<td rowspan="2">7 $157</td>
+<td rowspan="2">$1099.00</td>
+</tr>
+<tr>
+<td></td>
+</tr>
+<tr>
+<td rowspan="2"></td>
+<td rowspan="2"></td>
+<td>PRJ001</td>
+<td>сору 1080p bus</td>
+<td>12/31/2024</td>
+<td>5 $127</td>
+<td>$635.00</td>
+</tr>
+<tr>
+<td></td>
+<td>bypass</td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td rowspan="2"></td>
+<td rowspan="4"></td>
+<td>PRJ001</td>
+<td>back-end capacitor</td>
+<td>12/25/2024</td>
+<td>8 $120</td>
+<td>$960.00</td>
+</tr>
+<tr>
+<td></td>
+<td>bypass</td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td rowspan="2"></td>
+<td>PRJ003</td>
+<td>multi-byte microchip</td>
+<td>1/3/2025</td>
+<td>8 $180</td>
+<td>$1440.00</td>
+</tr>
+<tr>
+<td></td>
+<td>back up</td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td rowspan="2"></td>
+<td rowspan="2"></td>
+<td>PRJ001</td>
+<td rowspan="2">solid state transmitter</td>
+<td>12/15/2024</td>
+<td>6 $150</td>
+<td rowspan="2">$900.00</td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td></td>
+<td>back up</td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td rowspan="2"></td>
+<td rowspan="2"></td>
+<td>PRJ001</td>
+<td>bluetooth</td>
+<td>1/10/2025</td>
+<td>5 $150</td>
+<td rowspan="2">$750.00</td>
+</tr>
+<tr>
+<td></td>
+<td>feed</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td></td>
+<td>input back-</td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>Mr. Arthur Treutel II</td>
+<td>Security Engineer</td>
+<td>PRJ005</td>
+<td>end hard drive</td>
+<td>1/1/2025</td>
+<td>6 $157</td>
+<td>$942.00</td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td></td>
+<td>synthesize</td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td rowspan="2">PRJ005</td>
+<td rowspan="2">haptic circuit reboot</td>
+<td>1/8/2025</td>
+<td>8 $165</td>
+<td>$1320.00</td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td rowspan="2"></td>
+<td rowspan="2"></td>
+<td rowspan="2">PRJ001</td>
+<td rowspan="2">wireless program compress</td>
+<td>12/25/2024</td>
+<td>6 $112</td>
+<td rowspan="2">$672.00</td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>Darryl Glover MD</td>
+<td>Data Scientist</td>
+<td>PRJ004</td>
+<td>neural hard drive</td>
+<td>1/8/2025</td>
+<td>8 $150</td>
+<td>$1200.00</td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td>PRJ003</td>
+<td>copy neural alarm</td>
+<td>1/9/2025</td>
+<td>4 $135</td>
+<td>$540.00</td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td></td>
+<td>synthesize</td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td>PRJ002</td>
+<td>wireless</td>
+<td>12/25/2024</td>
+<td>7 $142</td>
+<td>$994.00</td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td></td>
+<td>feed generate</td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td rowspan="3">Perry Champlin V</td>
+<td rowspan="2">Technical Writer</td>
+<td rowspan="2">PRJ004</td>
+<td rowspan="2">primary feed</td>
+<td>1/7/2025</td>
+<td>5 $105</td>
+<td>$525.00</td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td>quantify</td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td>PRJ002</td>
+<td>solid state capacitor</td>
+<td>1/11/2025</td>
+<td>5 $120</td>
+<td>$600.00</td>
+</tr>
+</table>
+
+
+<!-- PageBreak -->
+
+
+<table>
+<tr>
+<th rowspan="3"></th>
+<th rowspan="8"></th>
+<th rowspan="3">PRJ005</th>
+<th rowspan="2">navigate primary hard drive</th>
+<th rowspan="2">12/28/2024</th>
+<th>4 $105</th>
+<th rowspan="2">$420.00</th>
+</tr>
+<tr>
+<th></th>
+</tr>
+<tr>
+<td>bypass</td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td rowspan="5"></td>
+<td rowspan="2">PRJ003</td>
+<td>multi-byte</td>
+<td>1/8/2025</td>
+<td>6 $165</td>
+<td>$990.00</td>
+</tr>
+<tr>
+<td>bus</td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>PRJ004</td>
+<td>copy mobile port generate</td>
+<td>12/26/2024</td>
+<td>6 $127</td>
+<td>$762.00</td>
+</tr>
+<tr>
+<td rowspan="2">PRJ005</td>
+<td>bluetooth panel</td>
+<td>12/19/2024</td>
+<td>7 $135</td>
+<td>$945.00</td>
+</tr>
+<tr>
+<td>synthesize</td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td rowspan="2">Miss Charlene Wilkinson</td>
+<td rowspan="2">Security Engineer</td>
+<td rowspan="2">PRJ005</td>
+<td>cross- platform</td>
+<td>1/10/2025</td>
+<td>4 $157</td>
+<td>$628.00</td>
+</tr>
+<tr>
+<td>feed compress</td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td rowspan="2"></td>
+<td rowspan="2"></td>
+<td>PRJ001</td>
+<td>solid state</td>
+<td>1/8/2025</td>
+<td>6 $105</td>
+<td>$630.00</td>
+</tr>
+<tr>
+<td></td>
+<td>array synthesize</td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td rowspan="2"></td>
+<td rowspan="2"></td>
+<td>PRJ005</td>
+<td>open-</td>
+<td>12/17/2024</td>
+<td>7 $112</td>
+<td>$784.00</td>
+</tr>
+<tr>
+<td></td>
+<td>source feed compress</td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>Arlene Feil-Baumbach</td>
+<td>Data Scientist</td>
+<td>PRJ004</td>
+<td>primary hard drive navigate</td>
+<td>12/28/2024</td>
+<td>4 $150</td>
+<td>$600.00</td>
+</tr>
+<tr>
+<td>Phyllis Bartell V</td>
+<td rowspan="2">UX/UI Designer</td>
+<td rowspan="2">PRJ002</td>
+<td>multi-byte alarm</td>
+<td>1/5/2025</td>
+<td>7 $120</td>
+<td>$840.00</td>
+</tr>
+<tr>
+<td></td>
+<td>copy</td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td>PRJ002</td>
+<td>bluetooth firewall</td>
+<td>1/8/2025</td>
+<td>8 $142</td>
+<td>$1136.00</td>
+</tr>
+<tr>
+<td rowspan="2">Darryl Doyle</td>
+<td rowspan="2">Security Engineer</td>
+<td rowspan="2">PRJ003</td>
+<td>copy online capacitor</td>
+<td>12/28/2024</td>
+<td>6 $157</td>
+<td>$942.00</td>
+</tr>
+<tr>
+<td>quantify</td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td rowspan="2">PRJ004</td>
+<td>mobile pixel</td>
+<td>1/4/2025</td>
+<td>8 $150</td>
+<td>$1200.00</td>
+</tr>
+<tr>
+<td rowspan="3"></td>
+<td></td>
+<td>copy open-</td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td></td>
+<td>PRJ005</td>
+<td>source system</td>
+<td>1/4/2025</td>
+<td>6 $142</td>
+<td>$852.00</td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td>connect</td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td rowspan="2">Jenna Koch</td>
+<td rowspan="2">UX/UI Designer</td>
+<td>PRJ002</td>
+<td>auxiliary hard drive</td>
+<td>12/18/2024</td>
+<td>6 $120</td>
+<td>$720.00</td>
+</tr>
+<tr>
+<td></td>
+<td>copy back-</td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td>PRJ002</td>
+<td>end</td>
+<td>12/15/2024</td>
+<td>4 $127</td>
+<td>$508.00</td>
+</tr>
+<tr>
+<td rowspan="3"></td>
+<td rowspan="3"></td>
+<td></td>
+<td>bandwidth synthesize</td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td rowspan="2">PRJ001</td>
+<td>mobile</td>
+<td>12/24/2024</td>
+<td>4 $150</td>
+<td>$600.00</td>
+</tr>
+<tr>
+<td>application generate</td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>Mrs. Elsa Goodwin</td>
+<td>Technical Writer</td>
+<td>PRJ004</td>
+<td>bluetooth pixel</td>
+<td>12/16/2024</td>
+<td>8 $105</td>
+<td>$840.00</td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td></td>
+<td>reboot</td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td>PRJ003</td>
+<td>haptic driver</td>
+<td>1/5/2025</td>
+<td>5 $135</td>
+<td>$675.00</td>
+</tr>
+</table>
+
+
+<!-- PageBreak -->
+
+
+<table>
+<tr>
+<th rowspan="2">Fernando Olson</th>
+<th rowspan="2">Senior Software Architect</th>
+<th>PRJ004</th>
+<th>generate digital</th>
+<th>12/22/2024</th>
+<th>6 $180</th>
+<th>$1080.00</th>
+</tr>
+<tr>
+<th>PRJ004</th>
+<th>application hack haptic program parse</th>
+<th>12/30/2024</th>
+<th>7 $157</th>
+<th>$1099.00</th>
+</tr>
+<tr>
+<td rowspan="2">Gladys Abshire</td>
+<td rowspan="2">Full Stack Developer</td>
+<td>PRJ005</td>
+<td>primary transmitter</td>
+<td>12/27/2024</td>
+<td>8 $135</td>
+<td>$1080.00</td>
+</tr>
+<tr>
+<td>PRJ004 PRJ004</td>
+<td>index neural pixel override virtual pixel quantify</td>
+<td>1/3/2025 1/12/2025</td>
+<td>6 $150 5 $150</td>
+<td>$900.00 $750.00</td>
+</tr>
+<tr>
+<td>Faye Kozey</td>
+<td>DevOps Engineer</td>
+<td>PRJ002</td>
+<td>1080р sensor</td>
+<td>12/17/2024</td>
+<td>5 $142</td>
+<td>$710.00</td>
+</tr>
+<tr>
+<td rowspan="4">Chris Runolfsson III</td>
+<td rowspan="2">Security Engineer</td>
+<td>PRJ002</td>
+<td>input neural pixel</td>
+<td>1/13/2025</td>
+<td>4 $157</td>
+<td>$628.00</td>
+</tr>
+<tr>
+<td></td>
+<td>bypass</td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td rowspan="2"></td>
+<td>PRJ001</td>
+<td>wireless</td>
+<td>1/10/2025</td>
+<td>6 $120</td>
+<td>$720.00</td>
+</tr>
+<tr>
+<td>PRJ004 PRJ005</td>
+<td>transmitter calculate cross- platform panel generate digital card input</td>
+<td>12/17/2024 12/16/2024</td>
+<td>4 $150 8 $157</td>
+<td>$600.00 $1256.00</td>
+</tr>
+<tr>
+<td>Laurence Jast</td>
+<td>Quality Assurance Engineer</td>
+<td>PRJ003</td>
+<td>online matrix</td>
+<td>1/9/2025</td>
+<td>7 $112</td>
+<td>$784.00</td>
+</tr>
+<tr>
+<td rowspan="8"></td>
+<td rowspan="4"></td>
+<td></td>
+<td>transmit</td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>PRJ003</td>
+<td>wireless</td>
+<td>12/27/2024</td>
+<td>5 $150</td>
+<td>$750.00</td>
+</tr>
+<tr>
+<td>PRJ001</td>
+<td>panel copy auxiliary firewall</td>
+<td>12/24/2024</td>
+<td>7 $120</td>
+<td>$840.00</td>
+</tr>
+<tr>
+<td>PRJ004</td>
+<td>copy auxiliary application navigate</td>
+<td>12/30/2024</td>
+<td>4 $105</td>
+<td>$420.00</td>
+</tr>
+<tr>
+<td rowspan="3"></td>
+<td rowspan="2">PRJ001</td>
+<td>back-end pixel</td>
+<td>12/27/2024</td>
+<td>5 $157</td>
+<td>$785.00</td>
+</tr>
+<tr>
+<td>parse</td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>PRJ005</td>
+<td>primary sensor</td>
+<td>12/16/2024</td>
+<td>4 $127</td>
+<td>$508.00</td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td>generate</td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td rowspan="2">Arnold Lang</td>
+<td rowspan="2">UX/UI Designer</td>
+<td rowspan="2">PRJ005</td>
+<td rowspan="2">neural system</td>
+<td rowspan="2">1/12/2025</td>
+<td rowspan="2">8 $120</td>
+<td>$960.00</td>
+</tr>
+<tr>
+<td></td>
+</tr>
+<tr>
+<td rowspan="3"></td>
+<td></td>
+<td></td>
+<td>navigate</td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td></td>
+<td>PRJ005</td>
+<td>auxiliary interface</td>
+<td>12/16/2024</td>
+<td>4 $120</td>
+<td>$480.00</td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td>synthesize</td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>Malcolm Borer</td>
+<td>DevOps Engineer</td>
+<td>PRJ001</td>
+<td>cross- platform firewall</td>
+<td>12/22/2024</td>
+<td>6 $142</td>
+<td>$852.00</td>
+</tr>
+</table>
+
+
+<!-- PageBreak -->
+
+
+<table>
+<tr>
+<th rowspan="2"></th>
+<th rowspan="2"></th>
+<th>PRJ001</th>
+<th>bypass cross- platform matrix</th>
+<th>12/30/2024</th>
+<th>7 $180</th>
+<th>$1260.00</th>
+</tr>
+<tr>
+<th></th>
+<th>back up</th>
+<th></th>
+<th></th>
+<th></th>
+</tr>
+<tr>
+<td>Lamar Johnson</td>
+<td>UX/UI Designer</td>
+<td>PRJ001</td>
+<td>haptic sensor</td>
+<td>12/31/2024</td>
+<td>7 $120</td>
+<td>$840.00</td>
+</tr>
+<tr>
+<td rowspan="3"></td>
+<td rowspan="2"></td>
+<td rowspan="2">PRJ001</td>
+<td>bypass wireless</td>
+<td>12/23/2024</td>
+<td>6 $142</td>
+<td>$852.00</td>
+</tr>
+<tr>
+<td>pixel</td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td>navigate</td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td rowspan="2">Abraham Stehr</td>
+<td rowspan="2">UX/UI Designer</td>
+<td rowspan="2">PRJ004</td>
+<td>solid state</td>
+<td>1/14/2025</td>
+<td>4 $120</td>
+<td>$480.00</td>
+</tr>
+<tr>
+<td>monitor reboot</td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td rowspan="5"></td>
+<td rowspan="2"></td>
+<td>PRJ002</td>
+<td>bluetooth</td>
+<td>1/7/2025</td>
+<td>5 $127</td>
+<td>$635.00</td>
+</tr>
+<tr>
+<td rowspan="2"></td>
+<td>hard drive</td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td></td>
+<td>reboot</td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td rowspan="2"></td>
+<td>PRJ002</td>
+<td>wireless</td>
+<td>1/12/2025</td>
+<td>6 $127</td>
+<td>$762.00</td>
+</tr>
+<tr>
+<td></td>
+<td>array copy cross-</td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td rowspan="4"></td>
+<td rowspan="4"></td>
+<td>PRJ005</td>
+<td>platform</td>
+<td>12/26/2024</td>
+<td>7 $157</td>
+<td>$1099.00</td>
+</tr>
+<tr>
+<td></td>
+<td>system quantify</td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td rowspan="2">PRJ001</td>
+<td>wireless matrix</td>
+<td>12/19/2024</td>
+<td>6 $112</td>
+<td>$672.00</td>
+</tr>
+<tr>
+<td>connect</td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td>PRJ001</td>
+<td>haptic panel</td>
+<td>12/16/2024</td>
+<td>5 $112</td>
+<td>$560.00</td>
+</tr>
+<tr>
+<td rowspan="2">Kirk Lebsack</td>
+<td rowspan="2">Full Stack Developer</td>
+<td>PRJ001</td>
+<td>hack online alarm</td>
+<td>1/3/2025</td>
+<td>7 $135</td>
+<td>$945.00</td>
+</tr>
+<tr>
+<td>PRJ004</td>
+<td>input multi- byte feed calculate</td>
+<td>12/25/2024</td>
+<td>8 $157</td>
+<td>$1256.00</td>
+</tr>
+<tr>
+<td rowspan="6">Heidi McClure</td>
+<td rowspan="2">Quality Assurance Engineer</td>
+<td rowspan="2">PRJ004</td>
+<td>optical</td>
+<td>12/29/2024</td>
+<td>5 $112</td>
+<td>$560.00</td>
+</tr>
+<tr>
+<td>interface</td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td></td>
+<td>PRJ001</td>
+<td>navigate back-end sensor</td>
+<td>12/29/2024</td>
+<td>8 $120</td>
+<td>$960.00</td>
+</tr>
+<tr>
+<td></td>
+<td>PRJ001</td>
+<td>program auxiliary circuit</td>
+<td>1/9/2025</td>
+<td>5 $105</td>
+<td>$525.00</td>
+</tr>
+<tr>
+<td rowspan="2"></td>
+<td>PRJ001</td>
+<td>navigate open- source panel</td>
+<td>1/5/2025</td>
+<td>7 $157</td>
+<td>$1099.00</td>
+</tr>
+<tr>
+<td></td>
+<td>bypass</td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td rowspan="2">Gustavo Jenkins</td>
+<td rowspan="2">Business Analyst</td>
+<td rowspan="2">PRJ001</td>
+<td>primary</td>
+<td>1/2/2025</td>
+<td>6 $127</td>
+<td>$762.00</td>
+</tr>
+<tr>
+<td>system</td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td></td>
+<td>bypass</td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td rowspan="5">Lawrence Aufderhar</td>
+<td rowspan="2">Senior Software Architect</td>
+<td rowspan="2">PRJ003</td>
+<td>mobile</td>
+<td>12/29/2024</td>
+<td>5 $180</td>
+<td>$900.00</td>
+</tr>
+<tr>
+<td>driver</td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td>index</td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td rowspan="2"></td>
+<td rowspan="2">PRJ001</td>
+<td>digital</td>
+<td>1/4/2025</td>
+<td>6 $105</td>
+<td>$630.00</td>
+</tr>
+<tr>
+<td>monitor</td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+</table>
+
+
+<!-- PageBreak -->
+
+
+<table>
+<tr>
+<th></th>
+<th></th>
+<th>PRJ001</th>
+<th>copy 1080p application quantify</th>
+<th>1/8/2025</th>
+<th>5 $157</th>
+<th>$785.00</th>
+</tr>
+<tr>
+<td rowspan="10">Lonnie Fritsch</td>
+<td rowspan="2">Data Scientist</td>
+<td>PRJ003</td>
+<td>mobile pixel</td>
+<td>12/29/2024</td>
+<td>7 $150</td>
+<td>$1050.00</td>
+</tr>
+<tr>
+<td></td>
+<td>hack back-</td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td></td>
+<td>PRJ005</td>
+<td>end</td>
+<td>12/17/2024</td>
+<td>7 $157</td>
+<td>$1099.00</td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td>interface generate</td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td rowspan="2"></td>
+<td>PRJ001</td>
+<td>digital</td>
+<td>1/3/2025</td>
+<td>4 $180</td>
+<td>$720.00</td>
+</tr>
+<tr>
+<td></td>
+<td>transmitter quantify</td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td rowspan="4"></td>
+<td>PRJ003</td>
+<td>1080р</td>
+<td>12/29/2024</td>
+<td>4 $112</td>
+<td>$448.00</td>
+</tr>
+<tr>
+<td>PRJ002</td>
+<td>capacitor program cross- platform interface parse</td>
+<td>12/25/2024</td>
+<td>7 $120</td>
+<td>$840.00</td>
+</tr>
+<tr>
+<td rowspan="2">PRJ003</td>
+<td>multi-byte</td>
+<td>12/29/2024</td>
+<td>5 $180</td>
+<td rowspan="2">$900.00</td>
+</tr>
+<tr>
+<td>capacitor transmit</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td rowspan="2"></td>
+<td></td>
+<td>PRJ002</td>
+<td>open- source panel</td>
+<td>12/17/2024</td>
+<td>4 $127</td>
+<td>$508.00</td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td>copy open-</td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td rowspan="2">Lee Ward</td>
+<td rowspan="2">Business Analyst</td>
+<td rowspan="2">PRJ005</td>
+<td>source</td>
+<td>1/2/2025</td>
+<td>6 $127</td>
+<td rowspan="2">$762.00</td>
+</tr>
+<tr>
+<td>microchip parse back-</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td rowspan="7">Wallace Hauck</td>
+<td rowspan="3">Project Manager</td>
+<td rowspan="3">PRJ001</td>
+<td>end</td>
+<td>1/13/2025</td>
+<td rowspan="2">7 $165</td>
+<td rowspan="3">$1155.00</td>
+</tr>
+<tr>
+<td rowspan="2">program parse</td>
+<td></td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td></td>
+<td>PRJ005</td>
+<td>open- source system</td>
+<td>12/30/2024</td>
+<td>8 $120</td>
+<td>$960.00</td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td>input</td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td rowspan="2"></td>
+<td rowspan="2">PRJ003</td>
+<td>bluetooth</td>
+<td>12/19/2024</td>
+<td>5 $105</td>
+<td rowspan="2">$525.00</td>
+</tr>
+<tr>
+<td>firewall</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td>PRJ005</td>
+<td>bypass online matrix</td>
+<td>12/25/2024</td>
+<td>7 $165</td>
+<td>$1155.00</td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td>Totals:</td>
+<td>969 -</td>
+<td>$134376.00</td>
+</tr>
+</table>

@@ -205,6 +205,8 @@ Given the following random invoice data with missing contractor names and data t
 <tr><td>John Doe</td><td>Senior Developer</td><td>PRJ001</td><td>design scalable system</td><td>11/15/2024</td><td>6</td><td>$140</td><td>$840.00</td></tr>,
 <tr><td>PRJ002</td><td>build responsive website</td><td>11/20/2024</td><td>5</td><td>$130</td><td>$650.00</td></tr>,
 <tr><td>PRJ003</td><td>optimize database queries</td><td>12/05/2024</td><td>8</td><td>$150</td><td>$1200.00</td></tr>,
+<tr><td>PRJ003</td><td>optimize database queries</td></tr>,
+<tr><td>12/05/2024</td><td>8</td><td>$150</td><td>$1200.00</td></tr>,
 <tr><td>PRJ004</td><td>implement security patch</td><td>12/15/2024</td><td>7</td><td>$155</td><td>$1085.00</td></tr>,
 <tr><td>Jane Smith</td><td>Project Manager</td><td>PRJ003</td><td>organize team meeting</td><td>12/01/2024</td><td>3</td><td>$120</td><td>$360.00</td></tr>
 
