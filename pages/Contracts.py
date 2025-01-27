@@ -32,16 +32,16 @@ def on_list_change():
 
 def changeFile():
         st.session_state.file=True
-        print("File Changed")
+        # print("File Changed")
     
 def changeText():
         st.session_state.name=True
-        print("File Changed")
+        # print("File Changed")
 
 
 def editContent(i,obj):
     reason = st.text_input("Edit contract",value=obj["name"],on_change=changeText)
-    print("e run",i)
+    # print("e run",i)
 
     if st.button("Save",disabled= not st.session_state.name):
             obj["name"]=reason

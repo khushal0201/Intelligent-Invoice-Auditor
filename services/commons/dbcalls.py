@@ -3,14 +3,14 @@ from JSONdata.contracts import contracts as cdata
 from JSONdata.invoices import invoices as idata
 
 
-print("re rerunning the db calls")
+# print("re rerunning the db calls")
 
 class Contract:
 
     def get(i=None,limit=100):
 
         if i is not None: 
-            print("here in i")
+            # print("here in i")
             return cdata[i]
         
         return cdata[:limit]

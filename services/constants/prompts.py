@@ -188,41 +188,25 @@ def EmployeeData():
 # """
 
     return """
-        Given an invoice from Contractor to Client, extract the contractor's details in the following format:
+Given an invoice from Contractor to Client, extract the contractor's details in the following format:
 
-contractorName, role, projectCode, description, date, hours, rate, amount
+        contractorName, role, projectCode, description, date, hours, rate, amount
 
-Instructions:
-Extract All the Contractor Details: For each contractor listed in the invoice, extract the details such as name, role, project code, description, date, hours, rate, and amount.
+        Instructions:
+        1. Extract data from each HTML table row (<tr>). Each row contains details in table cells (<td>).
+        2. Handle missing contractor names:
+           - If a row is missing the contractor name, use the name from the previous row in the current batch.
+           - Handle Missing Contractor Names: If a contractor's name is missing in a record, and the contractor's name was provided in the previous record, fill the missing contractorName from the previous record. If the first record is missing a name, fill it with N/A or leave it as empty, but ensure consistency for subsequent records.
+        3. Each project must be a separate entry. Use 'N/A' for missing text, '0' for missing numbers.
 
-Handle Missing Contractor Names: If a contractor's name is missing in a record, and the contractor's name was provided in the previous record, fill the missing contractorName from the previous record. If the first record is missing a name, fill it with N/A or leave it as empty, but ensure consistency for subsequent records.
-
-Multiple Projects for Same Contractor: If a contractor has multiple projects listed under their name, ensure that all records are extracted, and each project gets its own entry with the contractor's name. All columns should be filled with appropriate values. If any value is missing or incomplete, replace it with suitable values (e.g., N/A, 0, null if applicable).
-
-Final Record Status (continue_ field):
-
-Set continue_ to 1 if there are more contractor records to be extracted (i.e., there is still missing data or additional contractor records that need to be processed).
-Set continue_ to 0 when all contractor records have been fully extracted and no more data is missing or left to process.
 Example:
 Given the following random invoice data with missing contractor names and data to be processed, the extraction should look like this:
 
-John Doe Senior Developer PRJ001
-design scalable system 11/15/2024 6 $140 $840.00
-PRJ002
-build responsive website 11/20/2024 5 $130 $650.00
-PRJ003
-optimize database queries 12/05/2024 8 $150 $1200.00
-PRJ004
-implement security patch 12/15/2024 7 $155 $1085.00
-PRJ002
-create API documentation 1/10/2025 7 $160 $1120.00
-Jane Smith Project Manager PRJ003
-organize team meeting 12/01/2024 3 $120 $360.00
-PRJ002
-prepare project proposal 12/12/2024 6 $125 $750.00
-
-
-Here’s how the extracted data should look with the proper handling of continue_ and missing contractor names:
+<tr><td>John Doe</td><td>Senior Developer</td><td>PRJ001</td><td>design scalable system</td><td>11/15/2024</td><td>6</td><td>$140</td><td>$840.00</td></tr>,
+<tr><td>PRJ002</td><td>build responsive website</td><td>11/20/2024</td><td>5</td><td>$130</td><td>$650.00</td></tr>,
+<tr><td>PRJ003</td><td>optimize database queries</td><td>12/05/2024</td><td>8</td><td>$150</td><td>$1200.00</td></tr>,
+<tr><td>PRJ004</td><td>implement security patch</td><td>12/15/2024</td><td>7</td><td>$155</td><td>$1085.00</td></tr>,
+<tr><td>Jane Smith</td><td>Project Manager</td><td>PRJ003</td><td>organize team meeting</td><td>12/01/2024</td><td>3</td><td>$120</td><td>$360.00</td></tr>
 
 {
   "contractor": [
@@ -266,52 +250,10 @@ Here’s how the extracted data should look with the proper handling of continue
       "rate": "155",
       "amount": "1085.00"
     }
-  ],
-  "continue_": 1
+  ]
 }
-
-Explanation:
-Partial Data Extraction: Only the records for John Doe up to PRJ004 are provided. The records for Jane Smith are missing in this response, so this is an incomplete data extraction.
-
-continue_: 1: Since there are more contractor records (for Jane Smith), the response is incomplete, and the continue_ is set to 1, indicating that the data extraction is not yet finished and that more data will follow in subsequent API calls.
-
-
-Second API Call (to complete the extraction):
-In the subsequent API call, the remaining records for Jane Smith would be returned to complete the data extraction.
-
-{
-  "contractor": [
-    {
-      "contractorName": "Jane Smith",
-      "role": "Project Manager",
-      "projectCode": "PRJ003",
-      "description": "organize team meeting",
-      "date": "2024-12-01T00:00:00.000Z",
-      "hours": "3",
-      "rate": "120",
-      "amount": "360.00"
-    },
-    {
-      "contractorName": "Jane Smith",
-      "role": "Project Manager",
-      "projectCode": "PRJ002",
-      "description": "prepare project proposal",
-      "date": "2024-12-12T00:00:00.000Z",
-      "hours": "6",
-      "rate": "125",
-      "amount": "750.00"
-    }
-  ],
-  "continue_": 0
-}
-Final Result:
-continue_: 0: The continue_ value is set to 0 in the second API call because all contractor data has now been extracted, and there are no more records left to process.
-Summary:
-continue_: 1 should only be used when the data extraction is incomplete, meaning more data will come in the next API call (i.e., the extraction has been partial).
-continue_: 0 indicates that all contractor data has been fully extracted, and no more records are expected.
 
 Additional Notes for Continuing Data Extraction:
-When more data is expected, do not repeat records that have already been extracted. Only return the data after the last processed record.
-The user will provide the last processed record in each subsequent request. Please continue the extraction based on that provided record. If all records are extracted, return continue_ = 0.
+The user will provide the last processed record in each subsequent request. Please refer that also for more context and name of the contractor.
 
 """
