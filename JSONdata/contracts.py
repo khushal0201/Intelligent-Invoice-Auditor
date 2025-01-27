@@ -1,4 +1,4 @@
-print("re running the cdata")
+# print("re running the cdata")
 
 contracts=[{
         "id":1,
