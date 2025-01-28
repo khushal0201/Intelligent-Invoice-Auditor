@@ -1,6 +1,5 @@
-
-
 import json
+import re
 from services.ClientObjects.gptsdk import gptClient,deployment
 from services.constants.prompts import contract,invoice,EmployeeData
 from pydantic import BaseModel
@@ -57,7 +56,8 @@ def GPTCall(prompt,context,content,type="contract"):
 
         # Adding the Context
 
-
+        context = context if context is not None else ""
+        
         if len(context)!=0:
 
             assistantReply={
@@ -67,9 +67,9 @@ def GPTCall(prompt,context,content,type="contract"):
 
 
             chat_prompt+=[assistantReply]
-            print("Added")
+            # print("Added")
 
-        print("prompt val",repr(chat_prompt))
+        # print("prompt val",repr(chat_prompt))
         if type=="contract":
             completion_json = gptClient.chat.completions.create(  
                         model=deployment, 
@@ -116,39 +116,53 @@ def invoiceAnalysis(rules,content):
         prompt=invoice(rules)
 
         val=GPTCall(prompt,[],content,"invoice")
-        print("parsed Value:",val["parsed"])
+        # print("parsed Value:",val["parsed"])
         parsed=val["parsed"]["anomalies"]
 
         return parsed
 
 
-
-def extractInvoice(content):
-    cont=1
-    count=0
-    results=[]
-    lastData=[]
-    while cont==1:
-       
-        prompt=EmployeeData()
-
-        val=GPTCall(prompt,lastData,content,type="extract")
-        print("parsed employee",val)
-
+def extractInvoice():
+    
+    #preprocess
+    with open('output.txt', 'r', encoding='utf-8') as file:
+    # Read the entire content of the file
+        content = file.read()
+    
+    # print(f"conent {content}")
+    data_rows_tr = re.findall(r'<tr.*?>(.*?)</tr>', content, re.DOTALL)
+    data_rows_tr = ['<tr>' + tr + '</tr>' for tr in data_rows_tr]
+    # print(f"after processing {data_rows_tr}")
+    
+    results = []
+    last_data = None
+    batch_size = 10  # We will process 10 rows at a time
+    
+    # Process the content in batches of 10
+    for i in range(0, len(data_rows_tr), batch_size):
+        batch = data_rows_tr[i:i+batch_size]
+        
+        # Join all <tr> tags with a comma between them to form the batch content
+        batch_content = ','.join(batch)
+        # print(f"total length: {len(data_rows_tr)}")
+        # print(f"batch: {batch_content}")
+        
+        prompt = f"{EmployeeData()}"
+        val=GPTCall(prompt,last_data,batch_content,type="extract")
+        # print("parsed employee",val)
+        print(f"values: {val}")
         employees=val["parsed"]["contractor"]
-        cont=int(val["parsed"]["continue_"])
-        lastData=employees[-2:]
-        print("lastData",lastData)
-        results.extend(employees)
-        print("continue val:",cont)
+        last_data=employees[-2:]
 
-        count+=1
+        results.extend(employees)
+        print("Count of results:", len(results))
+        print(i)
 
     employeeDF=pd.DataFrame(results)
+    employeeDF = employeeDF[(employeeDF['hours'] != 0) & (employeeDF['rate'] != 0) & (employeeDF['amount'] != 0)]
+    employeeDF = employeeDF.ffill()
+    employeeDF = employeeDF.drop_duplicates(subset=['contractorName', 'role','projectCode','date','hours','rate','amount'])
     print(employeeDF)
+    
+    
     return employeeDF
-
-       
-
-
-

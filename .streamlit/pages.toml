@@ -9,11 +9,6 @@ name = "Invoices"
 icon = "📄"
 
 [[pages]]
-path = "pages/accuracy.py"
-name = "Accuracy Checker"
-icon = "🎯"
-
-[[pages]]
 path = "pages/chat.py"
 name = "Chat about Data"
 icon = "💬"

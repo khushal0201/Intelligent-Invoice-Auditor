@@ -19,7 +19,7 @@ if 'contractId' in st.session_state:
     print("inside")
     contractId=st.session_state.contractId
 
-print(" rerun contractId",contractId)
+# print(" rerun contractId",contractId)
 
 contractList=list(Contract.get())
 
@@ -35,7 +35,7 @@ option = c.selectbox(
     label_visibility="collapsed"
 )
 
-print("Selected option:",option)
+# print("Selected option:",option)
 
 
 
@@ -50,7 +50,7 @@ else:
 
     def changeFile():
         st.session_state.file=True
-        print("File Changed")
+        # print("File Changed")
 
     def editContent(ind,obj):
         reason = st.text_input("Edit contract",value=obj["name"])
@@ -65,10 +65,10 @@ else:
     
 
         if uploaded_file is not None and st.session_state.file:
-            print("file uploaded",uploaded_file)
+            # print("file uploaded",uploaded_file)
 
             rule=Contract.get(i=obj["contract_id"])["rules"]
-            print("The Rule:",rule)
+            # print("The Rule:",rule)
             with st.status("Uploading Invoice content...", expanded=False) as status:
                 st.write("Uploading the Invoice")
                 data=uploaded_file.getvalue()
@@ -85,7 +85,8 @@ else:
                     label="Extracting Employee Data", state="running",expanded=False
                 )
                 st.write("Extracting Employee Data")
-                obj["employeeData"]=extractInvoice(content)
+                
+                obj["employeeData"]=extractInvoice()
 
 
                 status.update(
@@ -101,7 +102,7 @@ else:
                     label="Process complete!", state="complete",expanded=False
                 )
                 obj["status"]=values.SUCCESS
-                print("Before updating")
+                # print("Before updating")
                 Invoice.update(i=ind,obj=obj)
                 st.session_state.file=False
             
@@ -144,7 +145,7 @@ else:
                 st.session_state.edit_item=ind
                 st.rerun(scope="fragment")
         else:
-            print("Inside else")
+            # print("Inside else")
             obj=Invoice.get(i=st.session_state.edit_item)
             editContent(st.session_state.edit_item,obj)
         
@@ -207,7 +208,7 @@ else:
                     b,c=st.columns([3,1],gap="small")
                 
                     if b.button('View/Edit',type="secondary",key='v'+str(i),use_container_width=True):
-                            print("editing")
+                            # print("editing")
                             st.session_state.edit_item=invList[i]["actualInd"]
                             st.session_state.edit=True
                             add()
