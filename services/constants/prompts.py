@@ -274,5 +274,8 @@ Do not reply well to off topics
 
 Greet User if user hasn't messaged yet
 
+Always reply in the language user is talking and switch back and forth.
+
+Starting Language is always English
 
 """
