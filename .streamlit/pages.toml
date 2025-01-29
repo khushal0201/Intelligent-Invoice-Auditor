@@ -7,3 +7,13 @@ icon = "📃"
 path = "pages/Invoices.py"
 name = "Invoices"
 icon = "📄"
+
+[[pages]]
+path = "pages/invoice_analysis.py"
+name = "Invoice Analysis"
+icon = "📄"
+
+[[pages]]
+path = "pages/contract_analysis.py"
+name = "Contract Analysis"
+icon = "📄"

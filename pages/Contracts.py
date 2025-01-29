@@ -2,7 +2,7 @@ import streamlit as st
 import time
 from services.commons.docIntelligence import extractContent
 from services.commons.gptCall import contractAnalysis
-from services.commons.dbcalls import Contract
+from services.commons.dbcalls import Contract,Invoice
 from services.constants.enums import values,color
 from dialogBoxes.rulesDialog import rule_dialog
 
@@ -188,9 +188,11 @@ if contractList:
                 if c.button(":material/delete:",key=str(i)+'del',type="secondary"):
                     delete(i)
                 
-                if d.button("Rules",key=str(i)+"rule",type="secondary",disabled=contractList[i]["status"]!=values.SUCCESS.value):
-                     
+                if d.button("Rules",key=str(i)+"rule",type="secondary",disabled=contractList[i]["status"]!=values.SUCCESS.value): 
                     rule_dialog(i)
+                if st.button("Analytics",key="a"+str(i),disabled=not(contractList[i]["status"]==values.SUCCESS.value and len(Invoice.get(contractId=i))!=0)):
+                    st.session_state.contractId1=i
+                    st.switch_page("pages/contract_analysis.py")
 
        
 
