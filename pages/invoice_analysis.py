@@ -56,36 +56,39 @@ else:
         label_visibility="collapsed"
     )
     if option1 is None:
-        st.header("Select a Contract to view Invoices")
+        st.header("Select an invoice")
 
     else:
         # df=Invoice.get(i=)["employeeData"]
         ind=invList[option1]["actualInd"]
         df1=Invoice.get(i=ind)["employeeData"]
-        df = df1.groupby('contractorName')[['hours', 'amount']].sum()
-        df = df.reset_index()
-        st.write("")
-        st.write("")
-        st.dataframe(df, width=800)
-        #chart 1
-        chart = alt.Chart(df).mark_bar().encode(
-            x='contractorName',
-            y=alt.Y('amount', title='Amount',),
-        ).interactive()
-        #chart 2
-        chart1 = alt.Chart(df).mark_line().encode(
-            x='contractorName',
-            y=alt.Y('hours', title='Hours'),
-        ).interactive()
+        if df1 is not None and not df1.empty:
+            df = df1.groupby('contractorName')[['hours', 'amount']].sum()
+            df = df.reset_index()
+            st.write("")
+            st.write("")
+            st.dataframe(df, width=800)
+            #chart 1
+            chart = alt.Chart(df).mark_bar().encode(
+                x='contractorName',
+                y=alt.Y('amount', title='Amount',),
+            ).interactive()
+            #chart 2
+            chart1 = alt.Chart(df).mark_line().encode(
+                x='contractorName',
+                y=alt.Y('hours', title='Hours'),
+            ).interactive()
 
-        tab1, tab2 = st.tabs(["Employee Recevied Amount", "Employee wWorking Hours Trend"])
+            tab1, tab2 = st.tabs(["Employee Recevied Amount", "Employee Working Hours Trend"])
 
-        with tab1:
-            # Use the Streamlit theme.
-            # This is the default. So you can also omit the theme argument.
-            st.altair_chart(chart, theme="streamlit", use_container_width=True)
-        with tab2:
-            # Use the native Altair theme.
-            st.altair_chart(chart1, theme="streamlit", use_container_width=True)
+            with tab1:
+                # Use the Streamlit theme.
+                # This is the default. So you can also omit the theme argument.
+                st.altair_chart(chart, theme="streamlit", use_container_width=True)
+            with tab2:
+                # Use the native Altair theme.
+                st.altair_chart(chart1, theme="streamlit", use_container_width=True)
+        else:
+            st.header("No Data in invoice")
 
 
