@@ -9,6 +9,6 @@ name = "Invoices"
 icon = "📄"
 
 [[pages]]
-path = "pages/chat.py"
+path = "pages/Chat/chat.py"
 name = "Chat about Data"
 icon = "💬"
