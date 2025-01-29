@@ -5,7 +5,6 @@ from services.commons.docIntelligence import extractContent
 from services.commons.gptCall import invoiceAnalysis,extractInvoice
 from services.commons.dbcalls import Invoice,Contract
 from services.constants.enums import values,color
-import matplotlib.pyplot as plt
 import altair as alt
 
 
