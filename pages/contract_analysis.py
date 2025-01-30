@@ -44,7 +44,8 @@ else:
     df = pd.DataFrame(columns=['Invoice', 'Anomalies'])
     print(len(invList))
     for j in range(0,len(invList)):
-        df1=Invoice.get(i=j)
+        ind=invList[j]["actualInd"]
+        df1=Invoice.get(i=ind)
         print(df1)
         df.loc[len(df)]=[df1['name'],len(df1['anomalies'])]
     st.dataframe(df, width=800)
