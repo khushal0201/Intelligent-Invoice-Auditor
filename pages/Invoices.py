@@ -182,7 +182,6 @@ else:
 
     # Editing the Invoice 
 
-    st.header(f"Invoices")
     addbtn=st.button("Add an Invoice", type="primary",disabled=Contract.get(i=option)["status"]!=values.SUCCESS.value)
 
     if invList: 
