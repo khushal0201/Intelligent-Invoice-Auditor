@@ -1,26 +1,26 @@
-Harvey Inc
+Koelpin LLC
 
-6108 1st Avenue
-South Daphnee, 98388-9897
-Phone: 1-422-735-8676
-Email: Kailee.Mills90@yahoo.com
+41158 Hermiston Drives
+Lake Keanuberg, 06551-3051
+Phone: 1-805-404-6742 x58094
+Email: Kim.Wolf@gmail.com
 
 
-# INVOICE #3061
+# INVOICE #9092
 
 Bill To:
 
-Fadel - Cronin
+Volkman - Schaden
 
-667 Blanda Orchard
+8464 Poplar Close
 
-Lake Lorenzo, 22241
+Makenzieworth, 08742
 
-Jacynthe_Beahan63@hotmail.com
+Reta_Smith70@hotmail.com
 
 Date: 1/14/2025
 
-Due Date: 8/18/2025
+Due Date: 8/3/2025
 
 
 <table>
@@ -30,15 +30,15 @@ Due Date: 8/18/2025
 </tr>
 <tr>
 <td>Labour Charges</td>
-<td>£107167</td>
+<td>£58397</td>
 </tr>
 <tr>
 <td>Material</td>
-<td>£838.93</td>
+<td>£1671.70</td>
 </tr>
 <tr>
 <td>Offshore Management</td>
-<td>£1068.26</td>
+<td>£4947.24</td>
 </tr>
 </table>
 
@@ -46,15 +46,15 @@ Due Date: 8/18/2025
 <table>
 <tr>
 <td>Subtotal:</td>
-<td>£109074.20</td>
+<td>£65015.94</td>
 </tr>
 <tr>
 <td>VAT (20%):</td>
-<td>£21814.84</td>
+<td>£13003.19</td>
 </tr>
 <tr>
 <td>Total:</td>
-<td>£130889.04</td>
+<td>£78019.13</td>
 </tr>
 </table>
 
@@ -76,893 +76,685 @@ Please make payment within 23 days
 <th>AMOUNT</th>
 </tr>
 <tr>
-<td>Herman Frami DDS</td>
+<td>Dr. Shawna Schroeder</td>
+<td>Quality Assurance Engineer</td>
+<td>PRJ005</td>
+<td>1/10/2025</td>
+<td>4</td>
+<td>$112</td>
+<td>$448.00</td>
+</tr>
+<tr>
+<td>Dr. Christie Simonis</td>
+<td>Business Analyst</td>
+<td>PRJ005</td>
+<td>12/22/2024</td>
+<td>7</td>
+<td>$127</td>
+<td>$889.00</td>
+</tr>
+<tr>
+<td>Mrs. Lisa Kemmer DDS</td>
 <td>DevOps Engineer</td>
-<td></td>
-<td>PRJ002 1/4/2025</td>
-<td>6</td>
+<td>PRJ002</td>
+<td>1/11/2025</td>
+<td>7</td>
 <td>$142</td>
-<td>$852.00</td>
+<td>$994.00</td>
 </tr>
 <tr>
-<td></td>
-<td></td>
-<td></td>
-<td>PRJ004 12/19/2024</td>
-<td>6</td>
-<td>$157</td>
-<td>$942.00</td>
-</tr>
-<tr>
-<td></td>
-<td></td>
-<td></td>
-<td>PRJ004 12/23/2024</td>
-<td>4</td>
-<td>$105</td>
-<td>$420.00</td>
-</tr>
-<tr>
-<td></td>
-<td></td>
-<td></td>
-<td>PRJ004 12/19/2024</td>
-<td>4</td>
-<td>$157</td>
-<td>$628.00</td>
-</tr>
-<tr>
-<td></td>
-<td></td>
-<td></td>
-<td>PRJ001 1/9/2025</td>
-<td>8</td>
-<td>$165</td>
-<td>$1320.00</td>
-</tr>
-<tr>
-<td></td>
-<td></td>
-<td></td>
-<td>PRJ003 12/17/2024</td>
+<td>Jenny Beahan</td>
+<td>Full Stack Developer</td>
+<td>PRJ001</td>
+<td>1/12/2025</td>
 <td>8</td>
 <td>$135</td>
 <td>$1080.00</td>
 </tr>
 <tr>
-<td></td>
-<td></td>
-<td></td>
-<td>PRJ005 1/5/2025</td>
+<td>Forrest Sanford</td>
+<td>Project Manager</td>
+<td>PRJ005</td>
+<td>1/12/2025</td>
 <td>4</td>
-<td>$142</td>
-<td>$568.00</td>
+<td>$165</td>
+<td>$660.00</td>
 </tr>
 <tr>
-<td></td>
-<td></td>
-<td></td>
-<td>PRJ003 1/4/2025</td>
-<td>6</td>
-<td>$150</td>
-<td>$900.00</td>
-</tr>
-<tr>
-<td></td>
-<td></td>
-<td></td>
-<td>PRJ001 1/14/2025</td>
-<td>6</td>
-<td>$135</td>
-<td>$810.00</td>
-</tr>
-<tr>
-<td></td>
-<td></td>
-<td></td>
-<td>PRJ002 12/30/2024</td>
-<td>6</td>
-<td>$120</td>
+<td>Vicki Murphy</td>
+<td>Senior Software Architect</td>
+<td>PRJ001</td>
+<td>1/12/2025</td>
+<td>4</td>
+<td>$180</td>
 <td>$720.00</td>
 </tr>
 <tr>
-<td></td>
-<td></td>
-<td></td>
-<td>PRJ001 1/10/2025</td>
-<td>8</td>
-<td>$157</td>
-<td>$1256.00</td>
-</tr>
-<tr>
-<td></td>
-<td></td>
-<td></td>
-<td>PRJ002 12/19/2024</td>
-<td>7</td>
-<td>$135</td>
-<td>$945.00</td>
-</tr>
-<tr>
-<td></td>
-<td></td>
-<td></td>
-<td>PRJ004 12/28/2024</td>
+<td>Katie Herman</td>
+<td>Full Stack Developer</td>
+<td>PRJ003</td>
+<td>1/5/2025</td>
 <td>5</td>
-<td>$165</td>
-<td>$825.00</td>
+<td>$135</td>
+<td>$675.00</td>
 </tr>
 <tr>
-<td></td>
-<td></td>
-<td></td>
-<td>PRJ003 1/13/2025</td>
-<td>8</td>
+<td>Gregory Kuhn</td>
+<td>Project Manager</td>
+<td>PRJ004</td>
+<td>1/4/2025</td>
+<td>7</td>
 <td>$165</td>
-<td>$1320.00</td>
+<td>$1155.00</td>
 </tr>
 <tr>
-<td></td>
-<td></td>
-<td></td>
-<td>PRJ003 1/8/2025</td>
-<td>8</td>
-<td>$105</td>
+<td>Beulah Larkin</td>
+<td>UX/UI Designer</td>
+<td>PRJ005</td>
+<td>1/8/2025</td>
+<td>7</td>
+<td>$120</td>
 <td>$840.00</td>
 </tr>
 <tr>
-<td></td>
-<td></td>
-<td></td>
-<td>PRJ005 12/17/2024</td>
-<td>7</td>
-<td>$180</td>
-<td>$1260.00</td>
-</tr>
-<tr>
-<td></td>
-<td></td>
-<td></td>
-<td>PRJ004 12/21/2024</td>
-<td>6</td>
-<td>$165</td>
-<td>$990.00</td>
-</tr>
-<tr>
-<td></td>
-<td></td>
-<td></td>
-<td>PRJ002 12/23/2024</td>
-<td>8</td>
-<td>$150</td>
-<td>$1200.00</td>
-</tr>
-<tr>
-<td></td>
-<td></td>
-<td></td>
-<td>PRJ004 12/26/2024</td>
-<td>8</td>
-<td>$127</td>
-<td>$1016.00</td>
-</tr>
-<tr>
-<td></td>
-<td></td>
-<td></td>
-<td>PRJ001 1/9/2025</td>
-<td>7</td>
-<td>$180</td>
-<td>$1260.00</td>
-</tr>
-<tr>
-<td></td>
-<td></td>
-<td></td>
-<td>PRJ002 1/8/2025</td>
+<td>Angel Osinski</td>
+<td>Quality Assurance Engineer</td>
+<td>PRJ001</td>
+<td>1/1/2025</td>
 <td>8</td>
 <td>$112</td>
 <td>$896.00</td>
 </tr>
 <tr>
-<td></td>
-<td></td>
-<td></td>
-<td>PRJ004 1/13/2025</td>
-<td>4</td>
-<td>$127</td>
-<td>$508.00</td>
-</tr>
-<tr>
-<td></td>
-<td></td>
-<td></td>
-<td>PRJ004 1/7/2025</td>
-<td>5</td>
-<td>$112</td>
-<td>$560.00</td>
-</tr>
-<tr>
-<td></td>
-<td></td>
-<td></td>
-<td>PRJ003 12/24/2024</td>
-<td>4</td>
-<td>$165</td>
-<td>$660.00</td>
-</tr>
-<tr>
-<td></td>
-<td></td>
-<td></td>
-<td>PRJ001 12/26/2024</td>
+<td>Dr. Kelvin Emmerich</td>
+<td>Security Engineer</td>
+<td>PRJ002</td>
+<td>1/12/2025</td>
 <td>6</td>
-<td>$180</td>
-<td>$1080.00</td>
-</tr>
-<tr>
-<td></td>
-<td></td>
-<td></td>
-<td>PRJ004 12/19/2024</td>
-<td>7</td>
-<td>$135</td>
-<td>$945.00</td>
-</tr>
-<tr>
-<td></td>
-<td></td>
-<td></td>
-<td>PRJ001 12/22/2024</td>
-<td>7</td>
-<td>$135</td>
-<td>$945.00</td>
-</tr>
-<tr>
-<td></td>
-<td></td>
-<td></td>
-<td>PRJ003 12/16/2024</td>
-<td>8</td>
 <td>$157</td>
-<td>$1256.00</td>
+<td>$942.00</td>
 </tr>
 <tr>
-<td></td>
-<td></td>
-<td></td>
-<td>PRJ004 1/13/2025</td>
-<td>7</td>
-<td>$120</td>
-<td>$840.00</td>
-</tr>
-<tr>
-<td></td>
-<td></td>
-<td></td>
-<td>PRJ005 1/10/2025</td>
-<td>6</td>
-<td>$105</td>
-<td>$630.00</td>
-</tr>
-<tr>
-<td></td>
-<td></td>
-<td></td>
-<td>PRJ004 1/6/2025</td>
-<td>7</td>
-<td>$180</td>
-<td>$1260.00</td>
-</tr>
-<tr>
-<td></td>
-<td></td>
-<td></td>
-<td>PRJ003 12/30/2024</td>
-<td>5</td>
-<td>$105</td>
-<td>$525.00</td>
-</tr>
-<tr>
-<td></td>
-<td></td>
-<td></td>
-<td>PRJ004 12/16/2024</td>
-<td>6</td>
-<td>$120</td>
-<td>$720.00</td>
-</tr>
-<tr>
-<td></td>
-<td></td>
-<td></td>
-<td>PRJ002 1/11/2025</td>
-<td>7</td>
-<td>$150</td>
-<td>$1050.00</td>
-</tr>
-<tr>
-<td></td>
-<td></td>
-<td></td>
-<td>PRJ002 12/30/2024</td>
-<td>7</td>
-<td>$180</td>
-<td>$1260.00</td>
-</tr>
-<tr>
-<td></td>
-<td></td>
-<td></td>
-<td>PRJ003 1/7/2025</td>
-<td>8</td>
-<td>$165</td>
-<td>$1320.00</td>
-</tr>
-<tr>
-<td></td>
-<td></td>
-<td></td>
-<td>PRJ003 12/19/2024</td>
-<td>5</td>
-<td>$142</td>
-<td>$710.00</td>
-</tr>
-<tr>
-<td></td>
-<td></td>
-<td></td>
-<td>PRJ002 12/22/2024</td>
-<td>5</td>
-<td>$142</td>
-<td>$710.00</td>
-</tr>
-<tr>
-<td></td>
-<td></td>
-<td></td>
-<td>PRJ004 12/23/2024</td>
-<td>7</td>
-<td>$112</td>
-<td>$784.00</td>
-</tr>
-<tr>
-<td></td>
-<td></td>
-<td></td>
-<td>PRJ004 12/22/2024</td>
-<td>7</td>
-<td>$142</td>
-<td>$994.00</td>
-</tr>
-<tr>
-<td></td>
-<td></td>
-<td></td>
-<td>PRJ002 1/11/2025</td>
-<td>5</td>
-<td>$165</td>
-<td>$825.00</td>
-</tr>
-<tr>
-<td></td>
-<td></td>
-<td></td>
-<td>PRJ005 12/17/2024</td>
-<td>4</td>
-<td>$180</td>
-<td>$720.00</td>
-</tr>
-<tr>
-<td></td>
-<td></td>
-<td></td>
-<td>PRJ005 1/9/2025</td>
-<td>4</td>
-<td>$127</td>
-<td>$508.00</td>
-</tr>
-<tr>
-<td></td>
-<td></td>
-<td></td>
-<td>PRJ004 12/25/2024</td>
+<td>Mrs. Rachel Predovic</td>
+<td>Technical Writer</td>
+<td>PRJ002</td>
+<td>1/5/2025</td>
 <td>7</td>
 <td>$105</td>
 <td>$735.00</td>
 </tr>
 <tr>
-<td></td>
-<td></td>
-<td></td>
-<td>PRJ003 12/16/2024</td>
-<td>7</td>
-<td>$165</td>
-<td>$1155.00</td>
-</tr>
-<tr>
-<td></td>
-<td></td>
-<td></td>
-<td>PRJ005 12/22/2024</td>
-<td>6</td>
-<td>$165</td>
-<td>$990.00</td>
-</tr>
-</table>
-
-
-<!-- PageBreak -->
-
-
-<table>
-<tr>
-<td></td>
-<td rowspan="44"></td>
+<td>Olivia Brekke-Conn</td>
+<td>DevOps Engineer</td>
 <td>PRJ002</td>
-<td>12/16/2024</td>
-<td>7 $127</td>
-<td>$889.00</td>
-</tr>
-<tr>
-<td></td>
-<td>PRJ003</td>
-<td>12/19/2024</td>
-<td>5 $112</td>
-<td>$560.00</td>
-</tr>
-<tr>
-<td></td>
-<td colspan="2">PRJ005 12/30/2024</td>
-<td>5 $180</td>
-<td>$900.00</td>
-</tr>
-<tr>
-<td></td>
-<td colspan="2">PRJ001 12/26/2024</td>
-<td>7 $180</td>
-<td>$1260.00</td>
-</tr>
-<tr>
-<td></td>
-<td colspan="2">PRJ004 12/23/2024</td>
-<td>8 $120</td>
-<td>$960.00</td>
-</tr>
-<tr>
-<td></td>
-<td colspan="2">PRJ005 12/18/2024</td>
-<td>8 $157</td>
-<td>$1256.00</td>
-</tr>
-<tr>
-<td></td>
-<td colspan="2">PRJ003 12/18/2024</td>
-<td>6 $105</td>
-<td>$630.00</td>
-</tr>
-<tr>
-<td></td>
-<td colspan="2">PRJ005 1/5/2025</td>
-<td>7 $165</td>
-<td>$1155.00</td>
-</tr>
-<tr>
-<td></td>
-<td colspan="2">PRJ002 12/18/2024</td>
-<td>8 $120</td>
-<td>$960.00</td>
-</tr>
-<tr>
-<td></td>
-<td colspan="2">PRJ004 12/23/2024</td>
-<td>6 $142</td>
-<td>$852.00</td>
-</tr>
-<tr>
-<td></td>
-<td colspan="2">PRJ001 12/28/2024</td>
-<td>6 $157</td>
-<td>$942.00</td>
-</tr>
-<tr>
-<td></td>
-<td colspan="2">PRJ003 1/2/2025</td>
-<td>7 $120</td>
-<td>$840.00</td>
-</tr>
-<tr>
-<td></td>
-<td colspan="2">PRJ004 1/13/2025</td>
-<td>8 $127</td>
-<td>$1016.00</td>
-</tr>
-<tr>
-<td></td>
-<td colspan="2">PRJ004 12/28/2024</td>
-<td>5 $105</td>
-<td>$525.00</td>
-</tr>
-<tr>
-<td></td>
-<td colspan="2">PRJ003 12/27/2024</td>
-<td>7 $120</td>
-<td>$840.00</td>
-</tr>
-<tr>
-<td></td>
-<td colspan="2">PRJ001 1/12/2025</td>
-<td>4 $150</td>
-<td>$600.00</td>
-</tr>
-<tr>
-<td></td>
-<td colspan="2">PRJ002 1/5/2025</td>
-<td>5 $142</td>
-<td>$710.00</td>
-</tr>
-<tr>
-<td></td>
-<td colspan="2">PRJ004 1/9/2025</td>
-<td>6 $180</td>
-<td>$1080.00</td>
-</tr>
-<tr>
-<td></td>
-<td colspan="2">PRJ002 12/23/2024</td>
-<td>5 $180</td>
-<td>$900.00</td>
-</tr>
-<tr>
-<td></td>
-<td colspan="2">PRJ003 1/12/2025</td>
-<td>8 $180</td>
-<td>$1440.00</td>
-</tr>
-<tr>
-<td></td>
-<td colspan="2">PRJ003 1/10/2025</td>
-<td>6 $180</td>
-<td>$1080.00</td>
-</tr>
-<tr>
-<td></td>
-<td colspan="2">PRJ001 1/1/2025</td>
-<td>4 $120</td>
-<td>$480.00</td>
-</tr>
-<tr>
-<td></td>
-<td colspan="2">PRJ002 12/23/2024</td>
-<td>8 $180</td>
-<td>$1440.00</td>
-</tr>
-<tr>
-<td></td>
-<td colspan="2">PRJ003 1/1/2025</td>
-<td>4 $165</td>
-<td>$660.00</td>
-</tr>
-<tr>
-<td></td>
-<td>PRJ005</td>
-<td>1/11/2025</td>
-<td>8 $127</td>
-<td>$1016.00</td>
-</tr>
-<tr>
-<td></td>
-<td>PRJ003</td>
-<td>12/22/2024</td>
-<td>6 $112</td>
-<td>$672.00</td>
-</tr>
-<tr>
-<td></td>
-<td>PRJ003</td>
-<td>12/30/2024</td>
-<td>8 $180</td>
-<td>$1440.00</td>
-</tr>
-<tr>
-<td></td>
-<td>PRJ004</td>
-<td>12/31/2024</td>
-<td>7 $112</td>
-<td>$784.00</td>
-</tr>
-<tr>
-<td></td>
-<td>PRJ002</td>
-<td>1/12/2025</td>
-<td>7 $180</td>
-<td>$1260.00</td>
-</tr>
-<tr>
-<td></td>
-<td colspan="2">PRJ002 12/29/2024</td>
-<td>8 $180</td>
-<td>$1440.00</td>
-</tr>
-<tr>
-<td></td>
-<td>PRJ001</td>
-<td>12/17/2024</td>
-<td>8 $135</td>
-<td>$1080.00</td>
-</tr>
-<tr>
-<td></td>
-<td colspan="2">PRJ004 1/9/2025</td>
-<td>4 $112</td>
-<td>$448.00</td>
-</tr>
-<tr>
-<td></td>
-<td colspan="2">PRJ002 1/7/2025</td>
-<td>7 $157</td>
-<td>$1099.00</td>
-</tr>
-<tr>
-<td></td>
-<td colspan="2">PRJ003 1/13/2025</td>
-<td>7 $135</td>
-<td>$945.00</td>
-</tr>
-<tr>
-<td></td>
-<td>PRJ001</td>
-<td>12/25/2024</td>
-<td>4 $135</td>
-<td>$540.00</td>
-</tr>
-<tr>
-<td></td>
-<td colspan="2">PRJ003 12/21/2024</td>
-<td>7 $135</td>
-<td>$945.00</td>
-</tr>
-<tr>
-<td></td>
-<td>PRJ001</td>
 <td>12/23/2024</td>
-<td>5 $112</td>
-<td>$560.00</td>
-</tr>
-<tr>
-<td></td>
-<td>PRJ001</td>
-<td>12/17/2024</td>
-<td>7 $112</td>
-<td>$784.00</td>
-</tr>
-<tr>
-<td></td>
-<td>PRJ004</td>
-<td>12/26/2024</td>
-<td>5 $165</td>
-<td>$825.00</td>
-</tr>
-<tr>
-<td></td>
-<td>PRJ004</td>
-<td>12/21/2024</td>
-<td>4 $150</td>
-<td>$600.00</td>
-</tr>
-<tr>
-<td rowspan="4"></td>
-<td>PRJ003</td>
-<td>12/29/2024</td>
-<td>5 $157</td>
-<td>$785.00</td>
-</tr>
-<tr>
-<td>PRJ001</td>
-<td>1/13/2025</td>
-<td>5 $180</td>
-<td>$900.00</td>
-</tr>
-<tr>
-<td>PRJ001</td>
-<td>12/17/2024</td>
-<td>8 $157</td>
-<td>$1256.00</td>
-</tr>
-<tr>
-<td>PRJ002</td>
-<td>12/18/2024</td>
-<td>6 $127</td>
-<td>$762.00</td>
-</tr>
-<tr>
-<td rowspan="5">Jackie Wiegand</td>
-<td rowspan="5">Quality Assurance Engineer</td>
-<td>PRJ002</td>
-<td>12/22/2024</td>
-<td>4 $112</td>
-<td>$448.00</td>
-</tr>
-<tr>
-<td colspan="2">PRJ005 12/31/2024</td>
-<td>7 $127</td>
-<td>$889.00</td>
-</tr>
-<tr>
-<td colspan="2">PRJ003 12/17/2024</td>
-<td>6 $135</td>
-<td>$810.00</td>
-</tr>
-<tr>
-<td colspan="2">PRJ002 12/19/2024</td>
-<td>7 $165</td>
-<td>$1155.00</td>
-</tr>
-<tr>
-<td>PRJ005</td>
-<td>1/13/2025</td>
-<td>6 $180</td>
-<td>$1080.00</td>
-</tr>
-</table>
-
-
-<!-- PageBreak -->
-
-
-<table>
-<tr>
-<td rowspan="3"></td>
-<td rowspan="3"></td>
-<td>PRJ004 12/16/2024</td>
-<td>7</td>
-<td>$142</td>
-<td>$994.00</td>
-</tr>
-<tr>
-<td>PRJ003 12/21/2024</td>
-<td>7</td>
-<td>$150</td>
-<td>$1050.00</td>
-</tr>
-<tr>
-<td>PRJ001 1/10/2025</td>
-<td>8</td>
-<td>$120</td>
-<td>$960.00</td>
-</tr>
-<tr>
-<td rowspan="21">Dianna Stehr</td>
-<td rowspan="21">DevOps Engineer</td>
-<td>PRJ002 1/6/2025</td>
-<td colspan="2">5 $142</td>
-<td>$710.00</td>
-</tr>
-<tr>
-<td>PRJ001 12/28/2024</td>
-<td>7</td>
-<td>$157</td>
-<td>$1099.00</td>
-</tr>
-<tr>
-<td>PRJ003 12/30/2024</td>
-<td>4</td>
-<td>$142</td>
-<td>$568.00</td>
-</tr>
-<tr>
-<td>PRJ002 12/25/2024</td>
-<td colspan="2">7 $120</td>
-<td>$840.00</td>
-</tr>
-<tr>
-<td>PRJ005 1/2/2025</td>
-<td colspan="2">5 $165</td>
-<td>$825.00</td>
-</tr>
-<tr>
-<td>PRJ002 1/12/2025</td>
-<td>7</td>
-<td>$135</td>
-<td>$945.00</td>
-</tr>
-<tr>
-<td>PRJ003 1/8/2025</td>
-<td>6</td>
-<td>$150</td>
-<td>$900.00</td>
-</tr>
-<tr>
-<td>PRJ001 12/16/2024</td>
 <td>5</td>
 <td>$142</td>
 <td>$710.00</td>
 </tr>
 <tr>
-<td>PRJ001 12/21/2024</td>
+<td>Kenny Bradtke</td>
+<td>Full Stack Developer</td>
+<td>PRJ002</td>
+<td>12/21/2024</td>
+<td>4</td>
+<td>$135</td>
+<td>$540.00</td>
+</tr>
+<tr>
+<td>Jerry Ortiz MD</td>
+<td>Quality Assurance Engineer</td>
+<td>PRJ001</td>
+<td>1/2/2025</td>
+<td>4</td>
+<td>$112</td>
+<td>$448.00</td>
+</tr>
+<tr>
+<td>Brett Yundt</td>
+<td>Project Manager</td>
+<td>PRJ003</td>
+<td>12/29/2024</td>
 <td>7</td>
-<td>$127</td>
-<td>$889.00</td>
+<td>$165</td>
+<td>$1155.00</td>
 </tr>
 <tr>
-<td>PRJ001 1/7/2025</td>
-<td colspan="2">5 $150</td>
-<td>$750.00</td>
-</tr>
-<tr>
-<td>PRJ001 12/28/2024</td>
-<td colspan="2">4 $150</td>
-<td>$600.00</td>
-</tr>
-<tr>
-<td>PRJ004 12/29/2024</td>
-<td colspan="2">5 $135</td>
-<td>$675.00</td>
-</tr>
-<tr>
-<td>PRJ002 1/1/2025</td>
-<td colspan="2">6 $120</td>
-<td>$720.00</td>
-</tr>
-<tr>
-<td>PRJ002 1/7/2025</td>
-<td>7</td>
-<td>$157</td>
-<td>$1099.00</td>
-</tr>
-<tr>
-<td>PRJ005 12/16/2024</td>
+<td>Miss Amy Kuphal</td>
+<td>Security Engineer</td>
+<td>PRJ003</td>
+<td>12/18/2024</td>
 <td>8</td>
 <td>$157</td>
 <td>$1256.00</td>
 </tr>
 <tr>
-<td>PRJ002 12/23/2024</td>
+<td>Willard Waters PhD</td>
+<td>Project Manager</td>
+<td>PRJ002</td>
+<td>1/1/2025</td>
+<td>8</td>
+<td>$165</td>
+<td>$1320.00</td>
+</tr>
+<tr>
+<td>Jeanne Howell</td>
+<td>Data Scientist</td>
+<td>PRJ004</td>
+<td>12/22/2024</td>
 <td>4</td>
+<td>$150</td>
+<td>$600.00</td>
+</tr>
+<tr>
+<td>Kent Watsica</td>
+<td>Project Manager</td>
+<td>PRJ001</td>
+<td>12/23/2024</td>
+<td>5</td>
+<td>$165</td>
+<td>$825.00</td>
+</tr>
+<tr>
+<td>Dr. Cody Hyatt</td>
+<td>Business Analyst</td>
+<td>PRJ003</td>
+<td>1/4/2025</td>
+<td>6</td>
+<td>$127</td>
+<td>$762.00</td>
+</tr>
+<tr>
+<td>Allen Bauch</td>
+<td>Security Engineer</td>
+<td>PRJ005</td>
+<td>1/8/2025</td>
+<td>6</td>
 <td>$157</td>
-<td>$628.00</td>
+<td>$942.00</td>
 </tr>
 <tr>
-<td>PRJ003 12/24/2024</td>
-<td colspan="2">5 $135</td>
-<td>$675.00</td>
+<td>Glenda Macejkovic</td>
+<td>Technical Writer</td>
+<td>PRJ003</td>
+<td>12/27/2024</td>
+<td>7</td>
+<td>$105</td>
+<td>$735.00</td>
 </tr>
 <tr>
-<td>PRJ004 12/21/2024</td>
-<td colspan="2">5 $112</td>
+<td>Terrance Hansen</td>
+<td>Business Analyst</td>
+<td>PRJ003</td>
+<td>1/2/2025</td>
+<td>6</td>
+<td>$127</td>
+<td>$762.00</td>
+</tr>
+<tr>
+<td>Brandon Mayert Sr.</td>
+<td>UX/UI Designer</td>
+<td>PRJ004</td>
+<td>12/19/2024</td>
+<td>7</td>
+<td>$120</td>
+<td>$840.00</td>
+</tr>
+<tr>
+<td>Jerald Weissnat</td>
+<td>Security Engineer</td>
+<td>PRJ002</td>
+<td>12/29/2024</td>
+<td>6</td>
+<td>$157</td>
+<td>$942.00</td>
+</tr>
+<tr>
+<td>Winifred Graham</td>
+<td>Data Scientist</td>
+<td>PRJ004</td>
+<td>12/23/2024</td>
+<td>6</td>
+<td>$150</td>
+<td>$900.00</td>
+</tr>
+<tr>
+<td>Alison Corwin</td>
+<td>UX/UI Designer</td>
+<td>PRJ002</td>
+<td>1/3/2025</td>
+<td>8</td>
+<td>$120</td>
+<td>$960.00</td>
+</tr>
+<tr>
+<td>Diana Mayer-Gislason</td>
+<td>Senior Software Architect</td>
+<td>PRJ004</td>
+<td>12/27/2024</td>
+<td>8</td>
+<td>$180</td>
+<td>$1440.00</td>
+</tr>
+<tr>
+<td>Carol Murphy</td>
+<td>Quality Assurance Engineer</td>
+<td>PRJ001</td>
+<td>12/30/2024</td>
+<td>5</td>
+<td>$112</td>
 <td>$560.00</td>
 </tr>
 <tr>
-<td>PRJ005 1/6/2025</td>
-<td colspan="2">6 $180</td>
+<td>Mack Lockman</td>
+<td>Security Engineer</td>
+<td>PRJ001</td>
+<td>1/12/2025</td>
+<td>6</td>
+<td>$157</td>
+<td>$942.00</td>
+</tr>
+<tr>
+<td>Mrs. Yolanda Hoeger DDS</td>
+<td>Quality Assurance Engineer</td>
+<td>PRJ001</td>
+<td>12/26/2024</td>
+<td>4</td>
+<td>$112</td>
+<td>$448.00</td>
+</tr>
+<tr>
+<td>Jaime Aufderhar</td>
+<td>DevOps Engineer</td>
+<td>PRJ005</td>
+<td>12/21/2024</td>
+<td>5</td>
+<td>$142</td>
+<td>$710.00</td>
+</tr>
+<tr>
+<td>Leslie Windler</td>
+<td>Quality Assurance Engineer</td>
+<td>PRJ004</td>
+<td>1/1/2025</td>
+<td>6</td>
+<td>$112</td>
+<td>$672.00</td>
+</tr>
+<tr>
+<td>Lyle Runolfsson DDS</td>
+<td>Project Manager</td>
+<td>PRJ001</td>
+<td>1/6/2025</td>
+<td>7</td>
+<td>$165</td>
+<td>$1155.00</td>
+</tr>
+<tr>
+<td>Hubert Ward</td>
+<td>Senior Software Architect</td>
+<td>PRJ005</td>
+<td>12/30/2024</td>
+<td>4</td>
+<td>$180</td>
+<td>$720.00</td>
+</tr>
+<tr>
+<td>Julio Casper</td>
+<td>Senior Software Architect</td>
+<td>PRJ005</td>
+<td>1/11/2025</td>
+<td>6</td>
+<td>$180</td>
 <td>$1080.00</td>
 </tr>
 <tr>
-<td>PRJ004 12/19/2024</td>
-<td colspan="2">4 $142</td>
-<td>$568.00</td>
+<td>Ms. Joann Anderson</td>
+<td>Data Scientist</td>
+<td>PRJ002</td>
+<td>1/10/2025</td>
+<td>4</td>
+<td>$150</td>
+<td>$600.00</td>
 </tr>
 <tr>
-<td>PRJ004 12/24/2024</td>
+<td>Eleanor Gutkowski</td>
+<td>Business Analyst</td>
+<td>PRJ004</td>
+<td>1/9/2025</td>
 <td>6</td>
+<td>$127</td>
+<td>$762.00</td>
+</tr>
+<tr>
+<td>Nancy Ziemann</td>
+<td>Security Engineer</td>
+<td>PRJ002</td>
+<td>1/3/2025</td>
+<td>7</td>
+<td>$157</td>
+<td>$1099.00</td>
+</tr>
+<tr>
+<td>Ellis Mraz</td>
+<td>Senior Software Architect</td>
+<td>PRJ004</td>
+<td>12/30/2024</td>
+<td>8</td>
+<td>$180</td>
+<td>$1440.00</td>
+</tr>
+<tr>
+<td>Marie Flatley</td>
+<td>Full Stack Developer</td>
+<td>PRJ003</td>
+<td>1/7/2025</td>
+<td>4</td>
+<td>$135</td>
+<td>$540.00</td>
+</tr>
+<tr>
+<td>Dale Turcotte</td>
+<td>Technical Writer</td>
+<td>PRJ003</td>
+<td>12/27/2024</td>
+<td>8</td>
 <td>$105</td>
-<td>$630.00</td>
-</tr>
-<tr>
-<td></td>
-<td></td>
-<td>PRJ005 12/17/2024</td>
-<td colspan="2">8 $150</td>
-<td>$1200.00</td>
-</tr>
-<tr>
-<td></td>
-<td></td>
-<td colspan="2">Totals:</td>
-<td>743</td>
-<td>-</td>
+<td>$840.00</td>
 </tr>
 </table>
 
 
-$107167.00
+<!-- PageBreak -->
+
+
+<table>
+<tr>
+<td>Krystal Rowe</td>
+<td>Security Engineer</td>
+<td>PRJ003</td>
+<td>12/26/2024</td>
+<td>8</td>
+<td>$157</td>
+<td>$1256.00</td>
+<td></td>
+</tr>
+<tr>
+<td>Tony Zboncak</td>
+<td>UX/UI Designer</td>
+<td>PRJ002</td>
+<td>1/13/2025</td>
+<td>5</td>
+<td>$120</td>
+<td>$600.00</td>
+<td></td>
+</tr>
+<tr>
+<td>Orlando Hansen</td>
+<td>Project Manager</td>
+<td>PRJ003</td>
+<td>1/5/2025</td>
+<td>7</td>
+<td>$165</td>
+<td>$1155.00</td>
+<td></td>
+</tr>
+<tr>
+<td>Teresa Padberg Sr.</td>
+<td>Project Manager</td>
+<td>PRJ001</td>
+<td>1/13/2025</td>
+<td>4</td>
+<td>$165</td>
+<td>$660.00</td>
+<td></td>
+</tr>
+<tr>
+<td>Kelly Hoeger-Doyle</td>
+<td>Full Stack Developer</td>
+<td>PRJ001</td>
+<td>1/11/2025</td>
+<td>4</td>
+<td>$135</td>
+<td>$540.00</td>
+<td></td>
+</tr>
+<tr>
+<td>Mr. Lonnie Botsford</td>
+<td>Project Manager</td>
+<td>PRJ001</td>
+<td>12/16/2024</td>
+<td>7</td>
+<td>$165</td>
+<td>$1155.00</td>
+<td></td>
+</tr>
+<tr>
+<td>Alfonso Abbott</td>
+<td>UX/UI Designer</td>
+<td>PRJ001</td>
+<td>1/13/2025</td>
+<td>4</td>
+<td>$120</td>
+<td>$480.00</td>
+<td></td>
+</tr>
+<tr>
+<td>Ms. Faith Gorczany</td>
+<td>DevOps Engineer</td>
+<td>PRJ004</td>
+<td>12/15/2024</td>
+<td>4</td>
+<td>$142</td>
+<td>$568.00</td>
+<td></td>
+</tr>
+<tr>
+<td>Phillip Crist</td>
+<td>Business Analyst</td>
+<td>PRJ004</td>
+<td>1/13/2025</td>
+<td>8</td>
+<td>$127</td>
+<td>$1016.00</td>
+<td></td>
+</tr>
+<tr>
+<td>Brandi Wolf</td>
+<td>Project Manager</td>
+<td>PRJ004</td>
+<td>12/17/2024</td>
+<td>8</td>
+<td>$165</td>
+<td>$1320.00</td>
+<td></td>
+</tr>
+<tr>
+<td>Mrs. Gail Ebert</td>
+<td>Data Scientist</td>
+<td>PRJ001</td>
+<td>1/6/2025</td>
+<td>7</td>
+<td>$150</td>
+<td>$1050.00</td>
+<td></td>
+</tr>
+<tr>
+<td>Dr. Edmund Mertz Sr.</td>
+<td>UX/UI Designer</td>
+<td>PRJ001</td>
+<td>1/1/2025</td>
+<td>4</td>
+<td>$120</td>
+<td>$480.00</td>
+<td></td>
+</tr>
+<tr>
+<td>Frank Littel</td>
+<td>Project Manager</td>
+<td>PRJ001</td>
+<td>12/31/2024</td>
+<td>4</td>
+<td>$165</td>
+<td>$660.00</td>
+<td></td>
+</tr>
+<tr>
+<td>Hubert Carroll-Jaskolski DVM</td>
+<td>Technical Writer</td>
+<td>PRJ004</td>
+<td>12/26/2024</td>
+<td>5</td>
+<td>$105</td>
+<td>$525.00</td>
+<td></td>
+</tr>
+<tr>
+<td>Leland Franey</td>
+<td>Project Manager</td>
+<td>PRJ003</td>
+<td>1/5/2025</td>
+<td>4</td>
+<td>$165</td>
+<td>$660.00</td>
+<td></td>
+</tr>
+<tr>
+<td>Dr. Merle Maggio</td>
+<td>Project Manager</td>
+<td>PRJ004</td>
+<td>1/10/2025</td>
+<td>4</td>
+<td>$165</td>
+<td>$660.00</td>
+<td></td>
+</tr>
+<tr>
+<td>Nina Ryan-Daniel</td>
+<td>Technical Writer</td>
+<td>PRJ005</td>
+<td>12/16/2024</td>
+<td>5</td>
+<td>$105</td>
+<td>$525.00</td>
+<td></td>
+</tr>
+<tr>
+<td>Rudolph Bogan-Pacocha II</td>
+<td>DevOps Engineer</td>
+<td>PRJ005</td>
+<td>12/29/2024</td>
+<td>6</td>
+<td>$142</td>
+<td>$852.00</td>
+<td></td>
+</tr>
+<tr>
+<td>Nicholas Treutel</td>
+<td>Technical Writer</td>
+<td>PRJ001</td>
+<td>1/11/2025</td>
+<td>7</td>
+<td>$105</td>
+<td>$735.00</td>
+<td></td>
+</tr>
+<tr>
+<td>Casey Rempel</td>
+<td>Full Stack Developer</td>
+<td>PRJ004</td>
+<td>12/25/2024</td>
+<td>8</td>
+<td>$135</td>
+<td>$1080.00</td>
+<td></td>
+</tr>
+<tr>
+<td>Lowell Bailey</td>
+<td>Data Scientist</td>
+<td>PRJ004</td>
+<td>1/2/2025</td>
+<td>4</td>
+<td>$150</td>
+<td>$600.00</td>
+<td></td>
+</tr>
+<tr>
+<td>Troy Pollich I</td>
+<td>Security Engineer</td>
+<td>PRJ001</td>
+<td>1/13/2025</td>
+<td>6</td>
+<td>$157</td>
+<td>$942.00</td>
+<td></td>
+</tr>
+<tr>
+<td>Gretchen Moen</td>
+<td>Quality Assurance Engineer</td>
+<td>PRJ002</td>
+<td>1/12/2025</td>
+<td>5</td>
+<td>$112</td>
+<td>$560.00</td>
+<td></td>
+</tr>
+<tr>
+<td>Shelia Metz</td>
+<td>Quality Assurance Engineer</td>
+<td>PRJ003</td>
+<td>1/4/2025</td>
+<td>4</td>
+<td>$112</td>
+<td>$448.00</td>
+<td></td>
+</tr>
+<tr>
+<td>Nelson Cronin</td>
+<td>Technical Writer</td>
+<td>PRJ005</td>
+<td>12/26/2024</td>
+<td>5</td>
+<td>$105</td>
+<td>$525.00</td>
+<td></td>
+</tr>
+<tr>
+<td>Leon Jacobi</td>
+<td>Business Analyst</td>
+<td>PRJ001</td>
+<td>1/6/2025</td>
+<td>8</td>
+<td>$127</td>
+<td>$1016.00</td>
+<td></td>
+</tr>
+<tr>
+<td>Beverly Armstrong</td>
+<td>UX/UI Designer</td>
+<td>PRJ002</td>
+<td>1/2/2025</td>
+<td>8</td>
+<td>$120</td>
+<td>$960.00</td>
+<td></td>
+</tr>
+<tr>
+<td>Lucille Gusikowski</td>
+<td>Technical Writer</td>
+<td>PRJ005</td>
+<td>1/3/2025</td>
+<td>6</td>
+<td>$105</td>
+<td>$630.00</td>
+<td></td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td colspan="3">Totals:</td>
+<td>418</td>
+<td>-</td>
+<td>$58397.00</td>
+</tr>
+</table>
