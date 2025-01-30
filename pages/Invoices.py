@@ -13,11 +13,13 @@ with a:
     if st.button("Back",key="secondary"):
         st.switch_page("pages/Contracts.py")
 
+
 contractId=None
 
 if 'contractId' in st.session_state:
     print("inside")
     contractId=st.session_state.contractId
+
 
 # print(" rerun contractId",contractId)
 
@@ -180,7 +182,6 @@ else:
 
     # Editing the Invoice 
 
-    st.header(f"Invoices")
     addbtn=st.button("Add an Invoice", type="primary",disabled=Contract.get(i=option)["status"]!=values.SUCCESS.value)
 
     if invList: 
@@ -215,8 +216,14 @@ else:
                     if c.button(":material/delete:",key=str(i)+'del'):
                         delete(invList[i]["actualInd"])
                     
-                    if st.button("Results",key="an"+str(i),disabled=invList[i]["status"]!=values.SUCCESS):
+                    d,e=st.columns([2,2],gap="small")
+                    if d.button("Results",key="an"+str(i),disabled=invList[i]["status"]!=values.SUCCESS):
                         results(invList[i]["actualInd"])
+                    
+                    if e.button("Analytics",key="a"+str(i),disabled=invList[i]["status"]!=values.SUCCESS):
+                        st.session_state.invoiceId=i
+                        st.session_state.contractId1=contractId
+                        st.switch_page("pages/invoice_analysis.py")
 
     if addbtn:
         st.session_state.edit=False

@@ -3,3 +3,7 @@ sh file for deployment.txt
 .streamlit/secrets.toml
 */*/__pycache__
 */__pycache__
+result_data.json
+result_data.txt
+text.py
+output.txt

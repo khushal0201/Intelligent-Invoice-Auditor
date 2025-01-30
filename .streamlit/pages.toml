@@ -1,9 +1,29 @@
 [[pages]]
+name="Home"
+is_section=true
+icon="📄"
+
+[[pages]]
 path = "pages/Contracts.py"
 name = "Contracts"
-icon = "📃"
+icon = ""
 
 [[pages]]
 path = "pages/Invoices.py"
-name = "Invoices"
-icon = "📄"
+name = "  Invoices"
+icon = ""
+
+[[pages]]
+name = "Analytics"
+icon = "📊"
+is_section = true
+
+[[pages]]
+path = "pages/invoice_analysis.py"
+name = "  Invoice Analysis"
+icon = ""
+
+[[pages]]
+path = "pages/contract_analysis.py"
+name = "  Contract Analysis"
+icon = ""
