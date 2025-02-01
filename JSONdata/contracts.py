@@ -295,10 +295,76 @@ This analysis ensures that all extracted rules are categorized appropriately and
     },
     {
         "id":6,
-        "name":"contract 34",
+        "name":"Actual Contract",
         "status":1,
         "content":"Some contract content",
-        "rules":" some rules"
+        "rules":"""
+### Extracted Rules and Rate Card
+
+#### **Time-Related Violations**
+1. **Maximum daily work hours**:
+   - Standard working day: 8 hours (9:00 AM - 5:00 PM local time).
+   - Maximum billable hours per day: 12 hours.
+2. **Time increments for logging work**:
+   - Hours worked must be logged in minimum increments of 0.5 hours.
+3. **Weekend work restrictions**:
+   - Weekend work must be pre-approved in writing by the Project Manager.
+4. **Public holiday work**:
+   - Holiday work must be pre-approved and is subject to 1.5x the standard rate.
+
+---
+
+#### **Rate-Related Violations**
+1. **Correct rates for roles**:
+   - Refer to the full rate card (listed below) for each role.
+   - Overtime rates apply to hours worked beyond 8 hours per day.
+2. **Role assignments**:
+   - Unauthorized assignments to roles not listed in the rate card are not allowed.
+3. **Rate card mismatches**:
+   - Exceeding the agreed-upon rate schedule is a violation unless mutually agreed upon in writing.
+
+---
+
+#### **Rate Card**
+| **Contractor Type**         | **Experience Level** | **Day Rate (USD)** | **Overtime Rate (per hour)** |
+|------------------------------|----------------------|--------------------|-----------------------------|
+| Senior Software Architect   | 10+ years           | $1,200            | $180                        |
+| Full Stack Developer         | 5-9 years           | $900              | $135                        |
+| DevOps Engineer              | 5+ years            | $950              | $142                        |
+| Data Scientist               | 5+ years            | $1,000            | $150                        |
+| UX/UI Designer               | 3+ years            | $800              | $120                        |
+| Quality Assurance Engineer   | 3+ years            | $750              | $112                        |
+| Business Analyst             | 5+ years            | $850              | $127                        |
+| Project Manager              | 7+ years            | $1,100            | $165                        |
+| Security Engineer            | 5+ years            | $1,050            | $157                        |
+| Technical Writer             | 3+ years            | $700              | $105                        |
+
+---
+
+#### **Compliance Violations**
+1. **Project code requirement**:
+   - All timesheet entries must include a project code and name.
+2. **Approval signatures**:
+   - Timesheets must include the Project Manager’s approval signature.
+3. **Project assignment validity**:
+   - Tasks must be assigned to the correct project code as specified in Schedule A.
+
+---
+
+#### **Role-Based Rules**
+1. **Compensation per role**:
+   - Refer to the rate card above for the compensation breakdown per role.
+2. **Experience requirement**:
+   - Each contractor must meet the specified experience level for their role:
+     - Example: Senior Software Architect requires 10+ years of experience.
+3. **Additional qualifications**:
+   - Specific qualifications or certifications may be required, as defined in Schedule A.
+
+--- 
+
+This list consolidates all relevant rules and includes the detailed rate card for reference.
+
+"""
     },
     {
         "id":7,

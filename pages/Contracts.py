@@ -69,7 +69,8 @@ def editContent(i,obj):
             st.write("Creating Rule Prompt")
             rules=contractAnalysis(content)
             obj["rules"]=rules
-
+            with open('rules.txt', 'w', encoding='utf-8') as file:
+                file.write(rules)
 
             status.update(
                 label="Process complete!", state="complete",expanded=True

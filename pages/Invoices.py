@@ -217,10 +217,11 @@ else:
                         delete(invList[i]["actualInd"])
                     
                     d,e=st.columns([2,2],gap="small")
-                    if d.button("Results",key="an"+str(i),disabled=invList[i]["status"]!=values.SUCCESS):
+                    print("invlist val:",invList[i])
+                    if d.button("Results",key="an"+str(i),disabled=int(invList[i]["status"])!=values.SUCCESS.value):
                         results(invList[i]["actualInd"])
                     
-                    if e.button("Analytics",key="a"+str(i),disabled=invList[i]["status"]!=values.SUCCESS):
+                    if e.button("Analytics",key="a"+str(i),disabled=int(invList[i]["status"])!=values.SUCCESS.value):
                         st.session_state.invoiceId=i
                         st.session_state.contractId1=contractId
                         st.switch_page("pages/invoice_analysis.py")
