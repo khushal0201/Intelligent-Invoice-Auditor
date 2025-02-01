@@ -162,8 +162,7 @@ else:
     
     @st.dialog("Results")
     def results(ind):
-        if 'view_data' not in st.session_state:
-            st.session_state.view_data = False
+        st.session_state.view_data = False
         anomalies=Invoice.get(i=ind)["anomalies"]
         
         e,f,h=st.columns([1, 1, 2])
