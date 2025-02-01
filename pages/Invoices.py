@@ -103,7 +103,7 @@ else:
                 status.update(
                     label="Process complete!", state="complete",expanded=False
                 )
-                obj["status"]=values.SUCCESS
+                obj["status"]=values.SUCCESS.value
                 # print("Before updating")
                 Invoice.update(i=ind,obj=obj)
                 st.session_state.file=False
@@ -172,7 +172,7 @@ else:
             st.write("Data:")
             st.write(df)
         
-        if e.button("Anamolies") :
+        if e.button("Anomalies") :
             st.session_state.view_data=False
             
         if not st.session_state.view_data:
