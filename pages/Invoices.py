@@ -151,25 +151,38 @@ else:
             obj=Invoice.get(i=st.session_state.edit_item)
             editContent(st.session_state.edit_item,obj)
         
-    def downloadData(i):
+    def downloadData(i,h):
         df=Invoice.get(i=i)["employeeData"]
         csv=df.to_csv(index=False).encode('utf-8')
         invoiceName=str(Invoice.get(i=i)["name"])+'.csv'
 
-                # Different ways to use the API
+        # Different ways to use the API
         b,c=st.columns([1,3],gap="large")
-        c.download_button('Download Invoice Data', csv,invoiceName, 'text/csv',icon=":material/download:",use_container_width=True)
+        h.download_button('Download Invoice Data', csv,invoiceName, 'text/csv',icon=":material/download:",use_container_width=True)
     
     @st.dialog("Results")
     def results(ind):
+        if 'view_data' not in st.session_state:
+            st.session_state.view_data = False
         anomalies=Invoice.get(i=ind)["anomalies"]
-
-        downloadData(ind)
         
-        st.write("Anomalies found:")
-        for i in anomalies:
-            container = st.container(border=True)
-            container.write(i)
+        e,f,h=st.columns([1, 1, 2])
+        if f.button("View Data"):
+            st.session_state.view_data=True
+            df=Invoice.get(i=ind)["employeeData"]
+            st.write("Data:")
+            st.write(df)
+        
+        if e.button("Anamolies") :
+            st.session_state.view_data=False
+            
+        if not st.session_state.view_data:
+            st.write("Anomalies found:")
+            for i in anomalies:
+                container = st.container(border=True)
+                container.write(i)
+        downloadData(ind,h)
+        
         
 
 
