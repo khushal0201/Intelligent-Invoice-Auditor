@@ -103,7 +103,7 @@ else:
                 status.update(
                     label="Process complete!", state="complete",expanded=False
                 )
-                obj["status"]=values.SUCCESS
+                obj["status"]=values.SUCCESS.value
                 # print("Before updating")
                 Invoice.update(i=ind,obj=obj)
                 st.session_state.file=False
@@ -179,6 +179,7 @@ else:
         Invoice.delete(i=indx)
         st.rerun()
 
+    st.write("")
 
     # Editing the Invoice 
 
@@ -197,7 +198,7 @@ else:
         for i in range(len(invList)):
             col=grid[i]
             
-            with col.container(border=True,height=None):
+            with col.container(border=True):
                 
                     c1,c2=st.columns([3,1],gap="small")
                     c1.subheader(invList[i]["name"])
@@ -205,7 +206,8 @@ else:
                     st.write("")
                     st.write("")
                     st.write("")
-                    
+                    st.write("")
+                    st.write("")                    
                     b,c=st.columns([3,1],gap="small")
                 
                     if b.button('View/Edit',type="secondary",key='v'+str(i),use_container_width=True):
@@ -218,10 +220,10 @@ else:
                     
                     d,e=st.columns([2,2],gap="small")
                     print("invlist val:",invList[i])
-                    if d.button("Results",key="an"+str(i),disabled=int(invList[i]["status"])!=values.SUCCESS.value):
+                    if d.button("Results",key="an"+str(i),disabled=invList[i]["status"]!=values.SUCCESS.value):
                         results(invList[i]["actualInd"])
                     
-                    if e.button("Analytics",key="a"+str(i),disabled=int(invList[i]["status"])!=values.SUCCESS.value):
+                    if e.button("Analytics",key="a"+str(i),disabled=invList[i]["status"]!=values.SUCCESS.value):
                         st.session_state.invoiceId=i
                         st.session_state.contractId1=contractId
                         st.switch_page("pages/invoice_analysis.py")
