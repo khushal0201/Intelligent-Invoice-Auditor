@@ -103,7 +103,7 @@ else:
                 status.update(
                     label="Process complete!", state="complete",expanded=False
                 )
-                obj["status"]=values.SUCCESS
+                obj["status"]=values.SUCCESS.value
                 # print("Before updating")
                 Invoice.update(i=ind,obj=obj)
                 st.session_state.file=False
@@ -151,25 +151,37 @@ else:
             obj=Invoice.get(i=st.session_state.edit_item)
             editContent(st.session_state.edit_item,obj)
         
-    def downloadData(i):
+    def downloadData(i,h):
         df=Invoice.get(i=i)["employeeData"]
         csv=df.to_csv(index=False).encode('utf-8')
         invoiceName=str(Invoice.get(i=i)["name"])+'.csv'
 
-                # Different ways to use the API
+        # Different ways to use the API
         b,c=st.columns([1,3],gap="large")
-        c.download_button('Download Invoice Data', csv,invoiceName, 'text/csv',icon=":material/download:",use_container_width=True)
+        h.download_button('Download Invoice Data', csv,invoiceName, 'text/csv',icon=":material/download:",use_container_width=True)
     
     @st.dialog("Results")
     def results(ind):
+        st.session_state.view_data = False
         anomalies=Invoice.get(i=ind)["anomalies"]
-
-        downloadData(ind)
         
-        st.write("Anomalies found:")
-        for i in anomalies:
-            container = st.container(border=True)
-            container.write(i)
+        e,f,h=st.columns([1, 1, 2])
+        if f.button("View Data"):
+            st.session_state.view_data=True
+            df=Invoice.get(i=ind)["employeeData"]
+            st.write("Data:")
+            st.write(df)
+        
+        if e.button("Anomalies") :
+            st.session_state.view_data=False
+            
+        if not st.session_state.view_data:
+            st.write("Anomalies found:")
+            for i in anomalies:
+                container = st.container(border=True)
+                container.write(i)
+        downloadData(ind,h)
+        
         
 
 
@@ -217,10 +229,10 @@ else:
                         delete(invList[i]["actualInd"])
                     
                     d,e=st.columns([2,2],gap="small")
-                    if d.button("Results",key="an"+str(i),disabled=invList[i]["status"]!=values.SUCCESS):
+                    if d.button("Results",key="an"+str(i),disabled=invList[i]["status"]!=values.SUCCESS.value):
                         results(invList[i]["actualInd"])
                     
-                    if e.button("Analytics",key="a"+str(i),disabled=invList[i]["status"]!=values.SUCCESS):
+                    if e.button("Analytics",key="a"+str(i),disabled=invList[i]["status"]!=values.SUCCESS.value):
                         st.session_state.invoiceId=i
                         st.session_state.contractId1=contractId
                         st.switch_page("pages/invoice_analysis.py")
