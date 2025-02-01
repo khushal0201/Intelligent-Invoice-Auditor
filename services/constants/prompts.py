@@ -265,17 +265,37 @@ def ChatPrompt():
      
 
      return """
+ - Greet the user politely and ask for their query related to invoices, and let them know that queries  will be answered for the data available.
+- The user's query should be analyzed and a DuckDB-compatible SQL query should be generated based on the columns available.
+- The User has a dataframe named df.
+- The available columns are: 
+  - `contractorName`, `role`, `projectCode`, `description`, `date`, `hours`, `rate`, `amount`.
+- If the query is out of context (e.g., a greeting, or unrelated to invoices), respond politely with a message and add the text to out_of_context_text variable and set need_query to false.
+- If the query is related to invoices, generate the appropriate SQL query and set `needs_query` to `True`.
+- Return the SQL query inside a JSON object, with the following structure:
+response should be in the below format only.
+  ```json
+  {
+    "query": "SQL query",
+    "needs_query": False or True,
+    "out_of_context_text": "Text"
+  }
+  ```
 
-You are an Invoice Auditor
-You have to answer questions only related with invoice,
-and reply back only to Invoice questions.
+"""
 
-Do not reply well to off topics
+def summary_generator_prompt(user_query,csv_data):
+     
+     return f"""
+- Analyze the user's query and the provided CSV data.
+- Construct a table in Markdown format using the CSV data to answer the user's query.
+- Provide a brief text explanation of the data in the context of the user's query.
+- If the CSV data contains the string "no results found for the query" or is empty, politely suggest the user rephrase or retry their question.
+  - Example response: "We couldn't find relevant data. Please check the question for typos or try rephrasing it."
+- Ensure that the summary or response is clear, accurate, and directly answers the user's query based on the available data.
 
-Greet User if user hasn't messaged yet
+User Query: {user_query}
 
-Always reply in the language user is talking and switch back and forth.
-
-Starting Language is always English
-
+csv_data:
+{csv_data}
 """
