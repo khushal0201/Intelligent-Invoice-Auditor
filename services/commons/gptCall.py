@@ -137,7 +137,7 @@ def extractInvoice():
     results = []
     last_data = None
     batch_size = 10  # We will process 10 rows at a time
-    
+    logArr=[]
     # Process the content in batches of 10
     for i in range(0, len(data_rows_tr), batch_size):
         batch = data_rows_tr[i:i+batch_size]
@@ -146,22 +146,31 @@ def extractInvoice():
         batch_content = ','.join(batch)
         # print(f"total length: {len(data_rows_tr)}")
         # print(f"batch: {batch_content}")
-        
+        print("input values:",batch_content,"\n\n")
+
         prompt = f"{EmployeeData()}"
         val=GPTCall(prompt,last_data,batch_content,type="extract")
         # print("parsed employee",val)
         print(f"values: {val}")
+    
         employees=val["parsed"]["contractor"]
+
+        # print("input len:",len(batch),"output batch:",len(employees))
         last_data=employees[-2:]
 
         results.extend(employees)
         print("Count of results:", len(results))
+        logArr.append(f"input len:{len(batch)},output batch:{len(employees)}, total count: {len(results)}")
         print(i)
 
+    print("\n\nComparisions:\\")
+    print("\n".join(logArr))
     employeeDF=pd.DataFrame(results)
+    employeeDF.to_csv('rawOutput.csv', index=False)
     employeeDF = employeeDF[(employeeDF['hours'] != 0) & (employeeDF['rate'] != 0) & (employeeDF['amount'] != 0)]
     employeeDF = employeeDF.ffill()
     employeeDF = employeeDF.drop_duplicates(subset=['contractorName', 'role','projectCode','date','hours','rate','amount'])
+    employeeDF.to_csv('processedOutput.csv', index=False)
     print(employeeDF)
     
     

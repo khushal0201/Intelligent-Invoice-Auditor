@@ -7,3 +7,5 @@ result_data.json
 result_data.txt
 text.py
 output.txt
+rawOutput.csv
+processedOutput.csv

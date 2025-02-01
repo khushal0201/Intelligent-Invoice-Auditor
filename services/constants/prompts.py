@@ -208,6 +208,7 @@ Given the following random invoice data with missing contractor names and data t
 <tr><td>PRJ003</td><td>optimize database queries</td></tr>,
 <tr><td>12/05/2024</td><td>8</td><td>$150</td><td>$1200.00</td></tr>,
 <tr><td>PRJ004</td><td>implement security patch</td><td>12/15/2024</td><td>7</td><td>$155</td><td>$1085.00</td></tr>,
+<tr><td></td><td></td><td></td><td>PRJ004 1/6/2025</td><td>7</td><td>$180</td><td>$1260.00</td></tr>,
 <tr><td>Jane Smith</td><td>Project Manager</td><td>PRJ003</td><td>organize team meeting</td><td>12/01/2024</td><td>3</td><td>$120</td><td>$360.00</td></tr>
 
 {
@@ -251,11 +252,23 @@ Given the following random invoice data with missing contractor names and data t
       "hours": "7",
       "rate": "155",
       "amount": "1085.00"
+    },
+    {
+      "contractorName": "John Doe",
+      "role": "Senior Developer",
+      "projectCode": "PRJ004",
+      "description": "implement security patch",
+      "date": "2025-1-16T00:00:00.000Z",
+      "hours": "7",
+      "rate": "180",
+      "amount": "1260.00"
     }
   ]
 }
 
 Additional Notes for Continuing Data Extraction:
 The user will provide the last processed record in each subsequent request. Please refer that also for more context and name of the contractor.
+
+
 
 """
