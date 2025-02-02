@@ -68,14 +68,14 @@ else:
                 st.write("")
                 col1, col2, col3 = st.columns(3)
                 with col1:
-                    st.metric("Total Contractors:", f"🤵 {millify(len(df1))}", border=True)
+                    st.metric("Total Contractors:", f"🤵 {millify(len(df1["contractorName"].unique()))}", border=True)
                 with col2:
                     st.metric("Average Working Hours:", f"⌛ {millify(df1["hours"].mean())}", border=True)
                 with col3:
                     st.metric("Total Amount:", f"💲 {millify(df1["amount"].sum())}", border=True)
             
             top_kpis()
-            df = df1.groupby('contractorName')[['hours', 'amount']].sum()
+            df = df1.groupby('contractorName')[['hours', 'amount']].sum().assign(entries=df1.groupby('contractorName').size())
             df = df.reset_index()
             st.write("")
             st.write("")
@@ -91,7 +91,9 @@ else:
                 y=alt.Y('hours', title='Hours'),
             ).interactive()
 
-            tab1, tab2 = st.tabs(["Employee Recevied Amount", "Employee Working Hours Trend"])
+            tabs=st.container(border=True)
+
+            tab1, tab2 = tabs.tabs(["Employee Recevied Amount", "Employee Working Hours Trend"])
 
             with tab1:
                 # Use the Streamlit theme.
@@ -127,11 +129,16 @@ else:
                 st.altair_chart(chart, theme="streamlit", use_container_width=True)
 
             # col1,col2=st.columns(2)
-            
-            role_pie_chart()
 
-          
-            top_paid_contractors()
+            container1=st.container(border=True)
+            container2=st.container(border=True)
+
+            with container1:
+                role_pie_chart()
+
+            with container2:
+
+                top_paid_contractors()
         else:
             st.header("No Data in invoice")
 

@@ -1,6 +1,5 @@
 
 import streamlit as st
-import time
 from services.commons.docIntelligence import extractContent
 from services.commons.gptCall import invoiceAnalysis,extractInvoice
 from services.commons.dbcalls import Invoice,Contract
