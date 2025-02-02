@@ -2,7 +2,7 @@ import streamlit as st
 import time
 from services.commons.docIntelligence import extractContent
 from services.commons.gptCall import contractAnalysis
-from services.commons.dbcalls import Contract
+from services.commons.dbcalls import Contract,Invoice
 from services.constants.enums import values,color
 from dialogBoxes.rulesDialog import rule_dialog
 
@@ -65,11 +65,14 @@ def editContent(i,obj):
             content=extractContent(data)
 
             obj["content"]=content
+            with open('contractContent.txt', 'w', encoding='utf-8') as file:
+                file.write(content)
 
             st.write("Creating Rule Prompt")
             rules=contractAnalysis(content)
             obj["rules"]=rules
-
+            with open('rules.txt', 'w', encoding='utf-8') as file:
+                file.write(rules)
 
             status.update(
                 label="Process complete!", state="complete",expanded=True
@@ -188,9 +191,18 @@ if contractList:
                 if c.button(":material/delete:",key=str(i)+'del',type="secondary"):
                     delete(i)
                 
-                if d.button("Rules",key=str(i)+"rule",type="secondary",disabled=contractList[i]["status"]!=values.SUCCESS.value):
-                     
+                if d.button("Rules",key=str(i)+"rule",type="secondary",disabled=contractList[i]["status"]!=values.SUCCESS.value): 
                     rule_dialog(i)
+                
+                e,f=st.columns([2,2],gap="small")
+                if e.button("Analytics",key="a"+str(i),disabled=not(contractList[i]["status"]==values.SUCCESS.value and len(Invoice.get(contractId=i))!=0)):
+                    st.session_state.contractId1=i
+                    st.switch_page("pages/contract_analysis.py")
+                
+                if f.button("💬 Chat",key="chat"+str(i),disabled=not(contractList[i]["status"]==values.SUCCESS.value )):
+                    st.session_state.contractId1=i
+                    st.session_state.messages=[]
+                    st.switch_page("pages/Chat/chat.py")
 
        
 
