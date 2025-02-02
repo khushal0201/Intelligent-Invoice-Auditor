@@ -1,11 +1,12 @@
 
 import streamlit as st
-import time
 from services.commons.docIntelligence import extractContent
 from services.commons.gptCall import invoiceAnalysis,extractInvoice
 from services.commons.dbcalls import Invoice,Contract
 from services.constants.enums import values,color
 import altair as alt
+from millify import millify
+
 
 
 a,b,c=st.columns(3)
@@ -62,7 +63,19 @@ else:
         ind=invList[option1]["actualInd"]
         df1=Invoice.get(i=ind)["employeeData"]
         if df1 is not None and not df1.empty:
-            df = df1.groupby('contractorName')[['hours', 'amount']].sum()
+            def top_kpis():
+                st.write("")
+                st.write("")
+                col1, col2, col3 = st.columns(3)
+                with col1:
+                    st.metric("Total Contractors:", f"🤵 {millify(len(df1["contractorName"].unique()))}", border=True)
+                with col2:
+                    st.metric("Average Working Hours:", f"⌛ {millify(df1["hours"].mean())}", border=True)
+                with col3:
+                    st.metric("Total Amount:", f"💲 {millify(df1["amount"].sum())}", border=True)
+            
+            top_kpis()
+            df = df1.groupby('contractorName')[['hours', 'amount']].sum().assign(entries=df1.groupby('contractorName').size())
             df = df.reset_index()
             st.write("")
             st.write("")
@@ -78,7 +91,9 @@ else:
                 y=alt.Y('hours', title='Hours'),
             ).interactive()
 
-            tab1, tab2 = st.tabs(["Employee Recevied Amount", "Employee Working Hours Trend"])
+            tabs=st.container(border=True)
+
+            tab1, tab2 = tabs.tabs(["Employee Recevied Amount", "Employee Working Hours Trend"])
 
             with tab1:
                 # Use the Streamlit theme.
@@ -87,6 +102,43 @@ else:
             with tab2:
                 # Use the native Altair theme.
                 st.altair_chart(chart1, theme="streamlit", use_container_width=True)
+
+
+            def role_pie_chart():
+                
+                source=df1.groupby('role')[['amount']].sum().reset_index()
+
+
+                chart=alt.Chart(source,title="Distribution of amount per Role").mark_arc(innerRadius=50).encode(
+                    theta="amount:Q",
+                    color="role:N",
+                )
+
+                
+                st.altair_chart(chart, theme="streamlit", use_container_width=True)
+
+            def top_paid_contractors():
+
+
+                source=df1.groupby('contractorName')[['amount']].sum().sort_values(by=['amount'], ascending=[False]).head(10).reset_index()
+
+                chart=alt.Chart(source,title="Top 10 paid contractors").mark_bar().encode(
+                    x='amount:Q',
+                    y=alt.Y('contractorName:N').sort('-x')
+                )
+                st.altair_chart(chart, theme="streamlit", use_container_width=True)
+
+            # col1,col2=st.columns(2)
+
+            container1=st.container(border=True)
+            container2=st.container(border=True)
+
+            with container1:
+                role_pie_chart()
+
+            with container2:
+
+                top_paid_contractors()
         else:
             st.header("No Data in invoice")
 

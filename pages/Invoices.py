@@ -191,6 +191,7 @@ else:
         Invoice.delete(i=indx)
         st.rerun()
 
+    st.write("")
 
     # Editing the Invoice 
 
@@ -209,7 +210,7 @@ else:
         for i in range(len(invList)):
             col=grid[i]
             
-            with col.container(border=True,height=None):
+            with col.container(border=True):
                 
                     c1,c2=st.columns([3,1],gap="small")
                     c1.subheader(invList[i]["name"])
@@ -217,7 +218,8 @@ else:
                     st.write("")
                     st.write("")
                     st.write("")
-                    
+                    st.write("")
+                    st.write("")                    
                     b,c=st.columns([3,1],gap="small")
                 
                     if b.button('View/Edit',type="secondary",key='v'+str(i),use_container_width=True):

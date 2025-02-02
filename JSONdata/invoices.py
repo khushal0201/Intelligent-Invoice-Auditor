@@ -1,6 +1,9 @@
 import pandas as pd
 from io import StringIO
 
+import pandas as pd
+from io import StringIO
+
 invoices=[{
         "id":1,
         "name":"Invoice 1",
@@ -127,5 +130,136 @@ Leon Jacobi,Business Analyst,PRJ001,N/A,2025-01-06T00:00:00.000Z,8,127.0,1016.0
 Beverly Armstrong,UX/UI Designer,PRJ002,N/A,2025-01-02T00:00:00.000Z,8,120.0,960.0
 Lucille Gusikowski,Technical Writer,PRJ005,N/A,2025-01-03T00:00:00.000Z,6,105.0,630.0
 """))
-    }
+    },
+{
+        "id":5,
+        "name":"Invoice 903",
+        "contract_id":3,
+        "status":1,
+        "content":"Some invoice content",
+        "anomalies":["a","b","c"],
+    "employeeData":pd.read_csv(StringIO("""
+contractorName,role,projectCode,description,date,hours,rate,amount
+Herman Frami DDS,DevOps Engineer,PRJ002,N/A,2025-01-04T00:00:00.000Z,6,142.0,852.0
+Herman Frami DDS,DevOps Engineer,PRJ004,N/A,2024-12-19T00:00:00.000Z,6,157.0,942.0
+Herman Frami DDS,DevOps Engineer,PRJ004,N/A,2024-12-23T00:00:00.000Z,4,105.0,420.0
+Herman Frami DDS,DevOps Engineer,PRJ004,N/A,2024-12-19T00:00:00.000Z,4,157.0,628.0
+Herman Frami DDS,DevOps Engineer,PRJ001,N/A,2025-01-09T00:00:00.000Z,8,165.0,1320.0
+Herman Frami DDS,DevOps Engineer,PRJ003,N/A,2024-12-17T00:00:00.000Z,8,135.0,1080.0
+Herman Frami DDS,DevOps Engineer,PRJ005,N/A,2025-01-05T00:00:00.000Z,4,142.0,568.0
+Herman Frami DDS,DevOps Engineer,PRJ003,N/A,2025-01-04T00:00:00.000Z,6,150.0,900.0
+Herman Frami DDS,DevOps Engineer,PRJ001,N/A,2025-01-14T00:00:00.000Z,6,135.0,810.0
+Herman Frami DDS,DevOps Engineer,PRJ002,N/A,2024-12-30T00:00:00.000Z,6,120.0,720.0
+Herman Frami DDS,DevOps Engineer,PRJ001,N/A,2025-01-10T00:00:00.000Z,8,157.0,1256.0
+Herman Frami DDS,DevOps Engineer,PRJ002,N/A,2024-12-19T00:00:00.000Z,7,135.0,945.0
+Herman Frami DDS,DevOps Engineer,PRJ004,N/A,2024-12-28T00:00:00.000Z,5,165.0,825.0
+Herman Frami DDS,DevOps Engineer,PRJ003,N/A,2025-01-13T00:00:00.000Z,8,165.0,1320.0
+Herman Frami DDS,DevOps Engineer,PRJ003,N/A,2025-01-08T00:00:00.000Z,8,105.0,840.0
+Herman Frami DDS,DevOps Engineer,PRJ005,N/A,2024-12-17T00:00:00.000Z,7,180.0,1260.0
+Herman Frami DDS,DevOps Engineer,PRJ004,N/A,2024-12-21T00:00:00.000Z,6,165.0,990.0
+Herman Frami DDS,DevOps Engineer,PRJ002,N/A,2024-12-23T00:00:00.000Z,8,150.0,1200.0
+Herman Frami DDS,DevOps Engineer,PRJ004,N/A,2024-12-26T00:00:00.000Z,8,127.0,1016.0
+Herman Frami DDS,DevOps Engineer,PRJ001,N/A,2025-01-09T00:00:00.000Z,7,180.0,1260.0
+Herman Frami DDS,DevOps Engineer,PRJ002,N/A,2025-01-08T00:00:00.000Z,8,112.0,896.0
+Herman Frami DDS,DevOps Engineer,PRJ004,N/A,2025-01-13T00:00:00.000Z,4,127.0,508.0
+Herman Frami DDS,DevOps Engineer,PRJ004,N/A,2025-01-07T00:00:00.000Z,5,112.0,560.0
+Herman Frami DDS,DevOps Engineer,PRJ003,N/A,2024-12-24T00:00:00.000Z,4,165.0,660.0
+Herman Frami DDS,DevOps Engineer,PRJ001,N/A,2024-12-26T00:00:00.000Z,6,180.0,1080.0
+Herman Frami DDS,DevOps Engineer,PRJ004,N/A,2024-12-19T00:00:00.000Z,7,135.0,945.0
+Herman Frami DDS,DevOps Engineer,PRJ001,N/A,2024-12-22T00:00:00.000Z,7,135.0,945.0
+Herman Frami DDS,DevOps Engineer,PRJ003,N/A,2024-12-16T00:00:00.000Z,8,157.0,1256.0
+Herman Frami DDS,DevOps Engineer,PRJ004,N/A,2025-01-13T00:00:00.000Z,7,120.0,840.0
+Herman Frami DDS,DevOps Engineer,PRJ005,N/A,2025-01-10T00:00:00.000Z,6,105.0,630.0
+Herman Frami DDS,DevOps Engineer,PRJ004,N/A,2025-01-06T00:00:00.000Z,7,180.0,1260.0
+Herman Frami DDS,DevOps Engineer,PRJ003,N/A,2024-12-30T00:00:00.000Z,5,105.0,525.0
+Herman Frami DDS,DevOps Engineer,PRJ004,N/A,2024-12-16T00:00:00.000Z,6,120.0,720.0
+Herman Frami DDS,DevOps Engineer,PRJ002,N/A,2025-01-11T00:00:00.000Z,7,150.0,1050.0
+Herman Frami DDS,DevOps Engineer,PRJ002,N/A,2024-12-30T00:00:00.000Z,7,180.0,1260.0
+Herman Frami DDS,DevOps Engineer,PRJ003,N/A,2025-01-07T00:00:00.000Z,8,165.0,1320.0
+Herman Frami DDS,DevOps Engineer,PRJ003,N/A,2024-12-19T00:00:00.000Z,5,142.0,710.0
+Herman Frami DDS,DevOps Engineer,PRJ002,N/A,2024-12-22T00:00:00.000Z,5,142.0,710.0
+Herman Frami DDS,DevOps Engineer,PRJ004,N/A,2024-12-23T00:00:00.000Z,7,112.0,784.0
+Herman Frami DDS,DevOps Engineer,PRJ004,N/A,2024-12-22T00:00:00.000Z,7,142.0,994.0
+Herman Frami DDS,DevOps Engineer,PRJ002,N/A,2025-01-11T00:00:00.000Z,5,165.0,825.0
+Herman Frami DDS,DevOps Engineer,PRJ005,N/A,2024-12-17T00:00:00.000Z,4,180.0,720.0
+Herman Frami DDS,DevOps Engineer,PRJ005,N/A,2025-01-09T00:00:00.000Z,4,127.0,508.0
+Herman Frami DDS,DevOps Engineer,PRJ004,N/A,2024-12-25T00:00:00.000Z,7,105.0,735.0
+Herman Frami DDS,DevOps Engineer,PRJ003,N/A,2024-12-16T00:00:00.000Z,7,165.0,1155.0
+Herman Frami DDS,DevOps Engineer,PRJ005,N/A,2024-12-22T00:00:00.000Z,6,165.0,990.0
+Herman Frami DDS,DevOps Engineer,PRJ002,N/A,2024-12-16T00:00:00.000Z,7,127.0,889.0
+Herman Frami DDS,DevOps Engineer,PRJ003,N/A,2024-12-19T00:00:00.000Z,5,112.0,560.0
+Herman Frami DDS,DevOps Engineer,PRJ005,N/A,2024-12-30T00:00:00.000Z,5,180.0,900.0
+Herman Frami DDS,DevOps Engineer,PRJ001,N/A,2024-12-26T00:00:00.000Z,7,180.0,1260.0
+Herman Frami DDS,DevOps Engineer,PRJ004,N/A,2024-12-23T00:00:00.000Z,8,120.0,960.0
+Herman Frami DDS,DevOps Engineer,PRJ005,N/A,2024-12-18T00:00:00.000Z,8,157.0,1256.0
+Herman Frami DDS,DevOps Engineer,PRJ003,N/A,2024-12-18T00:00:00.000Z,6,105.0,630.0
+Herman Frami DDS,DevOps Engineer,PRJ005,N/A,2025-01-05T00:00:00.000Z,7,165.0,1155.0
+Herman Frami DDS,DevOps Engineer,PRJ002,N/A,2024-12-18T00:00:00.000Z,8,120.0,960.0
+Herman Frami DDS,DevOps Engineer,PRJ004,N/A,2024-12-23T00:00:00.000Z,6,142.0,852.0
+Herman Frami DDS,DevOps Engineer,PRJ001,N/A,2024-12-28T00:00:00.000Z,6,157.0,942.0
+Herman Frami DDS,DevOps Engineer,PRJ003,N/A,2025-01-02T00:00:00.000Z,7,120.0,840.0
+Herman Frami DDS,DevOps Engineer,PRJ004,N/A,2025-01-13T00:00:00.000Z,8,127.0,1016.0
+Herman Frami DDS,DevOps Engineer,PRJ004,N/A,2024-12-28T00:00:00.000Z,5,105.0,525.0
+Herman Frami DDS,DevOps Engineer,PRJ003,N/A,2024-12-27T00:00:00.000Z,7,120.0,840.0
+Herman Frami DDS,DevOps Engineer,PRJ001,N/A,2025-01-12T00:00:00.000Z,4,150.0,600.0
+Herman Frami DDS,DevOps Engineer,PRJ002,N/A,2025-01-05T00:00:00.000Z,5,142.0,710.0
+Herman Frami DDS,DevOps Engineer,PRJ004,N/A,2025-01-09T00:00:00.000Z,6,180.0,1080.0
+Herman Frami DDS,DevOps Engineer,PRJ002,N/A,2024-12-23T00:00:00.000Z,5,180.0,900.0
+Herman Frami DDS,DevOps Engineer,PRJ003,N/A,2025-01-12T00:00:00.000Z,8,180.0,1440.0
+Herman Frami DDS,DevOps Engineer,PRJ003,N/A,2025-01-10T00:00:00.000Z,6,180.0,1080.0
+Herman Frami DDS,DevOps Engineer,PRJ001,N/A,2025-01-01T00:00:00.000Z,4,120.0,480.0
+Herman Frami DDS,DevOps Engineer,PRJ002,N/A,2024-12-23T00:00:00.000Z,8,180.0,1440.0
+Herman Frami DDS,DevOps Engineer,PRJ003,N/A,2025-01-01T00:00:00.000Z,4,165.0,660.0
+Herman Frami DDS,DevOps Engineer,PRJ005,N/A,2025-01-11T00:00:00.000Z,8,127.0,1016.0
+Herman Frami DDS,DevOps Engineer,PRJ003,N/A,2024-12-22T00:00:00.000Z,6,112.0,672.0
+Herman Frami DDS,DevOps Engineer,PRJ003,N/A,2024-12-30T00:00:00.000Z,8,180.0,1440.0
+Herman Frami DDS,DevOps Engineer,PRJ004,N/A,2024-12-31T00:00:00.000Z,7,112.0,784.0
+Herman Frami DDS,DevOps Engineer,PRJ002,N/A,2025-01-12T00:00:00.000Z,7,180.0,1260.0
+Herman Frami DDS,DevOps Engineer,PRJ002,N/A,2024-12-29T00:00:00.000Z,8,180.0,1440.0
+Herman Frami DDS,DevOps Engineer,PRJ001,N/A,2024-12-17T00:00:00.000Z,8,135.0,1080.0
+Herman Frami DDS,DevOps Engineer,PRJ004,N/A,2025-01-09T00:00:00.000Z,4,112.0,448.0
+Herman Frami DDS,DevOps Engineer,PRJ002,N/A,2025-01-07T00:00:00.000Z,7,157.0,1099.0
+Herman Frami DDS,DevOps Engineer,PRJ003,N/A,2025-01-13T00:00:00.000Z,7,135.0,945.0
+Herman Frami DDS,DevOps Engineer,PRJ001,N/A,2024-12-25T00:00:00.000Z,4,135.0,540.0
+Herman Frami DDS,DevOps Engineer,PRJ003,N/A,2024-12-21T00:00:00.000Z,7,135.0,945.0
+Herman Frami DDS,DevOps Engineer,PRJ001,N/A,2024-12-23T00:00:00.000Z,5,112.0,560.0
+Herman Frami DDS,DevOps Engineer,PRJ001,N/A,2024-12-17T00:00:00.000Z,7,112.0,784.0
+Herman Frami DDS,DevOps Engineer,PRJ004,N/A,2024-12-26T00:00:00.000Z,5,165.0,825.0
+Herman Frami DDS,DevOps Engineer,PRJ004,N/A,2024-12-21T00:00:00.000Z,4,150.0,600.0
+Herman Frami DDS,DevOps Engineer,PRJ003,N/A,2024-12-29T00:00:00.000Z,5,157.0,785.0
+Herman Frami DDS,DevOps Engineer,PRJ001,N/A,2025-01-13T00:00:00.000Z,5,180.0,900.0
+Herman Frami DDS,DevOps Engineer,PRJ001,N/A,2024-12-17T00:00:00.000Z,8,157.0,1256.0
+Herman Frami DDS,DevOps Engineer,PRJ002,N/A,2024-12-18T00:00:00.000Z,6,127.0,762.0
+Jackie Wiegand,Quality Assurance Engineer,PRJ002,N/A,2024-12-22T00:00:00.000Z,4,112.0,448.0
+Jackie Wiegand,Quality Assurance Engineer,PRJ005,N/A,2024-12-31T00:00:00.000Z,7,127.0,889.0
+Jackie Wiegand,Quality Assurance Engineer,PRJ003,N/A,2024-12-17T00:00:00.000Z,6,135.0,810.0
+Jackie Wiegand,Quality Assurance Engineer,PRJ002,N/A,2024-12-19T00:00:00.000Z,7,165.0,1155.0
+Jackie Wiegand,Quality Assurance Engineer,PRJ005,N/A,2025-01-13T00:00:00.000Z,6,180.0,1080.0
+Jackie Wiegand,Quality Assurance Engineer,PRJ004,N/A,2024-12-16T00:00:00.000Z,7,142.0,994.0
+Jackie Wiegand,Quality Assurance Engineer,PRJ003,N/A,2024-12-21T00:00:00.000Z,7,150.0,1050.0
+Jackie Wiegand,Quality Assurance Engineer,PRJ001,N/A,2025-01-10T00:00:00.000Z,8,120.0,960.0
+Dianna Stehr,DevOps Engineer,PRJ002,N/A,2025-01-06T00:00:00.000Z,5,142.0,710.0
+Dianna Stehr,DevOps Engineer,PRJ001,N/A,2024-12-28T00:00:00.000Z,7,157.0,1099.0
+Dianna Stehr,DevOps Engineer,PRJ003,N/A,2024-12-30T00:00:00.000Z,4,142.0,568.0
+Dianna Stehr,DevOps Engineer,PRJ002,N/A,2024-12-25T00:00:00.000Z,7,120.0,840.0
+Dianna Stehr,DevOps Engineer,PRJ005,N/A,2025-01-02T00:00:00.000Z,5,165.0,825.0
+Dianna Stehr,DevOps Engineer,PRJ002,N/A,2025-01-12T00:00:00.000Z,7,135.0,945.0
+Dianna Stehr,DevOps Engineer,PRJ003,N/A,2025-01-08T00:00:00.000Z,6,150.0,900.0
+Dianna Stehr,DevOps Engineer,PRJ001,N/A,2024-12-16T00:00:00.000Z,5,142.0,710.0
+Dianna Stehr,DevOps Engineer,PRJ001,N/A,2024-12-21T00:00:00.000Z,7,127.0,889.0
+Dianna Stehr,DevOps Engineer,PRJ001,N/A,2025-01-07T00:00:00.000Z,5,150.0,750.0
+Dianna Stehr,DevOps Engineer,PRJ001,N/A,2024-12-28T00:00:00.000Z,4,150.0,600.0
+Dianna Stehr,DevOps Engineer,PRJ004,N/A,2024-12-29T00:00:00.000Z,5,135.0,675.0
+Dianna Stehr,DevOps Engineer,PRJ002,N/A,2025-01-01T00:00:00.000Z,6,120.0,720.0
+Dianna Stehr,DevOps Engineer,PRJ002,N/A,2025-01-07T00:00:00.000Z,7,157.0,1099.0
+Dianna Stehr,DevOps Engineer,PRJ005,N/A,2024-12-16T00:00:00.000Z,8,157.0,1256.0
+Dianna Stehr,DevOps Engineer,PRJ002,N/A,2024-12-23T00:00:00.000Z,4,157.0,628.0
+Dianna Stehr,DevOps Engineer,PRJ003,N/A,2024-12-24T00:00:00.000Z,5,135.0,675.0
+Dianna Stehr,DevOps Engineer,PRJ004,N/A,2024-12-21T00:00:00.000Z,5,112.0,560.0
+Dianna Stehr,DevOps Engineer,PRJ005,N/A,2025-01-06T00:00:00.000Z,6,180.0,1080.0
+Dianna Stehr,DevOps Engineer,PRJ004,N/A,2024-12-19T00:00:00.000Z,4,142.0,568.0
+Dianna Stehr,DevOps Engineer,PRJ004,N/A,2024-12-24T00:00:00.000Z,6,105.0,630.0
+Dianna Stehr,DevOps Engineer,PRJ005,N/A,2024-12-17T00:00:00.000Z,8,150.0,1200.0
+"""))
+    },
 ]
