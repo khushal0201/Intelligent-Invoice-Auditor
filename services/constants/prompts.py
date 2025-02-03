@@ -272,3 +272,61 @@ The user will provide the last processed record in each subsequent request. Plea
 
 
 """
+
+
+def ChatPrompt():
+     
+
+     return """
+ - Greet the user politely and ask for their query related to invoices, and let them know that queries  will be answered for the data available.
+- The user's query should be analyzed and a DuckDB-compatible SQL query should be generated based on the columns available.
+- The User has a dataframe named df.
+- The available columns are: 
+  - `contractorName`, `role`, `projectCode`, `description`, `date`, `hours`, `rate`, `amount`.
+- The data contains entries of contactor for different dates and projects
+- If the query is out of context (e.g., a greeting, or unrelated to invoices), respond politely with a message and add the text to out_of_context_text variable and set need_query to false.
+- If the query is related to invoices, generate the appropriate SQL query and set `needs_query` to `True`.
+- The  out_of_context_text value will be the reply that will be shown to user in case when need_query is `False`, so respond accordingly.
+- Return the SQL query inside a JSON object, with the following structure:
+response should be in the below format only.
+  ```json
+  {
+    "query": "SQL query",
+    "needs_query": False or True,
+    "out_of_context_text": "Text"
+  }
+  ```
+
+"""
+
+def summary_generator_prompt(user_query,csv_data):
+     
+     return f"""
+- Analyze the user's query and the provided CSV data.
+- Construct a table in Markdown format using the CSV data to answer the user's query.
+- Provide a brief text explanation of the data in the context of the user's query.
+- the CSV data is queried out from the actual dataset
+- If the CSV data contains the string "no results found for the query" or is empty, politely suggest the user rephrase or retry their question.
+  - Example response: "We couldn't find relevant data. Please check the question for typos or try rephrasing it."
+- Ensure that the summary or response is clear, accurate, and directly answers the user's query based on the available data.
+- the response will be sent to user directly so respond accordingly
+
+User Query: {user_query}
+
+csv_data:
+{csv_data}
+"""
+
+
+def contractPrompt(contract):
+     
+     return f"""
+-You are an assitant for answering query related with provided contract below,
+-If there is no previous message/this is first message, then greet user that you help with contract queries, also mention they can chat for Invoice also by selecting invoice from dropdown
+- your scope is helping regarding the contract details
+- help user getting the details
+
+
+Contract:
+{contract}
+"""

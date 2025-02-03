@@ -238,6 +238,12 @@ else:
                         st.session_state.invoiceId=i
                         st.session_state.contractId1=contractId
                         st.switch_page("pages/invoice_analysis.py")
+                    
+                    if st.button("💬 Chat",key="ch"+str(i),disabled=invList[i]["status"]!=values.SUCCESS.value):
+                        st.session_state.invoiceId=i
+                        st.session_state.contractId1=contractId
+                        st.session_state.messages=[]
+                        st.switch_page("pages/Chat/chat.py")
 
     if addbtn:
         st.session_state.edit=False

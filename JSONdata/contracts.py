@@ -297,7 +297,157 @@ This analysis ensures that all extracted rules are categorized appropriately and
         "id":6,
         "name":"Actual Contract",
         "status":1,
-        "content":"Some contract content",
+        "content":"""
+
+
+# PROFESSIONAL SERVICES AGREEMENT
+THIS PROFESSIONAL SERVICES AGREEMENT (the "Agreement") is made effective as of January 1, 2024 (the
+"Effective Date"), by and between [CLIENT NAME], a corporation organized under the laws of
+[STATE/JURISDICTION], with its principal place of business at [ADDRESS] (hereinafter referred to as the
+"Client"), and [CONTRACTOR NAME], [a corporation/an individual] with its principal place of business at
+[ADDRESS] (hereinafter referred to as the "Contractor").
+## WHEREAS:
+A. The Client wishes to engage the Contractor to provide certain professional services; and B. The Contractor
+agrees to provide such services in accordance with the terms and conditions set forth in this Agreement.
+NOW, THEREFORE, in consideration of the mutual covenants and agreements contained herein, the parties
+agree as follows:
+## 1. DEFINITIONS
+1.1. "Services" means the professional services provided by the Contractor to the Client as specified in
+Schedule A. 1.2. "Deliverables" means all work product created by Contractor in the course of performing the
+Services. 1.3. "Intellectual Property Rights" means all patents, copyrights, trademarks, trade secrets, and other
+intellectual property rights.
+## 2. CONTRACTOR CATEGORIES AND COMPENSATION
+2.1. Rate Schedule The following rate schedule represents the agreed-upon compensation for different
+categories of contractors:
+
+| Contractor Type | Experience Level | Day Rate (USD) | Overtime Rate (per hour) |
+| --- | --- | --- | --- |
+| Senior Software Architect | 10+ years | $1,200 | $180 |
+| Full Stack Developer | 5-9 years | $900 | $135 |
+| DevOps Engineer | 5+ years | $950 | $142 |
+| Data Scientist | 5+ years | $1,000 | $150 |
+| UX/UI Designer | 3+ years | $800 | $120 |
+| Quality Assurance Engineer | 3+ years | $750 | $112 |
+| Business Analyst | 5+ years | $850 | $127 |
+| Project Manager | 7+ years | $1,100 | $165 |
+| Security Engineer | 5+ years | $1,050 | $157 |
+| Technical Writer | 3+ years | $700 | $105 |
+
+### 2.2. Rate Adjustments
+
+
+
+
+. Rates shall be reviewed annually on the anniversary of the Effective Date
+. Any rate adjustments must be mutually agreed upon in writing
+· Rate increases shall not exceed 5% per annum unless specifically justified by market conditions
+## 3. INVOICING AND PAYMENT TERMS
+### 3.1. Invoice Submission Requirements
+· Invoices must be submitted within 5 business days of month-end
+. All invoices shall be submitted electronically to [billing@clientname.com]
+· Each invoice must include: a) Contractor's legal name and address b) Invoice number and date c) Valid
+Purchase Order number d) Detailed timesheet e) Applicable tax identification numbers f) Banking
+information for payment processing
+3.2. Timesheet Requirements Each timesheet entry must include:
+· Project code and name
+· Detailed work description
+· Hours worked (in minimum 0.5 hour increments)
+· Project manager approval signature
+· Date of service
+· Location of service (on-site/remote)
+### 3.3. Payment Terms
+· Payment shall be made within 30 days of receipt of a valid invoice
+· All payments shall be made in USD
+. Client reserves the right to dispute any charges within 15 days of invoice receipt
+· Disputed charges shall not delay payment of undisputed portions
+## 4. WORKING HOURS AND OVERTIME
+### 4.1. Standard Working Hours
+. Standard working day: 8 hours (9:00 AM - 5:00 PM local time)
+· Standard working week: Monday through Friday
+· Lunch break: 1 hour (non-billable)
+### 4.2. Overtime
+. Overtime rates apply to hours worked beyond 8 hours per day
+· Maximum billable hours per day: 12 hours
+· Weekend work must be pre-approved in writing by Project Manager
+· Holiday work must be pre-approved and is subject to 1.5x standard rate
+## 5. EXPENSES AND REIMBURSEMENT
+### 5.1. Expense Approval
+· All expenses must be pre-approved in writing
+· Expenses over $500 require senior management approval
+
+
+
+
+### 5.2. Travel Expenses
+· Mileage reimbursement: $0.65 per mile
+· Per diem rates: $75/day for approved travel
+. Air travel: Economy class for domestic, Business class for international >6 hours
+· Accommodation: Up to $250/night for major metropolitan areas, $180/night elsewhere
+### 5.3. Documentation Requirements
+· Original receipts required for all expenses
+· Expense reports must be submitted within 30 days
+. Corporate credit card statements are not sufficient documentation
+## 6. TERM AND TERMINATION
+### 6.1. Term
+. Initial term: 12 months from Effective Date
+· Minimum engagement period: 3 months
+· Automatic renewal for successive 12-month periods unless terminated
+### 6.2. Termination
+· Either party may terminate with 30 days written notice
+· Immediate termination for material breach
+· Client may terminate specific resources with 2 weeks' notice
+## 7. CONFIDENTIALITY AND INTELLECTUAL PROPERTY
+### 7.1. Confidential Information
+. All Client information shall be treated as confidential
+· NDA provisions survive termination of agreement
+. Contractor shall implement reasonable security measures
+### 7.2. Intellectual Property Rights
+. All Deliverables shall be work made for hire
+· Client owns all Intellectual Property Rights in Deliverables
+· Contractor retains rights to pre-existing IP
+## 8. REPRESENTATIONS AND WARRANTIES
+### 8.1. Contractor Warranties
+· Services will be performed in a professional manner
+· Contractor has necessary skills and qualifications
+· Services will comply with all applicable laws and regulations
+### 8.2. Client Warranties
+. Client has authority to enter into agreement
+
+
+
+
+· Client will provide necessary access and information
+· Client will review deliverables in a timely manner
+## 9. LIMITATION OF LIABILITY AND INDEMNIFICATION
+### 9.1. Limitation of Liability
+. Neither party shall be liable for consequential damages
+· Contractor's liability limited to fees paid in previous 12 months
+. Exclusions for gross negligence or willful misconduct
+### 9.2. Indemnification
+· Mutual indemnification for third-party claims
+· Contractor indemnifies for intellectual property infringement
+· Client indemnifies for authorized use of Client materials
+## 10. GENERAL PROVISIONS
+### 10.1. Insurance Requirements
+· Professional liability insurance: $1,000,000 per occurrence
+· General liability insurance: $2,000,000 aggregate
+· Workers' compensation as required by law
+### 10.2. Governing Law
+· Agreement governed by laws of [STATE/JURISDICTION]
+· Exclusive jurisdiction in courts of [CITY, STATE]
+### 10.3. Force Majeure
+. Neither party liable for events beyond reasonable control
+· Notice required within 48 hours of force majeure event
+· Right to terminate if force majeure exceeds 30 days
+IN WITNESS WHEREOF, the parties have executed this Agreement as of the Effective Date.
+FOR CLIENT: FOR CONTRACTOR:
+Name: Name: Title: Title: Date: Date:
+SCHEDULE A: SCOPE OF SERVICES [Detailed description of services to be provided]
+SCHEDULE B: SERVICE LEVELS [Specific service level agreements and metrics]
+SCHEDULE C: SECURITY REQUIREMENTS [Security protocols and compliance requirements]
+
+
+""",
         "rules":"""
 ### Extracted Rules and Rate Card
 
