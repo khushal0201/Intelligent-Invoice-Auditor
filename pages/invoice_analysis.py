@@ -68,11 +68,11 @@ else:
                 st.write("")
                 col1, col2, col3 = st.columns(3)
                 with col1:
-                    st.metric("Total Contractors:", f"🤵 {millify(len(df1["contractorName"].unique()))}", border=True)
+                    st.metric("Total Contractors:", f"🤵 {millify(len(df1['contractorName'].unique()))}", border=True)
                 with col2:
-                    st.metric("Average Working Hours:", f"⌛ {millify(df1["hours"].mean())}", border=True)
+                    st.metric("Average Working Hours:", f"⌛ {millify(df1['hours'].mean())}", border=True)
                 with col3:
-                    st.metric("Total Amount:", f"💲 {millify(df1["amount"].sum())}", border=True)
+                    st.metric("Total Amount:", f"💲 {millify(df1['amount'].sum())}", border=True)
             
             top_kpis()
             df = df1.groupby('contractorName')[['hours', 'amount']].sum().assign(entries=df1.groupby('contractorName').size())
