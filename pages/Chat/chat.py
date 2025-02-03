@@ -91,7 +91,8 @@ else:
 
         if len(st.session_state.messages)==0:
             with st.chat_message("assistant"):
-                response=assistantCall()
+                with st.spinner('Thinking...'):
+                    response=assistantCall()
                 st.write_stream(stream_string(response))
                 appendAssistant(response)
 
@@ -102,9 +103,9 @@ else:
                 st.markdown(prompt)
 
             with st.chat_message("assistant"):
-                
-                response=assistantCall()  
-                st.write(response) 
+                with st.spinner('Thinking...'):
+                    response=assistantCall()  
+                st.write_stream(stream_string(response))
 
 
             appendAssistant(response)
@@ -131,7 +132,8 @@ else:
 
         if len(st.session_state.messages)==0:
             with st.chat_message("assistant"):
-                chat,query,needs_query=assistantCall()
+                with st.spinner('Thinking...'):
+                    chat,query,needs_query=assistantCall()
                 st.write_stream(stream_string(chat))
                 appendAssistant(chat)
 
@@ -144,19 +146,21 @@ else:
                 st.markdown(prompt)
 
             with st.chat_message("assistant"):
-                
-                chat,query,needs_query=assistantCall()
+
                 
                 try:
+                    with st.spinner('Thinking...'):
+                
+                        chat,query,needs_query=assistantCall()
+
+                        if needs_query:
+                            query_res = call_duckdb(query,index=ind)
                             
-                    if needs_query:
-                        query_res = call_duckdb(query,index=ind)
-                        
-                        # make the other llm call here 
-                        user_query=prompt
-                        response=summaryCall(prompt,query_res)
-                    else:
-                        response=chat
+                            # make the other llm call here 
+                            user_query=prompt
+                            response=summaryCall(prompt,query_res)
+                        else:
+                            response=chat
                     
                     st.write_stream(stream_string(response))
 
