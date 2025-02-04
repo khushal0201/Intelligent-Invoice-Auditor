@@ -193,10 +193,11 @@ else:
 
 
     # Editing the Invoice 
-
+    
     addbtn=st.button("Add an Invoice", type="primary",disabled=Contract.get(i=option)["status"]!=values.SUCCESS.value)
 
     if invList: 
+        st.header("Your Invoices", divider="red")
         grid=[]
 
         # Creating Empty Grid
@@ -214,28 +215,29 @@ else:
                     c1,c2=st.columns([3,1],gap="small")
                     c1.subheader(invList[i]["name"])
                     c2.button(color[values(invList[i]["status"]).name].value,help="Processing "+values(invList[i]["status"]).name,key=i,type="tertiary")
-                    st.write("")
-                    st.write("")
+                    st.divider()
                     st.write("")
                     
-                    b,c=st.columns([3,1],gap="small")
+                    d,e,f=st.columns([1,1,1],gap="small")
+                    if f.button("📃 Results",key="an"+str(i),disabled=invList[i]["status"]!=values.SUCCESS.value,use_container_width=True):
+                        results(invList[i]["actualInd"])
+                    
+                    if d.button("📊 Insights",key="a"+str(i),disabled=invList[i]["status"]!=values.SUCCESS.value,use_container_width=True):
+                        st.session_state.invoiceId=i
+                        st.session_state.contractId1=contractId
+                        st.switch_page("pages/invoice_analysis.py")
+
+                    b,c=st.columns([4,1],gap="small")
                 
-                    if b.button('View/Edit',type="secondary",key='v'+str(i),use_container_width=True):
+                    if b.button('View/Edit',type="primary",key='v'+str(i),use_container_width=True):
                             # print("editing")
                             st.session_state.edit_item=invList[i]["actualInd"]
                             st.session_state.edit=True
                             add()
-                    if c.button(":material/delete:",key=str(i)+'del'):
+                    if c.button(":material/delete:",key=str(i)+'del',use_container_width=True):
                         delete(invList[i]["actualInd"])
                     
-                    d,e=st.columns([2,2],gap="small")
-                    if d.button("Results",key="an"+str(i),disabled=invList[i]["status"]!=values.SUCCESS.value):
-                        results(invList[i]["actualInd"])
                     
-                    if e.button("Analytics",key="a"+str(i),disabled=invList[i]["status"]!=values.SUCCESS.value):
-                        st.session_state.invoiceId=i
-                        st.session_state.contractId1=contractId
-                        st.switch_page("pages/invoice_analysis.py")
 
     if addbtn:
         st.session_state.edit=False
