@@ -59,6 +59,8 @@ else:
         st.header("Select an invoice")
 
     else:
+        st.header("Invoice Analysis", divider="red")
+
         # df=Invoice.get(i=)["employeeData"]
         ind=invList[option1]["actualInd"]
         df1=Invoice.get(i=ind)["employeeData"]
@@ -79,7 +81,7 @@ else:
             df = df.reset_index()
             st.write("")
             st.write("")
-            st.dataframe(df, width=800)
+            st.dataframe(df,use_container_width=True)
             #chart 1
             chart = alt.Chart(df).mark_bar().encode(
                 x='contractorName',

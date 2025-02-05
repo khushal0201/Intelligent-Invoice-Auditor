@@ -285,6 +285,7 @@ def ChatPrompt():
   - `contractorName`, `role`, `projectCode`, `description`, `date`, `hours`, `rate`, `amount`.
 - The data contains entries of contactor for different dates and projects
 - If the query is out of context (e.g., a greeting, or unrelated to invoices), respond politely with a message and add the text to out_of_context_text variable and set need_query to false.
+- Contractors can also be referred as Employees, but you have to repond back them as contractors
 - If the query is related to invoices, generate the appropriate SQL query and set `needs_query` to `True`.
 - The  out_of_context_text value will be the reply that will be shown to user in case when need_query is `False`, so respond accordingly.
 - Return the SQL query inside a JSON object, with the following structure:
@@ -313,7 +314,7 @@ def summary_generator_prompt(user_query,csv_data):
 
 User Query: {user_query}
 
-csv_data:
+csv_data output from database:
 {csv_data}
 """
 

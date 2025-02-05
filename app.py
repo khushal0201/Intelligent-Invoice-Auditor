@@ -2,7 +2,7 @@ import streamlit as st
 from st_pages import add_page_title, get_nav_from_toml
 
 st.set_page_config(
-    # layout= "wide",
+    layout= "wide",
     page_title="Intelligent Invoice auditor app",
     page_icon='logo.webp',
     initial_sidebar_state="collapsed"
@@ -22,7 +22,7 @@ st.logo("logo.webp", size="large",)
 # pg = st.navigation([st.Page("Todomain.py",title="maintodo"), st.Page("todonested.py",title="nestedtodo")])
 
 pg = st.navigation(nav)
-add_page_title(pg)
+# add_page_title(pg)
 pg.run()
 # pg = st.navigation([ContractPage,InvoicePage])
 

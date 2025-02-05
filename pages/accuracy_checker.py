@@ -58,6 +58,7 @@ else:
 
     else:
 
+        st.header("Accuracy Checker", divider="red")
 
         accurate_data = st.file_uploader(
             "Choose a CSV file having Accurate Data", accept_multiple_files=False,type=['csv']
