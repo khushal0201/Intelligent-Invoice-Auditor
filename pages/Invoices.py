@@ -160,19 +160,19 @@ else:
         b,c=st.columns([1,3],gap="large")
         h.download_button('Download Invoice Data', csv,invoiceName, 'text/csv',icon=":material/download:",use_container_width=True)
     
-    @st.dialog("Results")
+    @st.dialog("Results",width="large")
     def results(ind):
         st.session_state.view_data = False
         anomalies=Invoice.get(i=ind)["anomalies"]
         
         e,f,h=st.columns([1, 1, 2])
-        if f.button("View Data"):
+        if f.button("View Data",use_container_width=True):
             st.session_state.view_data=True
             df=Invoice.get(i=ind)["employeeData"]
             st.write("Data:")
             st.write(df)
         
-        if e.button("Anomalies") :
+        if e.button("Anomalies",use_container_width=True) :
             st.session_state.view_data=False
             
         if not st.session_state.view_data:
@@ -191,6 +191,7 @@ else:
         Invoice.delete(i=indx)
         st.rerun()
 
+    st.write("")
 
     # Editing the Invoice 
     
@@ -210,7 +211,7 @@ else:
         for i in range(len(invList)):
             col=grid[i]
             
-            with col.container(border=True,height=None):
+            with col.container(border=True):
                 
                     c1,c2=st.columns([3,1],gap="small")
                     c1.subheader(invList[i]["name"])
@@ -219,8 +220,6 @@ else:
                     st.write("")
                     
                     d,e,f=st.columns([1,1,1],gap="small")
-                    if f.button("📃 Results",key="an"+str(i),disabled=invList[i]["status"]!=values.SUCCESS.value,use_container_width=True):
-                        results(invList[i]["actualInd"])
                     
                     if d.button("📊 Insights",key="a"+str(i),disabled=invList[i]["status"]!=values.SUCCESS.value,use_container_width=True):
                         st.session_state.invoiceId=i
@@ -228,8 +227,12 @@ else:
                         st.switch_page("pages/invoice_analysis.py")
 
                     b,c=st.columns([4,1],gap="small")
+
+                    if b.button("📃 Results",type="primary",key="an"+str(i),disabled=invList[i]["status"]!=values.SUCCESS.value,use_container_width=True):
+                        results(invList[i]["actualInd"])
+
                 
-                    if b.button('View/Edit',type="primary",key='v'+str(i),use_container_width=True):
+                    if f.button('View/Edit',key='v'+str(i),use_container_width=True):
                             # print("editing")
                             st.session_state.edit_item=invList[i]["actualInd"]
                             st.session_state.edit=True
@@ -238,6 +241,13 @@ else:
                         delete(invList[i]["actualInd"])
                     
                     
+                    
+                    
+                    if e.button("💬 Chat",key="ch"+str(i),disabled=invList[i]["status"]!=values.SUCCESS.value,use_container_width=True):
+                        st.session_state.invoiceId=i
+                        st.session_state.contractId1=contractId
+                        st.session_state.messages=[]
+                        st.switch_page("pages/Chat/chat.py")
 
     if addbtn:
         st.session_state.edit=False

@@ -65,11 +65,14 @@ def editContent(i,obj):
             content=extractContent(data)
 
             obj["content"]=content
+            with open('contractContent.txt', 'w', encoding='utf-8') as file:
+                file.write(content)
 
             st.write("Creating Rule Prompt")
             rules=contractAnalysis(content)
             obj["rules"]=rules
-
+            with open('rules.txt', 'w', encoding='utf-8') as file:
+                file.write(rules)
 
             status.update(
                 label="Process complete!", state="complete",expanded=True
@@ -195,9 +198,13 @@ if contractList:
                     if st.button(":material/delete: Delete",key=str(i)+'del',type="secondary"):
                         delete(i)
                 
+
                 
-                
-                
+                if f.button("💬 Chat",key="chat"+str(i),disabled=not(contractList[i]["status"]==values.SUCCESS.value ),use_container_width=True):
+                    st.session_state.contractId1=i
+                    st.session_state.invoiceId=None
+                    st.session_state.messages=[]
+                    st.switch_page("pages/Chat/chat.py")
 
        
 

@@ -1,6 +1,5 @@
 
 import streamlit as st
-import time
 from services.commons.docIntelligence import extractContent
 from services.commons.gptCall import invoiceAnalysis,extractInvoice
 from services.commons.dbcalls import Invoice,Contract
@@ -41,6 +40,7 @@ if option is None:
 
 else:
     invList=Invoice.get(contractId=option)
+    st.header("Contract Analysis", divider="red")
     df = pd.DataFrame(columns=['Invoice', 'Anomalies'])
     print(len(invList))
     for j in range(0,len(invList)):

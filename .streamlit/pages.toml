@@ -27,3 +27,18 @@ icon = ""
 path = "pages/contract_analysis.py"
 name = "  Contract Analysis"
 icon = ""
+
+[[pages]]
+path = "pages/accuracy_checker.py"
+name = "  Accuracy Checker"
+icon = ""
+
+[[pages]]
+name = "Chat about data"
+icon = "💬"
+is_section = true
+
+[[pages]]
+path = "pages/Chat/chat.py"
+name = "Chat"
+icon = ""
