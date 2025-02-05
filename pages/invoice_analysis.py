@@ -81,7 +81,7 @@ else:
             df = df.reset_index()
             st.write("")
             st.write("")
-            st.dataframe(df, width=800)
+            st.dataframe(df,use_container_width=True)
             #chart 1
             chart = alt.Chart(df).mark_bar().encode(
                 x='contractorName',

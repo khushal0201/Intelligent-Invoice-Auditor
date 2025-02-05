@@ -232,7 +232,7 @@ else:
                         results(invList[i]["actualInd"])
 
                 
-                    if f.button('View/Edit',key='v'+str(i),use_container_width=True):
+                    if f.button(':material/edit: Edit',key='v'+str(i),use_container_width=True):
                             # print("editing")
                             st.session_state.edit_item=invList[i]["actualInd"]
                             st.session_state.edit=True
