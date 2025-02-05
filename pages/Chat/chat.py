@@ -11,6 +11,10 @@ import time
 def removeMsgs():
     st.session_state.messages=[]
 
+def contractChange():
+    st.session_state.invoiceId=None
+    removeMsgs()
+
 def stream_string(text: str, chunk_size: int = 1):
     """Split a string into chunks to simulate streaming."""
     for i in range(0, len(text), chunk_size):
@@ -44,7 +48,7 @@ option = c.selectbox(
     format_func=lambda x: contractList.__getitem__(x)["name"],
     placeholder="Select Contract",
     label_visibility="collapsed",
-    on_change=removeMsgs
+    on_change=contractChange
 )
 
 if option is None:
@@ -71,15 +75,21 @@ else:
     if "messages" not in st.session_state:
             st.session_state.messages = []
             
+    header=st.empty()
     for message in st.session_state.messages:
         with st.chat_message(message["role"]):  
             st.markdown(message["content"])
-    
+
+    if c.button("🗑️ Clear chat"):
+        st.session_state.messages=[]
+        st.rerun()    
     
 
     if option1 is None:
 
         # HANDLING The CONTRACT CHAT
+        header.header("Ask queries about Contract", divider="red")
+
 
         def assistantCall():
             contractData=Contract.get(i=option)["rules"]
@@ -117,6 +127,8 @@ else:
     else:
 
         # Handling the INVOICE CHAT
+        header.header("Ask queries about Invoice", divider="red")
+
         # df=Invoice.get(i=)["employeeData"]
         ind=invList[option1]["actualInd"]
 

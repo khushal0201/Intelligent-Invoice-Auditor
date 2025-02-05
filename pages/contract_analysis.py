@@ -40,6 +40,7 @@ if option is None:
 
 else:
     invList=Invoice.get(contractId=option)
+    st.header("Contract Analysis", divider="red")
     df = pd.DataFrame(columns=['Invoice', 'Anomalies'])
     print(len(invList))
     for j in range(0,len(invList)):
@@ -47,7 +48,7 @@ else:
         df1=Invoice.get(i=ind)
         print(df1)
         df.loc[len(df)]=[df1['name'],len(df1['anomalies'])]
-    st.dataframe(df, width=800)
+    st.dataframe(df,use_container_width=True)
     st.bar_chart(df,x="Invoice",y="Anomalies")
 
 

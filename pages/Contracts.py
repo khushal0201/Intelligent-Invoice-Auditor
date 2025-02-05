@@ -159,7 +159,7 @@ addbtn=st.button("Add a Contract", type="primary")
 
 
 if contractList: 
-    st.write("Contract list:")
+    st.header("Your Contracts", divider="red")
     grid=[]
 
     # Creating Empty Grid
@@ -177,30 +177,32 @@ if contractList:
                 c1,c2=st.columns([3,1],gap="small")
                 c1.subheader(contractList[i]["name"])
                 c2.button(color[values(contractList[i]["status"]).name].value,help="Processing "+values(contractList[i]["status"]).name,key=i,type="tertiary")
+                st.divider()
                 st.write("")
-                st.write("")
-                st.write("")
-                btnclk=st.button('View Invoices',type="secondary",key='v'+str(i))
+                e,f,g=st.columns([1,1,1],gap="small")
+                if e.button("📊 Insights",key="a"+str(i),use_container_width=True,disabled=not(contractList[i]["status"]==values.SUCCESS.value and len(Invoice.get(contractId=i))!=0)):
+                    st.session_state.contractId1=i
+                    st.switch_page("pages/contract_analysis.py")
+
+                if g.button("📃Rules",key=str(i)+"rule",type="secondary",disabled=contractList[i]["status"]!=values.SUCCESS.value,use_container_width=True): 
+                    rule_dialog(i)
+
+                b,c=st.columns([5,1],gap="small")
+                btnclk=b.button('📃View Invoices →',type="primary",key='v'+str(i),use_container_width=True)
                 if btnclk:
                     st.session_state.contractId=i
                     st.switch_page("pages/Invoices.py")
-                b,c,d=st.columns([1,1,2],gap="small")
-            
-                if b.button(":material/edit:",key=str(i)+'edit',type="secondary"):
-                    edit(i)
-                if c.button(":material/delete:",key=str(i)+'del',type="secondary"):
-                    delete(i)
+                with c.popover("",use_container_width=True):
+                    if st.button(":material/edit: Edit",key=str(i)+'edit',type="secondary"):
+                        edit(i)
+                    if st.button(":material/delete: Delete",key=str(i)+'del',type="secondary"):
+                        delete(i)
                 
-                if d.button("Rules",key=str(i)+"rule",type="secondary",disabled=contractList[i]["status"]!=values.SUCCESS.value): 
-                    rule_dialog(i)
+
                 
-                e,f=st.columns([2,2],gap="small")
-                if e.button("Analytics",key="a"+str(i),disabled=not(contractList[i]["status"]==values.SUCCESS.value and len(Invoice.get(contractId=i))!=0)):
+                if f.button("💬 Chat",key="chat"+str(i),disabled=not(contractList[i]["status"]==values.SUCCESS.value ),use_container_width=True):
                     st.session_state.contractId1=i
-                    st.switch_page("pages/contract_analysis.py")
-                
-                if f.button("💬 Chat",key="chat"+str(i),disabled=not(contractList[i]["status"]==values.SUCCESS.value )):
-                    st.session_state.contractId1=i
+                    st.session_state.invoiceId=None
                     st.session_state.messages=[]
                     st.switch_page("pages/Chat/chat.py")
 

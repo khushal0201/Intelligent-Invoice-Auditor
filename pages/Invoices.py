@@ -160,19 +160,19 @@ else:
         b,c=st.columns([1,3],gap="large")
         h.download_button('Download Invoice Data', csv,invoiceName, 'text/csv',icon=":material/download:",use_container_width=True)
     
-    @st.dialog("Results")
+    @st.dialog("Results",width="large")
     def results(ind):
         st.session_state.view_data = False
         anomalies=Invoice.get(i=ind)["anomalies"]
         
         e,f,h=st.columns([1, 1, 2])
-        if f.button("View Data"):
+        if f.button("View Data",use_container_width=True):
             st.session_state.view_data=True
             df=Invoice.get(i=ind)["employeeData"]
             st.write("Data:")
             st.write(df)
         
-        if e.button("Anomalies") :
+        if e.button("Anomalies",use_container_width=True) :
             st.session_state.view_data=False
             
         if not st.session_state.view_data:
@@ -194,10 +194,11 @@ else:
     st.write("")
 
     # Editing the Invoice 
-
+    
     addbtn=st.button("Add an Invoice", type="primary",disabled=Contract.get(i=option)["status"]!=values.SUCCESS.value)
 
     if invList: 
+        st.header("Your Invoices", divider="red")
         grid=[]
 
         # Creating Empty Grid
@@ -215,31 +216,34 @@ else:
                     c1,c2=st.columns([3,1],gap="small")
                     c1.subheader(invList[i]["name"])
                     c2.button(color[values(invList[i]["status"]).name].value,help="Processing "+values(invList[i]["status"]).name,key=i,type="tertiary")
+                    st.divider()
                     st.write("")
-                    st.write("")
-                    st.write("")
-                    st.write("")
-                    st.write("")                    
-                    b,c=st.columns([3,1],gap="small")
+                    
+                    d,e,f=st.columns([1,1,1],gap="small")
+                    
+                    if d.button("📊 Insights",key="a"+str(i),disabled=invList[i]["status"]!=values.SUCCESS.value,use_container_width=True):
+                        st.session_state.invoiceId=i
+                        st.session_state.contractId1=contractId
+                        st.switch_page("pages/invoice_analysis.py")
+
+                    b,c=st.columns([4,1],gap="small")
+
+                    if b.button("📃 Results",type="primary",key="an"+str(i),disabled=invList[i]["status"]!=values.SUCCESS.value,use_container_width=True):
+                        results(invList[i]["actualInd"])
+
                 
-                    if b.button('View/Edit',type="secondary",key='v'+str(i),use_container_width=True):
+                    if f.button(':material/edit: Edit',key='v'+str(i),use_container_width=True):
                             # print("editing")
                             st.session_state.edit_item=invList[i]["actualInd"]
                             st.session_state.edit=True
                             add()
-                    if c.button(":material/delete:",key=str(i)+'del'):
+                    if c.button(":material/delete:",key=str(i)+'del',use_container_width=True):
                         delete(invList[i]["actualInd"])
                     
-                    d,e=st.columns([2,2],gap="small")
-                    if d.button("Results",key="an"+str(i),disabled=invList[i]["status"]!=values.SUCCESS.value):
-                        results(invList[i]["actualInd"])
                     
-                    if e.button("Analytics",key="a"+str(i),disabled=invList[i]["status"]!=values.SUCCESS.value):
-                        st.session_state.invoiceId=i
-                        st.session_state.contractId1=contractId
-                        st.switch_page("pages/invoice_analysis.py")
                     
-                    if st.button("💬 Chat",key="ch"+str(i),disabled=invList[i]["status"]!=values.SUCCESS.value):
+                    
+                    if e.button("💬 Chat",key="ch"+str(i),disabled=invList[i]["status"]!=values.SUCCESS.value,use_container_width=True):
                         st.session_state.invoiceId=i
                         st.session_state.contractId1=contractId
                         st.session_state.messages=[]
