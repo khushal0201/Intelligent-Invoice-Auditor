@@ -79,7 +79,10 @@ else:
     for message in st.session_state.messages:
         with st.chat_message(message["role"]):  
             st.markdown(message["content"])
-    
+
+    if c.button("🗑️ Clear chat"):
+        st.session_state.messages=[]
+        st.rerun()    
     
 
     if option1 is None:
