@@ -89,7 +89,7 @@ else:
                     st.write("")
                     col1, col2, col3 = st.columns(3)
                     with col1:
-                        st.metric("Total Records Accuracy:", f"📃 {accuracy_records*100:.2f} %", border=True)
+                        st.metric("Total number of Records Accuracy:", f"📃 {accuracy_records*100:.2f} %", border=True)
                     with col2:
                         st.metric("Total Working Hours Accuracy:", f"⌛ {accuracy_hours*100:.2f}%", border=True)
                     with col3:

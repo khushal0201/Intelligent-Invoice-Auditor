@@ -4,6 +4,7 @@ from services.ClientObjects.gptsdk import gptClient,deployment
 from services.constants.prompts import contract,invoice,EmployeeData
 from pydantic import BaseModel
 import pandas as pd
+import numpy as np
 
 class invoiceCheck(BaseModel):
         anomalies:list[str]
@@ -149,6 +150,7 @@ def extractInvoice():
         print("input values:",batch_content,"\n\n")
 
         prompt = f"{EmployeeData()}"
+        print("last data sent:",last_data)
         val=GPTCall(prompt,last_data,batch_content,type="extract")
         # print("parsed employee",val)
         print(f"values: {val}")
@@ -168,8 +170,10 @@ def extractInvoice():
     employeeDF=pd.DataFrame(results)
     employeeDF.to_csv('rawOutput.csv', index=False)
     employeeDF = employeeDF[(employeeDF['hours'] != 0) & (employeeDF['rate'] != 0) & (employeeDF['amount'] != 0)]
-    employeeDF = employeeDF.ffill()
     employeeDF = employeeDF.drop_duplicates(subset=['contractorName', 'role','projectCode','date','hours','rate','amount'])
+    employeeDF.replace('N/A', np.nan, inplace=True)
+    employeeDF = employeeDF.ffill()
+
     employeeDF.to_csv('processedOutput.csv', index=False)
     print(employeeDF)
     
