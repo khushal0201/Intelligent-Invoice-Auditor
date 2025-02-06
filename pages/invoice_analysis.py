@@ -74,7 +74,7 @@ else:
                 with col2:
                     st.metric("Average Working Hours:", f"⌛ {millify(df1['hours'].mean())}", border=True)
                 with col3:
-                    st.metric("Total Amount:", f"💲 {millify(df1['amount'].sum())}", border=True)
+                    st.metric("Total Amount:", f"💲 {df1['amount'].sum()}", border=True)
             
             top_kpis()
             df = df1.groupby('contractorName')[['hours', 'amount']].sum().assign(entries=df1.groupby('contractorName').size())

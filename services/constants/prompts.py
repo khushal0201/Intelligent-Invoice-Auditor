@@ -197,7 +197,7 @@ Given an invoice from Contractor to Client, extract the contractor's details in 
         2. Handle missing contractor names:
            - If a row is missing the contractor name, use the name from the previous row in the current batch.
            - Handle Missing Contractor Names: If a contractor's name is missing in a record, and the contractor's name was provided in the previous record, fill the missing contractorName from the previous record. If the first record is missing a name, fill it with N/A or leave it as empty, but ensure consistency for subsequent records.
-        3. Each project must be a separate entry. Use 'N/A' for missing text, '0' for missing numbers.
+        3. Each project must be a separate entry. Only For missing text(like contractorName,description,projectCode) refer previous row  first otherwise refer the last processed record LAST value(never use N/A), Never refer for missing metrics like (hours rate amount), use from the present record
 
 Example:
 Given the following random invoice data with missing contractor names and data to be processed, the extraction should look like this:
@@ -209,6 +209,7 @@ Given the following random invoice data with missing contractor names and data t
 <tr><td>12/05/2024</td><td>8</td><td>$150</td><td>$1200.00</td></tr>,
 <tr><td>PRJ004</td><td>implement security patch</td><td>12/15/2024</td><td>7</td><td>$155</td><td>$1085.00</td></tr>,
 <tr><td></td><td></td><td></td><td>PRJ004 1/6/2025</td><td>7</td><td>$180</td><td>$1260.00</td></tr>,
+ <tr><td></td><td rowspan="2"></td><td rowspan="2">PRJ001</td><td>multi-byte application</td><td>12/25/2024</td><td>4 $120</td><td>$480.00</td></tr>
 <tr><td>Jane Smith</td><td>Project Manager</td><td>PRJ003</td><td>organize team meeting</td><td>12/01/2024</td><td>3</td><td>$120</td><td>$360.00</td></tr>
 
 {
@@ -262,12 +263,33 @@ Given the following random invoice data with missing contractor names and data t
       "hours": "7",
       "rate": "180",
       "amount": "1260.00"
+    },
+    {
+      "contractorName": "John Doe",
+      "role": "Senior Developer",
+      "projectCode": "PRJ004",
+      "description": "implement security patch",
+      "date": "2025-1-16T00:00:00.000Z",
+      "hours": "7",
+      "rate": "180",
+      "amount": "1260.00"
+    },
+    {
+      "contractorName": "John Doe",
+      "role": "Senior Developer",
+      "projectCode": "PRJ001",
+      "description": "multi-byte application",
+      "date": "2024-12-25T00:00:00.000Z",
+      "hours": "7",
+      "rate": "120",
+      "amount": "480.00"
     }
   ]
 }
 
 Additional Notes for Continuing Data Extraction:
-The user will provide the last processed record in each subsequent request. Please refer that also for more context and name of the contractor.
+You will be provided with last processed record in each subsequent request. ONLY for MISSING text (like contractorName,description,projectCode) Please refer that also for more context and name of the contractor with last value of those `last processed records` that on priority (if missing).Never refer for missing metrics like (hours rate amount), use from the present record value.
+If text is present in current record use that one only.
 
 
 

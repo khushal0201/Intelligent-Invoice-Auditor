@@ -27,3 +27,5 @@ pg.run()
 # pg = st.navigation([ContractPage,InvoicePage])
 
 # st.sidebar.header("App")
+
+#bad records
