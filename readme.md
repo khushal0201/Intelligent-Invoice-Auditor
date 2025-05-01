@@ -19,3 +19,28 @@
 ### 6. .venv\Scripts\Activate
 
 ### 7. streamlit run app.py
+
+
+# App Previews
+
+---
+
+## Extracted Invoice data from PDF
+
+
+![alt text](images/image.png)
+
+---
+
+
+## Invoice Analysis
+
+![alt text](images/image-1.png)
+---
+
+
+
+
+## Analyse using chat feature
+
+![alt text](images/image-2.png)
